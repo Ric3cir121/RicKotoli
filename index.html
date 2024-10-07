@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="icon" href="favicon.svg">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+        <style>
+            body {
+                background-color: black;
+                font-family: "Open Sans", sans-serif;
+                font-optical-sizing: auto;
+                color: white;
+            }
+        </style>
+        <script>
+            function spawnElements(){
+                let noCodeAlert = document.createElement('p');
+                noCodeAlert.appendChild(document.createElement('center'));
+                noCodeAlert.querySelector('center').innerText = 'The page works, but the dictionary is not coded yet...';
+                noCodeAlert.querySelector('center').innerHTML += '<br><a href="https://github.com/Ric3cir121/RicVikoli">Ric3cir121/RicVikoli</a> on Github, <a href="kotoli.json">kotoli.json</a>';
+                document.body.appendChild(noCodeAlert);
+                let topBar = document.createElement('div');
+                document.body.appendChild(topBar);
+            }
+            addEventListener("load", (event) => {
+                spawnElements();
+            });
+        </script>
+        <title>Kotoba Libre</title>
+    </head>
+    <body>
+        <noscript>
+            <p>
+                <center>
+                    Your browser may not support JavaScript or has it disabled.<br>
+                    <a href="https://github.com/Ric3cir121/RicVikoli">Ric3cir121/RicVikoli</a> on Github, <a href="kotoli.json">kotoli.json</a>
+                </center>
+            </p>
+        </noscript>
+    </body>
+</html>
