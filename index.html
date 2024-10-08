@@ -1,16 +1,60 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="icon" href="favicon.svg">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        
+        <link rel="manifest" href="manifest.json">
+
+        <meta name="viewport" content="width=device-width; initial-scale=1; viewport-fit=cover">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+        <link rel="icon" href="favicon/favicon.svg">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
         <style>
             body {
-                background-color: black;
+                margin: 0;
+                background-color: #101010;
                 font-family: "Open Sans", sans-serif;
                 font-optical-sizing: auto;
+                font-size: .16in;
                 color: white;
+            }
+            .topBar {
+                left: 0%;
+                top: 0%;
+                bottom: 0%;
+                width: 4in;
+                position: fixed;
+                background-color: #1b1b1b;
+                box-shadow: 0in .005in .1in #00000060;
+            }
+            .searchBar {
+                margin: .2in;
+                padding-left: .25in;
+                padding-right: .25in;
+                font-size: .16in;
+                left: 0%;
+                top: 0%;
+                height: .48in;
+                width: calc(100% - .4in - .5in);
+                border-radius: .24in;
+                background-color: #303030;
+                border-style: none;
+                color: white;
+                box-shadow: 0in .005in .1in #00000060;
+                outline: solid;
+                outline-width: .01in;
+                outline-color: #ffffff00;
+                transition: outline-color .2s ease-out;
+            }
+            .searchBar:focus {
+                outline: solid;
+                outline-width: .03in;
+                outline-color: #0080ff;
             }
         </style>
         <script>
@@ -20,8 +64,16 @@
                 noCodeAlert.querySelector('center').innerText = 'The page works, but the dictionary is not coded yet...';
                 noCodeAlert.querySelector('center').innerHTML += '<br><a href="https://github.com/Ric3cir121/RicVikoli">Ric3cir121/RicVikoli</a> on Github, <a href="kotoli.json">kotoli.json</a>';
                 document.body.appendChild(noCodeAlert);
+
                 let topBar = document.createElement('div');
+                topBar.classList.add("topBar");
+                let searchBar = document.createElement('input');
+                searchBar.classList.add("searchBar");
+                searchBar.placeholder = "Da sukha...";
+                topBar.appendChild(searchBar);
+
                 document.body.appendChild(topBar);
+                document.body.style["margin-left"] = "4in";
             }
             addEventListener("load", (event) => {
                 spawnElements();
