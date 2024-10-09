@@ -1,7 +1,14 @@
 {
     "name": "Viossa Kotoba Libre",
     "short_name": "Vikoli",
+    "background_color": "#101010",
+    "theme_color": "#1b1b1b",
     "description": "Libre per Viossa kotobara",
+    "display": "standalone",
+    "display_override": [
+        "standalone", "minimal-ui"
+    ],
+    "start_url": "/",
     "icons": [
         {
             "src": "favicon/full-8.png",
@@ -43,11 +50,5 @@
             "sizes": "1024x1024",
             "type": "image/png"
         }
-    ],
-    "start_url": "/index.html?fullscreen=true",
-    "display": "fullscreen",
-    "display_override":["fullscreen"],
-    "scope": "/",
-    "theme_color": "#1b1b1b",
-    "background_color": "#101010"
+    ]
 }
