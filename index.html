@@ -28,7 +28,7 @@
                 width: 4in;
                 position: fixed;
                 background-color: #1b1b1b;
-                box-shadow: 0in .005in .1in #00000060;
+                box-shadow: 0in .01in .1in #00000040;
             }
             .searchBar {
                 margin: .2in;
@@ -40,10 +40,11 @@
                 height: .48in;
                 width: calc(100% - .4in - .5in);
                 border-radius: .24in;
+                font-family: "Open Sans", sans-serif;
                 background-color: #303030;
                 border-style: none;
                 color: white;
-                box-shadow: 0in .005in .1in #00000060;
+                box-shadow: 0in .01in .1in #00000040;
                 outline: solid;
                 outline-width: .01in;
                 outline-color: #ffffff00;
@@ -54,9 +55,12 @@
                 outline-width: .03in;
                 outline-color: #0080ff;
             }
+            .searchBar::placeholder {
+                color: #ffffff;
+                opacity: .5;
+            }
         </style>
         <script>
-
             function spawnElements(){
                 if ('serviceWorker' in navigator){
                     navigator.serviceWorker.register('serviceWorker.js');
@@ -82,7 +86,7 @@
                 spawnElements();
             });
         </script>
-        <title>Kotoba Libre</title>
+        <title>Kotobara Libre</title>
     </head>
     <body>
         <noscript>
