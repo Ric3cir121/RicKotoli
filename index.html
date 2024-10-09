@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-        
-        <link rel="manifest" href="manifest.json">
-
-        <meta name="viewport" content="width=device-width; initial-scale=1; viewport-fit=cover">
         <meta name="mobile-web-app-capable" content="yes">
         <meta name="apple-mobile-web-app-capable" content="yes">
+        <link rel="manifest" href="manifest.json">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
         <link rel="icon" href="favicon/favicon.svg">
@@ -58,7 +56,12 @@
             }
         </style>
         <script>
+
             function spawnElements(){
+                if ('serviceWorker' in navigator){
+                    navigator.serviceWorker.register('serviceWorker.js');
+                }
+
                 let noCodeAlert = document.createElement('p');
                 noCodeAlert.appendChild(document.createElement('center'));
                 noCodeAlert.querySelector('center').innerText = 'The page works, but the dictionary is not coded yet...';
