@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="vp">
     <head>
         <meta name="mobile-web-app-capable" content="yes">
         <meta name="apple-mobile-web-app-capable" content="yes">
@@ -13,7 +13,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
         <style>
-            html, body {
+            html {
                 height: 100%;
             }
             body {
@@ -28,6 +28,21 @@
                 font-optical-sizing: auto;
                 font-size: .16in;
             }
+            #mainContent {
+                margin: 0in;
+                overflow-y: auto;
+                position: fixed;
+            }
+
+            #inchMeter {
+                width: 1in;
+                height: 1in;
+                margin: 0in;
+                position: absolute;
+                background-color: #0000;
+                color: #0000;
+            }
+
             .topBar {
                 left: 0%;
                 top: 0%;
@@ -37,14 +52,16 @@
                 box-shadow: 0in .01in .1in #00000020;
             }
             .searchBar {
-                margin: .2in;
-                padding-left: .25in;
-                padding-right: .25in;
+                margin: .15in;
+                margin-top: .1in;
+                margin-bottom: .1in;
+                padding-left: .225in;
+                padding-right: .225in;
                 font-size: .16in;
                 left: 0%;
                 top: 0%;
                 height: .48in;
-                width: calc(100% - .4in - .5in);
+                width: calc(100% - .3in - .45in);
                 border-radius: .24in;
                 
                 font-family: "Open Sans", sans-serif;
@@ -100,58 +117,79 @@
                 searchBar.placeholder = "Da sukha...";
                 topBar.appendChild(searchBar);
 
-                document.body.appendChild(topBar);
+                document.body.querySelector('#mainContent').appendChild(topBar);
 
                 let noCodeAlert = document.createElement('p');
                 noCodeAlert.appendChild(document.createElement('center'));
                 noCodeAlert.querySelector('center').innerText = 'The page works, but the dictionary is not coded yet...';
                 noCodeAlert.querySelector('center').innerHTML += '<br><a href="https://github.com/Ric3cir121/RicVikoli">Ric3cir121/RicVikoli</a> on Github, <a href="kotoli.json">kotoli.json</a>';
-                document.body.appendChild(noCodeAlert);
+                noCodeAlert.querySelector('center').lang = "en";
+                document.body.querySelector('#mainContent').appendChild(noCodeAlert);
 
                 let searchResultsContainer = document.createElement('div');
                 searchResultsContainer.id = 'searchResultsContainer';
-                document.body.appendChild(searchResultsContainer);
+                document.body.querySelector('#mainContent').appendChild(searchResultsContainer);
                 for(let i=0; i<1500; i++){
                     let searchResult = document.createElement('div');
                     searchResult.classList.add("searchResult");
-                    searchResult.innerText = 'searchResult';
+                    searchResult.innerText = 'Kotoba';
                     searchResultsContainer.appendChild(searchResult);
                 }
             }
             function setViewMode(mode){
                 if(mode == 'desktop'){
                     let topBar = document.body.querySelector('.topBar');
+                    let mainContent = document.body.querySelector('#mainContent');
                     topBar.style.width = '4in';
                     topBar.style.bottom = '0%';
                     document.body.style["margin-left"] = '4in';
                     document.body.style.removeProperty("margin-top");
+                    document.body.height = "100%";
+                    mainContent.style.width = "calc(100% - 4in)";
+                    mainContent.style.height = "100%";
                 }else if(mode == 'mobile'){
                     let topBar = document.querySelector('.topBar');
+                    let mainContent = document.body.querySelector('#mainContent');
                     topBar.style.width = '100%';
                     topBar.style.removeProperty('bottom');
                     document.body.style.removeProperty("margin-left");
-                    document.body.style["margin-top"] = '.88in';
+                    document.body.style["margin-top"] = '.68in';
+                    document.body.height = "calc(100% - .68in)";
+                    mainContent.style.width = "100%";
+                    mainContent.style.height = "calc(100% - .68in)";
                 }
             }
+            function autoSetView(){
+                let inchWidth = window.innerWidth / document.querySelector('#inchMeter').offsetWidth;
+                if (inchWidth < 11.15){
+                    setViewMode('mobile');
+                } else {
+                    setViewMode('desktop');
+                }
+            }
+
             addEventListener("load", (event) => {
                 spawnElements();
-                setViewMode('mobile');
+                autoSetView();
             });
 
             addEventListener("resize", (event) => {
-
+                autoSetView();
             });
         </script>
         <title>Kotobara Libre</title>
     </head>
     <body>
-        <noscript>
-            <p>
-                <center>
-                    Your browser may not support JavaScript or has it disabled.<br>
-                    <a href="https://github.com/Ric3cir121/RicVikoli">Ric3cir121/RicVikoli</a> on Github, <a href="kotoli.json">kotoli.json</a>
-                </center>
-            </p>
-        </noscript>
+        <div id='inchMeter'></div>
+        <div id='mainContent'>
+            <noscript>
+                <p>
+                    <center>
+                        Your browser may not support JavaScript or has it disabled.<br>
+                        <a href="https://github.com/Ric3cir121/RicVikoli">Ric3cir121/RicVikoli</a> on Github, <a href="kotoli.json">kotoli.json</a>
+                    </center>
+                </p>
+            </noscript>
+        </div>
     </body>
 </html>
