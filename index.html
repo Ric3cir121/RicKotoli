@@ -21,9 +21,6 @@
                 display: flex;
                 flex-flow: column;
 
-                background-color: #101010;
-                color: white;
-
                 font-family: "Open Sans", sans-serif;
                 font-optical-sizing: auto;
                 font-size: .16in;
@@ -48,7 +45,6 @@
                 top: 0%;
                 position: fixed;
 
-                background-color: #1b1b1b;
                 box-shadow: 0in .01in .1in #00000020;
             }
             .searchBar {
@@ -66,22 +62,22 @@
                 
                 font-family: "Open Sans", sans-serif;
 
-                background-color: #303030;
+                --focus-outline-color: blue;
+                --placeholder-color: blue;
+
                 border-style: none;
-                color: white;
                 box-shadow: 0in .01in .1in #00000040;
                 outline: solid;
                 outline-width: .01in;
-                outline-color: #ffffff00;
                 transition: outline-color .2s ease-out;
             }
             .searchBar:focus {
                 outline: solid;
                 outline-width: .03in;
-                outline-color: #0080ff;
+                outline-color: var(--focus-outline-color);
             }
             .searchBar::placeholder {
-                color: #ffffff;
+                color: var(--placeholder-color);
                 opacity: .5;
             }
             #searchResultsContainer {
@@ -100,7 +96,6 @@
                 display: inline-grid;
                 height: 1in;
 
-                background-color: #1b1b1b;
                 box-shadow: 0in .01in .1in #00000020;
             }
         </style>
@@ -142,22 +137,62 @@
                     let mainContent = document.body.querySelector('#mainContent');
                     topBar.style.width = '4in';
                     topBar.style.bottom = '0%';
-                    document.body.style["margin-left"] = '4in';
-                    document.body.style.removeProperty("margin-top");
-                    document.body.height = "100%";
-                    mainContent.style.width = "calc(100% - 4in)";
-                    mainContent.style.height = "100%";
+                    document.body.style['margin-left'] = '4in';
+                    document.body.style.removeProperty('margin-top');
+                    document.body.height = '100%';
+                    mainContent.style.width = 'calc(100% - 4in)';
+                    mainContent.style.height = '100%';
                 }else if(mode == 'mobile'){
                     let topBar = document.querySelector('.topBar');
                     let mainContent = document.body.querySelector('#mainContent');
                     topBar.style.width = '100%';
                     topBar.style.removeProperty('bottom');
-                    document.body.style.removeProperty("margin-left");
-                    document.body.style["margin-top"] = '.68in';
-                    document.body.height = "calc(100% - .68in)";
-                    mainContent.style.width = "100%";
-                    mainContent.style.height = "calc(100% - .68in)";
+                    document.body.style.removeProperty('margin-left');
+                    document.body.style['margin-top'] = '.68in';
+                    document.body.height = 'calc(100% - .68in)';
+                    mainContent.style.width = '100%';
+                    mainContent.style.height = 'calc(100% - .68in)';
                 }
+            }
+            function setTheme(theme){
+                if(theme == 'dark'){
+                    document.body.style['background-color'] = '#101010';
+                    document.body.style.color = '#ffffff';
+                    document.querySelector('.topBar').style['background-color'] = '#1b1b1b';
+                    document.querySelector('.topBar').style['box-shadow'] = '0in .01in .1in #00000020';
+                    let searchBar = document.querySelector('.searchBar');
+                    searchBar.style['background-color'] = '#303030';
+                    searchBar.style.color = '#ffffff';
+                    searchBar.style['outline-color'] = '#ffffff00';
+                    searchBar.style['box-shadow'] = '0in .01in .1in #00000040';
+                    searchBar.style.setProperty('--focus-outline-color', '#0080ff');
+                    searchBar.style.setProperty('--placeholder-color', '#ffffff');
+                    for(i of document.querySelectorAll('.searchResult')){
+                        i.style['background-color'] = '#1b1b1b';
+                        i.style['box-shadow'] = '0in .01in .1in #00000020';
+                    }
+                }else if(theme == 'light'){
+                    document.body.style['background-color'] = '#ffffff';
+                    document.body.style.color = '#101010';
+                    document.querySelector('.topBar').style['background-color'] = '#f0f0f0';
+                    document.querySelector('.topBar').style['box-shadow'] = '0in .01in .1in #00000010';
+                    let searchBar = document.querySelector('.searchBar');
+                    searchBar.style['background-color'] = '#e0e0e0';
+                    searchBar.style.color = '#101010';
+                    searchBar.style['outline-color'] = '#ffffff00';
+                    searchBar.style['box-shadow'] = '0in .01in .1in #00000020';
+                    searchBar.style.setProperty('--focus-outline-color', '#0080ff');
+                    searchBar.style.setProperty('--placeholder-color', '#101010');
+                    for(i of document.querySelectorAll('.searchResult')){
+                        i.style['background-color'] = '#f0f0f0';
+                        i.style['box-shadow'] = '0in .01in .1in #00000010';
+                    }
+                }
+            }
+            function addSmoothTheme(){
+                let smoothTheme = document.createElement('style');
+                smoothTheme.innerHTML = '* {transition: color .4s ease-in-out; transition: background-color .4s ease-in-out;}';
+                document.head.appendChild(smoothTheme);
             }
             function autoSetView(){
                 let inchWidth = window.innerWidth / document.querySelector('#inchMeter').offsetWidth;
@@ -167,15 +202,33 @@
                     setViewMode('desktop');
                 }
             }
+            function autoSetTheme(){
+                if (window.matchMedia("(prefers-color-scheme: dark)").matches){
+                    setTheme('dark');
+                }else{
+                    setTheme('light');
+                }
+            }
 
             addEventListener("load", (event) => {
                 spawnElements();
                 autoSetView();
+                autoSetTheme();
+
+                let interval = 0;
+                setInterval(()=>{
+                    autoSetTheme();
+                    if(interval == 1){
+                        addSmoothTheme();
+                    }
+                    interval++;
+                },100);
             });
 
             addEventListener("resize", (event) => {
                 autoSetView();
             });
+
         </script>
         <title>Kotobara Libre</title>
     </head>
