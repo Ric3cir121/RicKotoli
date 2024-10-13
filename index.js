@@ -44,8 +44,6 @@ function updateSearch(){
 
         searchResult.innerHTML += '<div class="kotobaTop">' + kotoba + alRisonen + '</div>';
 
-        searchResult.innerHTML += '<br>';
-
         let alKotobara = '';
         for(kotobara of kotoli.kotoli[i].kotobara.slice(1)) alKotobara += sanitize(kotobara) + ", ";
         if(alKotobara.length >= 2)alKotobara = alKotobara.slice(0,-2);
