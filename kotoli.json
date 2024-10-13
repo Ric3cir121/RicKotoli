@@ -2,12 +2,392 @@
     "kotoli":[
         {
             "kotobara":["jaa"],
+            "fal":null,
+            "risonen":[],
             "sama":[],
             "lik":[],
             "aparLik":[],
             "kundr":[],
 
-            "imi":"",
+            "imi":null,
+
+            "opetara":[],
+
+            "anderKotobara":[]
+        },{
+            "kotobara":["ru"],
+            "fal":null,
+            "risonen":["🔴","🟥"],
+            "sama":[],
+            "lik":[],
+            "aparLik":[],
+            "kundr":[],
+
+            "imi":null,
+
+            "opetara":[],
+
+            "anderKotobara":[]
+        },{
+            "kotobara":["portocale","portocali","portucale","portucali"],
+            "fal":"varge",
+            "risonen":["🟠","🟧"],
+            "sama":[],
+            "lik":[],
+            "aparLik":[],
+            "kundr":[],
+
+            "imi":null,
+
+            "opetara":[],
+
+            "anderKotobara":[]
+        },{
+            "kotobara":["kiro","kiiro"],
+            "fal":null,
+            "risonen":["🟡","🟨"],
+            "sama":[],
+            "lik":[],
+            "aparLik":[],
+            "kundr":[],
+
+            "imi":null,
+
+            "opetara":[],
+
+            "anderKotobara":[]
+        },{
+            "kotobara":["midori"],
+            "fal":null,
+            "risonen":["🟢","🟩"],
+            "sama":[],
+            "lik":[],
+            "aparLik":[],
+            "kundr":[],
+
+            "imi":null,
+
+            "opetara":[],
+
+            "anderKotobara":[]
+        },{
+            "kotobara":["siñi","sini"],
+            "fal":null,
+            "risonen":["🩵","🌐","🇺🇳","🇸🇴","🇫🇲"],
+            "sama":[],
+            "lik":[],
+            "aparLik":[],
+            "kundr":[],
+
+            "imi":null,
+
+            "opetara":[],
+
+            "anderKotobara":[]
+        },{
+            "kotobara":["blau"],
+            "fal":null,
+            "risonen":["🔵","🟦"],
+            "sama":[],
+            "lik":[],
+            "aparLik":[],
+            "kundr":[],
+
+            "imi":null,
+
+            "opetara":[],
+
+            "anderKotobara":[]
+        },{
+            "kotobara":["mura","murasaki"],
+            "fal":null,
+            "risonen":["🟣","🟪"],
+            "sama":[],
+            "lik":[],
+            "aparLik":[],
+            "kundr":[],
+
+            "imi":null,
+
+            "opetara":[],
+
+            "anderKotobara":[]
+        },{
+            "kotobara":["rosa","roza"],
+            "fal":null,
+            "risonen":["🩷","🌷","🌸","🦄","🐽","🐷","🏩","🎀"],
+            "sama":[],
+            "lik":[],
+            "aparLik":[],
+            "kundr":[],
+
+            "imi":null,
+
+            "opetara":[],
+
+            "anderKotobara":[]
+        },{
+            "kotobara":["shiro","shiiro"],
+            "fal":null,
+            "risonen":["⚪️","⬜️"],
+            "sama":[],
+            "lik":[],
+            "aparLik":[],
+            "kundr":[],
+
+            "imi":null,
+
+            "opetara":[],
+
+            "anderKotobara":[]
+        },{
+            "kotobara":["gris"],
+            "fal":null,
+            "risonen":["🩶","📎","🪦","☑️","📢"],
+            "sama":[],
+            "lik":[],
+            "aparLik":[],
+            "kundr":[],
+
+            "imi":null,
+
+            "opetara":[],
+
+            "anderKotobara":[]
+        },{
+            "kotobara":["kuro"],
+            "fal":null,
+            "risonen":["⚫️","⬛️"],
+            "sama":[],
+            "lik":[],
+            "aparLik":[],
+            "kundr":[],
+
+            "imi":null,
+
+            "opetara":[],
+
+            "anderKotobara":[]
+        },{
+            "kotobara":["varge","varje","farge","farje"],
+            "fal":null,
+            "risonen":["🎨","🔴","🟠","🟡","🟢","🔵","🟣","⚪️","⚫️"],
+            "sama":[],
+            "lik":[],
+            "aparLik":[],
+            "kundr":[],
+
+            "imi":null,
+
+            "opetara":[],
+
+            "anderKotobara":[]
+        },{
+            "kotobara":["lehti"],
+            "fal":null,
+            "risonen":["🍃"],
+            "sama":[],
+            "lik":[],
+            "aparLik":[],
+            "kundr":[],
+
+            "imi":null,
+
+            "opetara":[],
+
+            "anderKotobara":[]
+        },{
+            "kotobara":["baum"],
+            "fal":null,
+            "risonen":["🌳","🌲","🌴"],
+            "sama":[],
+            "lik":[],
+            "aparLik":[],
+            "kundr":[],
+
+            "imi":null,
+
+            "opetara":[],
+
+            "anderKotobara":[]
+        },{
+            "kotobara":["velt","gaia"],
+            "fal":null,
+            "risonen":["🌎","🌍","🌏"],
+            "sama":[],
+            "lik":[],
+            "aparLik":[],
+            "kundr":[],
+
+            "imi":null,
+
+            "opetara":[],
+
+            "anderKotobara":[]
+        },{
+            "kotobara":["lant","ter","lantdai"],
+            "fal":null,
+            "risonen":[],
+            "sama":[],
+            "lik":[],
+            "aparLik":[],
+            "kundr":[],
+
+            "imi":null,
+
+            "opetara":[],
+
+            "anderKotobara":[]
+        },{
+            "kotobara":["mare"],
+            "fal":null,
+            "risonen":[],
+            "sama":[],
+            "lik":[],
+            "aparLik":[],
+            "kundr":[],
+
+            "imi":null,
+
+            "opetara":[],
+
+            "anderKotobara":[]
+        },{
+            "kotobara":["upasz"],
+            "fal":null,
+            "risonen":[],
+            "sama":[],
+            "lik":[],
+            "aparLik":[],
+            "kundr":[],
+
+            "imi":null,
+
+            "opetara":[],
+
+            "anderKotobara":[]
+        },{
+            "kotobara":["marenen"],
+            "fal":null,
+            "risonen":[],
+            "sama":[],
+            "lik":[],
+            "aparLik":[],
+            "kundr":[],
+
+            "imi":null,
+
+            "opetara":[],
+
+            "anderKotobara":[]
+        },{
+            "kotobara":["virta"],
+            "fal":null,
+            "risonen":[],
+            "sama":[],
+            "lik":[],
+            "aparLik":[],
+            "kundr":[],
+
+            "imi":null,
+
+            "opetara":[],
+
+            "anderKotobara":[]
+        },{
+            "kotobara":["kot"],
+            "fal":null,
+            "risonen":["🐱"],
+            "sama":[],
+            "lik":[],
+            "aparLik":[],
+            "kundr":[],
+
+            "imi":null,
+
+            "opetara":[],
+
+            "anderKotobara":[]
+        },{
+            "kotobara":["kotnen"],
+            "fal":null,
+            "risonen":["🐱","🤏"],
+            "sama":[],
+            "lik":[],
+            "aparLik":[],
+            "kundr":[],
+
+            "imi":null,
+
+            "opetara":[],
+
+            "anderKotobara":[]
+        },{
+            "kotobara":["sewas"],
+            "fal":null,
+            "risonen":["🧊","🎲"],
+            "sama":[],
+            "lik":[],
+            "aparLik":[],
+            "kundr":[],
+
+            "imi":null,
+
+            "opetara":[],
+
+            "anderKotobara":[]
+        },{
+            "kotobara":["sewasnen"],
+            "fal":null,
+            "risonen":["🧊","🎲","🤏"],
+            "sama":[],
+            "lik":[],
+            "aparLik":[],
+            "kundr":[],
+
+            "imi":null,
+
+            "opetara":[],
+
+            "anderKotobara":[]
+        },{
+            "kotobara":["sewasdai"],
+            "fal":null,
+            "risonen":["🧊","🎲","🌌"],
+            "sama":[],
+            "lik":[],
+            "aparLik":[],
+            "kundr":[],
+
+            "imi":null,
+
+            "opetara":[],
+
+            "anderKotobara":[]
+        },{
+            "kotobara":["-nen"],
+            "fal":null,
+            "risonen":["🤏"],
+            "sama":[],
+            "lik":[],
+            "aparLik":[],
+            "kundr":[],
+
+            "imi":null,
+
+            "opetara":[],
+
+            "anderKotobara":[]
+        },{
+            "kotobara":["-dai bbbbbbbbbbbbbbbbbbbbbbbbbbbbb"],
+            "fal":null,
+            "risonen":["aaaaa🌌"],
+            "sama":[],
+            "lik":[],
+            "aparLik":[],
+            "kundr":[],
+
+            "imi":null,
 
             "opetara":[],
 
