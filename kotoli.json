@@ -1,7 +1,7 @@
 {
     "kotoli":[
         {
-            "kotobara":["jaa"],
+            "kotobara":["jaa","ja","ya","jâ","ia"],
             "fal":null,
             "risonen":[],
             "sama":[],
@@ -29,7 +29,7 @@
 
             "anderKotobara":[]
         },{
-            "kotobara":["portocale","portocali","portucale","portucali"],
+            "kotobara":["portokale","portokali","portukale","portukali","portocale","portocali","portucale","portucali"],
             "fal":"varge",
             "risonen":["🟠","🟧"],
             "sama":[],
@@ -382,6 +382,20 @@
             "kotobara":["-dai"],
             "fal":null,
             "risonen":["🌌"],
+            "sama":[],
+            "lik":[],
+            "aparLik":[],
+            "kundr":[],
+
+            "imi":null,
+
+            "opetara":[],
+
+            "anderKotobara":[]
+        },{
+            "kotobara":["portokale","portokali","portukale","portukali","portocale","portocali","portucale","portucali"],
+            "fal":"fraut",
+            "risonen":["🍊"],
             "sama":[],
             "lik":[],
             "aparLik":[],
