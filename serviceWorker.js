@@ -1,7 +1,7 @@
 self.addEventListener('install', event => {
     event.waitUntil((async ()=>{
         await caches.delete('availableOffline');
-        (await caches.open('availableOffline')).addAll(['/', '/index.hmtl', '/kotoli.json', '/manifest.json']);
+        (await caches.open('availableOffline')).addAll(['/', '/index.hmtl', '/kotoli.json', '/manifest.json', 'index.js', 'index.css']);
     })());
 });
 
