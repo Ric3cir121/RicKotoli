@@ -62,6 +62,29 @@ body {
 .searchBar::placeholder {
     opacity: .5;
 }
+
+#result {
+    padding: 0.2in;
+}
+.resultTop {
+    display: flex;
+    overflow: hidden;
+    justify-content: space-between;
+    width: 100%;
+}
+.resultTitle {
+    font-weight: bold;
+    font-size: 125%;
+}
+.resultRisonen {
+    font-size: 125%;
+}
+.resultKotobara {
+    font-weight: bold;
+    font-size: 90%;
+    opacity: 60%;
+}
+
 #searchResultsContainer {
     margin: 0in;
     padding: 0.075in;
@@ -79,6 +102,12 @@ body {
     height: 1in;
 
     box-shadow: 0in .01in .1in #00000020;
+}
+.kotobaTop {
+    display: flex;
+    overflow: hidden;
+    justify-content: space-between;
+    width: 100%;
 }
 .risonen {
     text-align: right;
@@ -98,10 +127,4 @@ body {
     white-space: nowrap;
     font-size: 80%;
     opacity: 60%;
-}
-.kotobaTop {
-    display: flex;
-    overflow: hidden;
-    justify-content: space-between;
-    width: 100%;
 }

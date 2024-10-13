@@ -2,6 +2,9 @@ var kotoli = {
     kotoli: []
 };
 
+var displayMode = undefined;
+var currentTheme = undefined;
+
 function levenshteinDistance(a, b){
     let aLen = a.length+1, bLen = b.length+1;
     let board = [];
@@ -43,7 +46,32 @@ function spawnElements(){
 
     let searchResultsContainer = document.createElement('div');
     searchResultsContainer.id = 'searchResultsContainer';
-    document.body.querySelector('#mainContent').appendChild(searchResultsContainer);
+    document.getElementById('mainContent').appendChild(searchResultsContainer);
+}
+function openKotoba(kotobaId){
+    let result = document.getElementById('result');
+    if(result){
+        result.remove();
+    }
+
+    let kotoba = kotoli.kotoli[kotobaId];
+
+    result = document.createElement('div');
+    result.id = 'result';
+
+    let alRisonen = '';
+    for(let risonen of kotoba.risonen) alRisonen += risonen;
+    let alKotobara = '';
+    for(let kotobara of kotoba.kotobara.slice(1)) alKotobara += kotobara + ', ';
+    if(alKotobara.length >= 2)alKotobara = alKotobara.slice(0,-2);
+
+    result.innerHTML = '<div class="resultTop"> <div class="resultTitle">' + kotoba.kotobara[0] + '</div> <div class="resultRisonen">' + alRisonen + '</div> </div>';
+    result.innerHTML += '<div class="resultKotobara">' + alKotobara + '</div>';
+    if(displayMode == 'desktop'){
+        document.querySelector('.topBar').appendChild(result);
+    }else{
+        document.getElementById('mainContent').prepend(result);
+    }
 }
 function sanitize(text){
     return text.replace('<', '&lt').replace('>', '&gt').replace('&', '&amp')
@@ -53,9 +81,9 @@ function updateSearch(){
     kotobaraLibre = kotoli.kotoli.slice()
     if(input){
         let kotobaScore = {}
-        for(result of kotobaraLibre){
+        for(let result of kotobaraLibre){
             score = Infinity;
-            for(kotoba of result.kotobara)
+            for(let kotoba of result.kotobara)
                 score = Math.min(score, levenshteinDistance(input.toLowerCase(), kotoba.toLowerCase()) - (kotoba.length - input.length) * .6);
             kotobaScore[result.kotobara[0]] = score;
         }
@@ -72,16 +100,17 @@ function updateSearch(){
     for(let i=0; i<kotobaraLibre.length; i++){
         let searchResult = document.createElement('div');
         searchResult.classList.add("searchResult");
+        searchResult.onclick = ()=>{openKotoba(kotobaraLibre[i].id);};
         let kotoba = '<div class="kotoba">' + sanitize(kotobaraLibre[i].kotobara[0]) + '</div>';
 
         let alRisonen = '';
-        for(risonen of kotobaraLibre[i].risonen) alRisonen += sanitize(risonen);
+        for(let risonen of kotobaraLibre[i].risonen) alRisonen += sanitize(risonen);
         alRisonen = '<div class="risonen">' + alRisonen + '</div>';
 
         searchResult.innerHTML += '<div class="kotobaTop">' + kotoba + alRisonen + '</div>';
 
         let alKotobara = '';
-        for(kotobara of kotobaraLibre[i].kotobara.slice(1)) alKotobara += sanitize(kotobara) + ", ";
+        for(let kotobara of kotobaraLibre[i].kotobara.slice(1)) alKotobara += sanitize(kotobara) + ", ";
         if(alKotobara.length >= 2)alKotobara = alKotobara.slice(0,-2);
         searchResult.innerHTML += '<div class="kotobara">' + alKotobara + '</div>';
 
@@ -89,9 +118,10 @@ function updateSearch(){
     }
 }
 function setViewMode(mode){
+    displayMode = mode;
     if(mode == 'desktop'){
         let topBar = document.body.querySelector('.topBar');
-        let mainContent = document.body.querySelector('#mainContent');
+        let mainContent = document.getElementById('mainContent');
         topBar.style.width = '4in';
         topBar.style.bottom = '0%';
         document.body.style['margin-left'] = '4in';
@@ -99,9 +129,13 @@ function setViewMode(mode){
         document.body.height = '100%';
         mainContent.style.width = 'calc(100% - 4in)';
         mainContent.style.height = '100%';
+        let result = document.getElementById('result');
+        if(result){
+            document.querySelector('.topBar').appendChild(result);
+        }
     }else if(mode == 'mobile'){
         let topBar = document.querySelector('.topBar');
-        let mainContent = document.body.querySelector('#mainContent');
+        let mainContent = document.getElementById('mainContent');
         topBar.style.width = '100%';
         topBar.style.removeProperty('bottom');
         document.body.style.removeProperty('margin-left');
@@ -109,9 +143,12 @@ function setViewMode(mode){
         document.body.height = 'calc(100% - .68in)';
         mainContent.style.width = '100%';
         mainContent.style.height = 'calc(100% - .68in)';
+        let result = document.getElementById('result');
+        if(result){
+            document.getElementById('mainContent').prepend(result);
+        }
     }
 }
-let currentTheme = undefined;
 function setTheme(theme){
     if(theme == currentTheme)return;
     if(theme == 'dark'){
@@ -132,6 +169,7 @@ function setTheme(theme){
         }
         #result {
             background-color: #1b1b1b;
+            box-shadow: 0in .01in .1in #00000020;
         }
         
         .searchBar {
@@ -172,6 +210,7 @@ function setTheme(theme){
         }
         #result {
             background-color: #f0f0f0;
+            box-shadow: 0in .01in .1in #00000010;
         }
         
         .searchBar {
@@ -218,6 +257,9 @@ function autoSetTheme(){
 }
 async function updateKotoli(){
     kotoli = await (await fetch('kotoli.json')).json();
+    for(let i=0; i<kotoli.kotoli.length; i++){
+        kotoli.kotoli[i].id = i;
+    }
     updateSearch();
 }
 
