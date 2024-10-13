@@ -115,50 +115,85 @@ let currentTheme = undefined;
 function setTheme(theme){
     if(theme == currentTheme)return;
     if(theme == 'dark'){
-        document.body.style['background-color'] = '#101010';
-        document.body.style.color = '#ffffff';
-        document.querySelector('.topBar').style['background-color'] = '#1b1b1b';
-        document.querySelector('.topBar').style['box-shadow'] = '0in .01in .1in #00000020';
+        let stylesheet = document.getElementById('themedStyle');
+        if(stylesheet){
+            stylesheet.remove();
+        }
+        stylesheet = document.createElement('style');
 
-        let searchBar = document.querySelector('.searchBar');
-        searchBar.style['background-color'] = '#303030';
-        searchBar.style.color = '#ffffff';
-        searchBar.style['box-shadow'] = '0in .01in .1in #00000040';
+        stylesheet.innerHTML = `
+        body {
+            background-color: #101010;
+            color: #ffffff;
+        }
+        .topBar {
+            background-color: #1b1b1b;
+            box-shadow: 0in .01in .1in #00000020;
+        }
+        #result {
+            background-color: #1b1b1b;
+        }
         
-        // pain for your eyes
-        let searchBarFocus = document.head.querySelector('#searchBarFocus');
-        if(!searchBarFocus){searchBarFocus = document.createElement('style'); searchBarFocus.id = 'searchBarFocus'; document.head.appendChild(searchBarFocus);}
-        searchBarFocus.innerHTML = '.searchBar:focus{outline-color: #0080ff;}';
-        let searchBarPlaceholder = document.head.querySelector('#searchBarPlaceholder');
-        if(!searchBarPlaceholder){searchBarPlaceholder = document.createElement('style'); searchBarPlaceholder.id = 'searchBarPlaceholder'; document.head.appendChild(searchBarPlaceholder);}
-        searchBarPlaceholder.innerHTML = '.searchBar::placeholder{color: #ffffff;}';
-
-        for(i of document.querySelectorAll('.searchResult')){
-            i.style['background-color'] = '#1b1b1b';
-            i.style['box-shadow'] = '0in .01in .1in #00000020';
+        .searchBar {
+            background-color: #303030;
+            color: #ffffff;
+            box-shadow: 0in .01in .1in #00000040;
         }
+
+        .searchBar:focus {
+            outline-color: #0080ff;
+        }
+
+        .searchBar:placeholder {
+            color: #ffffff;
+        }
+
+        .searchResult{
+            background-color: #1b1b1b;
+            box-shadow: 0in .01in .1in #00000020;
+        }`;
+
+        document.head.append(stylesheet);
     }else if(theme == 'light'){
-        document.body.style['background-color'] = '#ffffff';
-        document.body.style.color = '#101010';
-        document.querySelector('.topBar').style['background-color'] = '#f0f0f0';
-        document.querySelector('.topBar').style['box-shadow'] = '0in .01in .1in #00000010';
-
-        let searchBar = document.querySelector('.searchBar');
-        searchBar.style['background-color'] = '#e0e0e0';
-        searchBar.style.color = '#101010';
-        searchBar.style['box-shadow'] = '0in .01in .1in #00000020';
-
-        let searchBarFocus = document.head.querySelector('#searchBarFocus');
-        if(!searchBarFocus){searchBarFocus = document.createElement('style'); searchBarFocus.id = 'searchBarFocus'; document.head.appendChild(searchBarFocus);}
-        searchBarFocus.innerHTML = '.searchBar:focus{outline-color: #0080ff;}';
-        let searchBarPlaceholder = document.head.querySelector('#searchBarPlaceholder');
-        if(!searchBarPlaceholder){searchBarPlaceholder = document.createElement('style'); searchBarPlaceholder.id = 'searchBarPlaceholder'; document.head.appendChild(searchBarPlaceholder);}
-        searchBarPlaceholder.innerHTML = '.searchBar::placeholder{color: #101010;}';
-
-        for(i of document.querySelectorAll('.searchResult')){
-            i.style['background-color'] = '#f0f0f0';
-            i.style['box-shadow'] = '0in .01in .1in #00000010';
+        let stylesheet = document.getElementById('themedStyle');
+        if(stylesheet){
+            stylesheet.remove();
         }
+        stylesheet = document.createElement('style');
+
+        stylesheet.innerHTML = `
+        body {
+            background-color: #ffffff;
+            color: #101010;
+        }
+        .topBar {
+            background-color: #f0f0f0;
+            box-shadow: 0in .01in .1in #00000010;
+        }
+        #result {
+            background-color: #f0f0f0;
+        }
+        
+        .searchBar {
+            background-color: #e0e0e0;
+            color: #101010;
+            box-shadow: 0in .01in .1in #00000020;
+        }
+
+        .searchBar:focus {
+            outline-color: #0080ff;
+        }
+
+        .searchBar:placeholder {
+            color: #101010;
+        }
+
+        .searchResult{
+            background-color: #f0f0f0;
+            box-shadow: 0in .01in .1in #00000010;
+        }`;
+
+        document.head.append(stylesheet);
     }
 }
 function addSmoothTheme(){
