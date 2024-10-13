@@ -87,12 +87,15 @@ body {
 }
 .kotoba {
     overflow: hidden;
-    font-weight: bold;
     text-overflow: ellipsis;
+    font-weight: bold;
     white-space: nowrap;
 }
 .kotobara {
+    overflow: hidden;
+    text-overflow: ellipsis;
     font-weight: bold;
+    white-space: nowrap;
     font-size: 80%;
     opacity: 60%;
 }
