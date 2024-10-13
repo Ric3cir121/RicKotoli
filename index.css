@@ -75,7 +75,7 @@ body {
     margin: 0.075in;
     padding: 0.1in;
     border-radius: .12in;
-    display: inline-grid;
+    display: inline;
     height: 1in;
 
     box-shadow: 0in .01in .1in #00000020;
