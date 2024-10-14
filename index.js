@@ -40,7 +40,7 @@ function spawnElements(){
     let noCodeAlert = document.createElement('p');
     noCodeAlert.appendChild(document.createElement('center'));
     noCodeAlert.querySelector('center').innerText = 'The page works, but the dictionary is not coded yet...';
-    noCodeAlert.querySelector('center').innerHTML += '<br><a href="https://github.com/Ric3cir121/RicVikoli">Ric3cir121/RicVikoli</a> on Github, <a href="kotoli.json">kotoli.json</a>';
+    noCodeAlert.querySelector('center').innerHTML += '<br><a href="https://github.com/Ric3cir121/RicKotoli">Ric3cir121/RicKotoli</a> on Github, <a href="kotoli.json">kotoli.json</a>';
     noCodeAlert.querySelector('center').lang = "en";
     document.body.querySelector('#mainContent').appendChild(noCodeAlert);
 
