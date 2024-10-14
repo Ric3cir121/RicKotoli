@@ -63,26 +63,64 @@ body {
     opacity: .5;
 }
 
+.button {
+    width: .48in;
+    height: .48in;
+    border-radius: .24in;
+}
+.buttonImage {
+    margin: .12in;
+    width: .24in;
+    height: .24in;
+}
+
 #result {
-    padding: 0.2in;
+    padding: 0.15in;
+    font-size: .16in;
+    opacity: 1;
+}
+.resultOnBar {
+    overflow-y: auto;
+    height: calc(100% - .68in - .4in);
+}
+.resultTitle, .resultRisonen {
+    margin-top: .06in;
+    margin-left: .06in;
 }
 .resultTop {
     display: flex;
     overflow: hidden;
     justify-content: space-between;
     width: 100%;
+
+    font-size: .24in;
+    opacity: 1;
+}
+.resultTopLeft {
+    display: flex;
+    overflow: hidden;
+    padding-right: .1in;
+}
+.resultTab {
+    margin-top: .2in;
+    padding-top: .2in;
+
+    border-top-style: solid;
+    border-top-width: .01in;
+
+    font-weight: bold;
+    font-size: .16in;
+    opacity: 1;
+
 }
 .resultTitle {
     font-weight: bold;
-    font-size: 125%;
-}
-.resultRisonen {
-    font-size: 125%;
 }
 .resultKotobara {
     font-weight: bold;
-    font-size: 90%;
-    opacity: 60%;
+    margin-bottom: .2in;
+    font-size: .128in;
+    opacity: .6;
 }
 
 #searchResultsContainer {

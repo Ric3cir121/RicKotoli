@@ -65,16 +65,39 @@ function openKotoba(kotobaId){
     for(let kotobara of kotoba.kotobara.slice(1)) alKotobara += kotobara + ', ';
     if(alKotobara.length >= 2)alKotobara = alKotobara.slice(0,-2);
 
-    result.innerHTML = '<div class="resultTop"> <div class="resultTitle">' + kotoba.kotobara[0] + '</div> <div class="resultRisonen">' + alRisonen + '</div> </div>';
+    result.innerHTML  = '<div class="resultTop"> <div class="resultTopLeft"> <div class="button closeKotobaButton" onclick="closeKotoba();"><img src="icons/close.svg" class="buttonImage"></div>'
+                      + '<div class="resultTitle">' + kotoba.kotobara[0] + '</div> </div> <div class="resultRisonen">' + alRisonen + '</div> </div>';
     result.innerHTML += '<div class="resultKotobara">' + alKotobara + '</div>';
+
+    if(kotoba.mahaNa)  result.innerHTML += '<div class="resultTab">Maha na:</div>' + kotoba.mahaNa.join(' + ');
+    if(kotoba.fal)     result.innerHTML += '<div class="resultTab">Fal:</div>' + kotoba.fal;
+    if(kotoba.imi)     result.innerHTML += '<div class="resultTab">Imi:</div>' + kotoba.imi.replaceAll('\n','<br>');
+
+    if(kotoba.sama)    result.innerHTML += '<div class="resultTab">Sama:</div>' + kotoba.sama.join(', ');
+    if(kotoba.lik)     result.innerHTML += '<div class="resultTab">Lik:</div>' + kotoba.lik.join(', ');
+    if(kotoba.aparLik) result.innerHTML += '<div class="resultTab">Apar lik:</div>' + kotoba.aparLik.join(', ');
+    if(kotoba.kundr)   result.innerHTML += '<div class="resultTab">Kundr:</div>' + kotoba.kundr.join(', ');
+
+    if(kotoba.opetara) result.innerHTML += '<div class="resultTab">Opetara:</div> <ol><li>' + kotoba.opetara.join('</li><li>').replaceAll('\n','<br>') + '</li></ol>';
+    //if(kotoba.riso)    result.innerHTML += '<div class="resultTab">Riso:</div>' + kotoba.riso;
+    if(kotoba.anderKotobara) result.innerHTML += '<div class="resultTab">Ander kotobara:</div>' + kotoba.anderKotobara.join(', ');
+
     if(displayMode == 'desktop'){
+        result.classList.add('resultOnBar');
         document.querySelector('.topBar').appendChild(result);
     }else{
+        result.classList.add('resultOnMain');
         document.getElementById('mainContent').prepend(result);
     }
 }
+function closeKotoba(){
+    let result = document.getElementById('result');
+    if(result){
+        result.remove();
+    }
+}
 function sanitize(text){
-    return text.replace('<', '&lt').replace('>', '&gt').replace('&', '&amp')
+    return text.replaceAll('&', '&amp').replaceAll('<', '&lt').replaceAll('>', '&gt')
 }
 function updateSearch(){
     let input = document.querySelector('.searchBar').value ?? "";
@@ -101,7 +124,9 @@ function updateSearch(){
         let searchResult = document.createElement('div');
         searchResult.classList.add("searchResult");
         searchResult.onclick = ()=>{openKotoba(kotobaraLibre[i].id);};
-        let kotoba = '<div class="kotoba">' + sanitize(kotobaraLibre[i].kotobara[0]) + '</div>';
+        let kotoba = sanitize(kotobaraLibre[i].kotobara[0]);
+        if(kotobaraLibre[i].fal) kotoba += ' (' + sanitize(kotobaraLibre[i].fal) + ')';
+        kotoba = '<div class="kotoba">' + kotoba + '</div>';
 
         let alRisonen = '';
         for(let risonen of kotobaraLibre[i].risonen) alRisonen += sanitize(risonen);
@@ -131,6 +156,8 @@ function setViewMode(mode){
         mainContent.style.height = '100%';
         let result = document.getElementById('result');
         if(result){
+            result.classList.add('resultOnBar');
+            result.classList.remove('resultOnMain');
             document.querySelector('.topBar').appendChild(result);
         }
     }else if(mode == 'mobile'){
@@ -145,6 +172,8 @@ function setViewMode(mode){
         mainContent.style.height = 'calc(100% - .68in)';
         let result = document.getElementById('result');
         if(result){
+            result.classList.remove('resultOnBar');
+            result.classList.add('resultOnMain');
             document.getElementById('mainContent').prepend(result);
         }
     }
@@ -167,9 +196,13 @@ function setTheme(theme){
             background-color: #1b1b1b;
             box-shadow: 0in .01in .1in #00000020;
         }
-        #result {
+        .resultOnMain {
             background-color: #1b1b1b;
             box-shadow: 0in .01in .1in #00000020;
+        }
+
+        .resultTab {
+            border-top-color: #303030;
         }
         
         .searchBar {
@@ -208,9 +241,13 @@ function setTheme(theme){
             background-color: #f0f0f0;
             box-shadow: 0in .01in .1in #00000010;
         }
-        #result {
+        .resultOnMain {
             background-color: #f0f0f0;
             box-shadow: 0in .01in .1in #00000010;
+        }
+
+        .resultTab {
+            border-top-color: #e0e0e0;
         }
         
         .searchBar {
