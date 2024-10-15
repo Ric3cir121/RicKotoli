@@ -178,12 +178,14 @@ function setViewMode(mode){
 }
 function setTheme(theme){
     if(theme == currentTheme)return;
+    currentTheme = theme;
     if(theme == 'dark'){
         let stylesheet = document.getElementById('themedStyle');
         if(stylesheet){
             stylesheet.remove();
         }
         stylesheet = document.createElement('style');
+        stylesheet.id = 'themedStyle';
 
         stylesheet.innerHTML = `
         body {
@@ -201,6 +203,9 @@ function setTheme(theme){
 
         .resultTab {
             border-top-color: #303030;
+        }
+        .buttonImage {
+            filter: brightness(1);
         }
         
         .searchBar {
@@ -229,6 +234,7 @@ function setTheme(theme){
             stylesheet.remove();
         }
         stylesheet = document.createElement('style');
+        stylesheet.id = 'themedStyle';
 
         stylesheet.innerHTML = `
         body {
@@ -246,6 +252,9 @@ function setTheme(theme){
 
         .resultTab {
             border-top-color: #e0e0e0;
+        }
+        .buttonImage {
+            filter: brightness(.08);
         }
         
         .searchBar {
