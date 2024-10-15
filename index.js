@@ -72,12 +72,12 @@ function openKotoba(kotobaId){
     if(kotoba.fal)     result.innerHTML += '<div class="resultTab">Fal:</div>' + kotoba.fal;
     if(kotoba.imi)     result.innerHTML += '<div class="resultTab">Imi:</div>' + kotoba.imi.replaceAll('\n','<br>');
 
-    if(kotoba.sama)    result.innerHTML += '<div class="resultTab">Sama:</div>' + kotoba.sama.join(', ');
-    if(kotoba.lik)     result.innerHTML += '<div class="resultTab">Lik:</div>' + kotoba.lik.join(', ');
+    if(kotoba.sama)    result.innerHTML += '<div class="resultTab">= Sama:</div>' + kotoba.sama.join(', ');
+    if(kotoba.lik)     result.innerHTML += '<div class="resultTab">≈ Lik:</div>' + kotoba.lik.join(', ');
     if(kotoba.aparLik) result.innerHTML += '<div class="resultTab">Apar lik:</div>' + kotoba.aparLik.join(', ');
     if(kotoba.kundr)   result.innerHTML += '<div class="resultTab">Kundr:</div>' + kotoba.kundr.join(', ');
 
-    if(kotoba.opetara) result.innerHTML += '<div class="resultTab">Opetara:</div> <ol><li>' + kotoba.opetara.join('</li><li>').replaceAll('\n','<br>') + '</li></ol>';
+    if(kotoba.opetara) result.innerHTML += '<div class="resultTab">Opetara:</div> <ul><li>' + kotoba.opetara.join('</li><li>').replaceAll('\n','<br>') + '</li></ul>';
     //if(kotoba.riso)    result.innerHTML += '<div class="resultTab">Riso:</div>' + kotoba.riso;
     if(kotoba.anderKotobara) result.innerHTML += '<div class="resultTab">Ander kotobara:</div>' + kotoba.anderKotobara.join(', ');
 
