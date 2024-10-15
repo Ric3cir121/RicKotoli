@@ -4,7 +4,7 @@
             "kotobara":["jaa","ja","yā","ya","jâ","iá","ia"],
             "risonen":["👋"],
             "kundr":["jaa"],
-            "opetara":["A: Jaa! Ka slutcha?\nB: Un bra, au du?\nA: Un bra awen!",""]
+            "opetara":["A: Jaa! Ka slutcha?\nB: Un bra, au du?\nA: Un bra awen!"]
         },{
             "kotobara":["ru"],
             "risonen":["🔴","🟥"]
@@ -182,7 +182,8 @@
             "kotobara":["wil"]
         },{
             "kotobara":["pashko","paško","pashkotoba"],
-            "mahaNa":["pashun","kotoba"]
+            "mahaNa":["pashun","kotoba"],
+            "anderKotobara":["pashun"]
         },{
             "kotobara":["un"]
         },{
@@ -194,9 +195,14 @@
         },{
             "kotobara":["hej"]
         },{
-            "kotobara":["pashun","pašun","pershun"]
+            "kotobara":["pashun","pašun","pershun","pash","pas","paš"],
+            "risonen":["🧍‍♀️","🧍","🧍‍♂️"],
+            "lik":["-djin"],
+            "opetara":["Vi pashun, un pashun, du pashun.", "Mange pashun deki nam, se, ialaka, auauau"],
+            "anderKotobara":["pashko"]
         },{
-            "kotobara":["-djin","-džin","-dzjin","-djinn"]
+            "kotobara":["-djin","-džin","-dzjin","-djinn"],
+            "lik":["pashun"]
         },{
             "kotobara":["opetadjin"]
         },{
@@ -218,7 +224,9 @@
         },{
             "kotobara":["sama","samaa","çama"]
         },{
-            "kotobara":["lik","lyk","likke"]
+            "kotobara":["lik","lyk","likke"],
+            "risonen":["≈"],
+            "opetara":["⚾️ sama ⚾️\n⚾️ lik 🥎\n🟥 lik 🔴\n🚗 lik 🚙\n⚾️ tsigau 🌐","1 sama 1\n1 lik 0.95\n1 tsigau 500"]
         },{
             "kotobara":["apar","apaar"]
         },{
@@ -510,7 +518,7 @@
         },{
             "kotobara":["mietta"]
         },{
-            "kotobara":["k'"]
+            "kotobara":["ke","k'"]
         },{
             "kotobara":["iske","ishke"]
         },{
@@ -588,17 +596,24 @@
         },{
             "kotobara":["knlaksu"]
         },{
-            "kotobara":["hadji"]
+            "kotobara":["hadji"],
+            "kundr":["owari"]
         },{
-            "kotobara":["owari"]
+            "kotobara":["owari"],
+            "risonen":["🏁"],
+            "lik":["po-","jamete"],
+            "kundr":["hadji"],
+            "opetara":["1: un nai nam \n2: un hadji nam\n3: un nam\n4: un owari nam 🏁\n5: un nai nam "]
         },{
             "kotobara":["bli","bli-"]
         },{
-            "kotobara":["po","po-"]
+            "kotobara":["po","po-"],
+            "lik":["owari"]
         },{
             "kotobara":["benj"]
         },{
-            "kotobara":["jamete","yamete"]
+            "kotobara":["jamete","yamete"],
+            "lik":["owari"]
         },{
             "kotobara":["naideki"]
         },{
