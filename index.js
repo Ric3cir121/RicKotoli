@@ -58,12 +58,13 @@ function openKotoba(kotobaId){
     result.id = 'result';
 
     let alRisonen = '';
+    if(kotoba.risonen)
     for(let risonen of kotoba.risonen) alRisonen += risonen;
     let alKotobara = '';
     for(let kotobara of kotoba.kotobara.slice(1)) alKotobara += kotobara + ', ';
     if(alKotobara.length >= 2)alKotobara = alKotobara.slice(0,-2);
 
-    result.innerHTML  = '<div class="resultTop"> <div class="resultTopLeft"> <div class="button closeKotobaButton" onclick="closeKotoba();"><img src="icons/close.svg" class="buttonImage"></div>'
+    result.innerHTML  = '<div class="resultTop"> <div class="resultTopLeft"> <div class="button closeKotobaButton" onclick="closeKotoba();"><image src="icons/close.svg" class="buttonImage"></div>'
                       + '<div class="resultTitle">' + kotoba.kotobara[0] + '</div> </div> <div class="resultRisonen">' + alRisonen + '</div> </div>';
     result.innerHTML += '<div class="resultKotobara">' + alKotobara + '</div>';
 
@@ -127,6 +128,7 @@ function updateSearch(){
         kotoba = '<div class="kotoba">' + kotoba + '</div>';
 
         let alRisonen = '';
+        if(kotobaraLibre[i].risonen)
         for(let risonen of kotobaraLibre[i].risonen) alRisonen += sanitize(risonen);
         alRisonen = '<div class="risonen">' + alRisonen + '</div>';
 
