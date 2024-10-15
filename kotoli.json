@@ -1,412 +1,737 @@
 {
     "kotoli":[
         {
-            "kotobara":["jaa","ja","ya","jâ","ia"],
-            "fal":null,
-            "risonen":[],
-            "sama":[],
-            "lik":[],
-            "aparLik":[],
-            "kundr":[],
-
-            "imi":null,
-
-            "opetara":[],
-
-            "anderKotobara":[]
+            "kotobara":["jaa","ja","yā","ya","jâ","iá","ia"],
+            "risonen":["👋"],
+            "kundr":["jaa"],
+            "opetara":["A: Jaa! Ka slutcha?\nB: Un bra, au du?\nA: Un bra awen!",""]
         },{
             "kotobara":["ru"],
-            "fal":null,
-            "risonen":["🔴","🟥"],
-            "sama":[],
-            "lik":[],
-            "aparLik":[],
-            "kundr":[],
-
-            "imi":null,
-
-            "opetara":[],
-
-            "anderKotobara":[]
+            "risonen":["🔴","🟥"]
         },{
             "kotobara":["portokale","portokali","portukale","portukali","portocale","portocali","portucale","portucali"],
             "fal":"varge",
-            "risonen":["🟠","🟧"],
-            "sama":[],
-            "lik":[],
-            "aparLik":[],
-            "kundr":[],
-
-            "imi":null,
-
-            "opetara":[],
-
-            "anderKotobara":[]
+            "risonen":["🟠","🟧"]
         },{
             "kotobara":["kiro","kiiro"],
-            "fal":null,
-            "risonen":["🟡","🟨"],
-            "sama":[],
-            "lik":[],
-            "aparLik":[],
-            "kundr":[],
-
-            "imi":null,
-
-            "opetara":[],
-
-            "anderKotobara":[]
+            "risonen":["🟡","🟨"]
         },{
             "kotobara":["midori"],
-            "fal":null,
-            "risonen":["🟢","🟩"],
-            "sama":[],
-            "lik":[],
-            "aparLik":[],
-            "kundr":[],
-
-            "imi":null,
-
-            "opetara":[],
-
-            "anderKotobara":[]
+            "risonen":["🟢","🟩"]
         },{
             "kotobara":["siñi","sini"],
-            "fal":null,
-            "risonen":["🩵","🌐","🇺🇳","🇸🇴","🇫🇲"],
-            "sama":[],
-            "lik":[],
-            "aparLik":[],
-            "kundr":[],
-
-            "imi":null,
-
-            "opetara":[],
-
-            "anderKotobara":[]
+            "risonen":["🩵","🌐","🇺🇳","🇸🇴","🇫🇲"]
         },{
             "kotobara":["blau"],
-            "fal":null,
-            "risonen":["🔵","🟦"],
-            "sama":[],
-            "lik":[],
-            "aparLik":[],
-            "kundr":[],
-
-            "imi":null,
-
-            "opetara":[],
-
-            "anderKotobara":[]
+            "risonen":["🔵","🟦"]
         },{
             "kotobara":["mura","murasaki"],
-            "fal":null,
-            "risonen":["🟣","🟪"],
-            "sama":[],
-            "lik":[],
-            "aparLik":[],
-            "kundr":[],
-
-            "imi":null,
-
-            "opetara":[],
-
-            "anderKotobara":[]
+            "risonen":["🟣","🟪"]
         },{
             "kotobara":["rosa","roza"],
-            "fal":null,
-            "risonen":["🩷","🌷","🌸","🦄","🐽","🐷","🏩","🎀"],
-            "sama":[],
-            "lik":[],
-            "aparLik":[],
-            "kundr":[],
-
-            "imi":null,
-
-            "opetara":[],
-
-            "anderKotobara":[]
+            "risonen":["🩷","🌷","🌸","🦄","🐽","🐷","🏩","🎀"]
         },{
             "kotobara":["shiro","shiiro"],
-            "fal":null,
-            "risonen":["⚪️","⬜️"],
-            "sama":[],
-            "lik":[],
-            "aparLik":[],
-            "kundr":[],
-
-            "imi":null,
-
-            "opetara":[],
-
-            "anderKotobara":[]
+            "risonen":["⚪️","⬜️"]
         },{
             "kotobara":["gris"],
-            "fal":null,
-            "risonen":["🩶","📎","🪦","☑️","📢"],
-            "sama":[],
-            "lik":[],
-            "aparLik":[],
-            "kundr":[],
-
-            "imi":null,
-
-            "opetara":[],
-
-            "anderKotobara":[]
+            "risonen":["🩶","📎","🪦","☑️","📢"]
         },{
             "kotobara":["kuro"],
-            "fal":null,
-            "risonen":["⚫️","⬛️"],
-            "sama":[],
-            "lik":[],
-            "aparLik":[],
-            "kundr":[],
-
-            "imi":null,
-
-            "opetara":[],
-
-            "anderKotobara":[]
+            "risonen":["⚫️","⬛️"]
         },{
             "kotobara":["varge","varje","farge","farje"],
-            "fal":null,
-            "risonen":["🎨","🔴","🟠","🟡","🟢","🔵","🟣","⚪️","⚫️"],
-            "sama":[],
-            "lik":[],
-            "aparLik":[],
-            "kundr":[],
-
-            "imi":null,
-
-            "opetara":[],
-
-            "anderKotobara":[]
+            "risonen":["🎨","🔴","🟠","🟡","🟢","🔵","🟣","⚪️","⚫️"]
         },{
             "kotobara":["lehti"],
-            "fal":null,
-            "risonen":["🍃"],
-            "sama":[],
-            "lik":[],
-            "aparLik":[],
-            "kundr":[],
-
-            "imi":null,
-
-            "opetara":[],
-
-            "anderKotobara":[]
+            "risonen":["🍃"]
         },{
             "kotobara":["baum"],
-            "fal":null,
-            "risonen":["🌳","🌲","🌴"],
-            "sama":[],
-            "lik":[],
-            "aparLik":[],
-            "kundr":[],
-
-            "imi":null,
-
-            "opetara":[],
-
-            "anderKotobara":[]
+            "risonen":["🌳","🌲","🌴"]
         },{
-            "kotobara":["velt","gaia","gaja"],
-            "fal":null,
-            "risonen":["🌎","🌍","🌏"],
-            "sama":[],
-            "lik":[],
-            "aparLik":[],
-            "kundr":[],
-
-            "imi":null,
-
-            "opetara":[],
-
-            "anderKotobara":[]
+            "kotobara":["velt"],
+            "risonen":["🌎","🗺️","🌐"]
         },{
-            "kotobara":["lant","ter","lantdai"],
-            "fal":null,
-            "risonen":[],
-            "sama":[],
-            "lik":[],
-            "aparLik":[],
-            "kundr":[],
-
-            "imi":null,
-
-            "opetara":[],
-
-            "anderKotobara":[]
+            "kotobara":["gaia","gaja"],
+            "risonen":["🌎","🌍","🌏"]
         },{
-            "kotobara":["mare"],
-            "fal":null,
-            "risonen":[],
-            "sama":[],
-            "lik":[],
-            "aparLik":[],
-            "kundr":[],
-
-            "imi":null,
-
-            "opetara":[],
-
-            "anderKotobara":[]
+            "kotobara":["lant"]
         },{
-            "kotobara":["upasz"],
-            "fal":null,
-            "risonen":[],
-            "sama":[],
-            "lik":[],
-            "aparLik":[],
-            "kundr":[],
-
-            "imi":null,
-
-            "opetara":[],
-
-            "anderKotobara":[]
+            "kotobara":["lantdai"],
+            "mahaNa":["lant","-dai"]
         },{
-            "kotobara":["marenen"],
-            "fal":null,
-            "risonen":[],
-            "sama":[],
-            "lik":[],
-            "aparLik":[],
-            "kundr":[],
-
-            "imi":null,
-
-            "opetara":[],
-
-            "anderKotobara":[]
+            "kotobara":["ter"]
         },{
-            "kotobara":["virta"],
-            "fal":null,
-            "risonen":[],
-            "sama":[],
-            "lik":[],
-            "aparLik":[],
-            "kundr":[],
-
-            "imi":null,
-
-            "opetara":[],
-
-            "anderKotobara":[]
+            "kotobara":["mare"]
+        },{
+            "kotobara":["upasz"]
+        },{
+            "kotobara":["marenen"]
+        },{
+            "kotobara":["virta"]
         },{
             "kotobara":["kot"],
-            "fal":null,
-            "risonen":["🐱"],
-            "sama":[],
-            "lik":[],
-            "aparLik":[],
-            "kundr":[],
-
-            "imi":null,
-
-            "opetara":[],
-
-            "anderKotobara":[]
+            "risonen":["🐱"]
         },{
             "kotobara":["kotnen"],
-            "fal":null,
-            "risonen":["🐱","🤏"],
-            "sama":[],
-            "lik":[],
-            "aparLik":[],
-            "kundr":[],
-
-            "imi":null,
-
-            "opetara":[],
-
-            "anderKotobara":[]
+            "risonen":["🐱","🤏"]
         },{
             "kotobara":["sewas"],
-            "fal":null,
-            "risonen":["🧊","🎲"],
-            "sama":[],
-            "lik":[],
-            "aparLik":[],
-            "kundr":[],
-
-            "imi":null,
-
-            "opetara":[],
-
-            "anderKotobara":[]
+            "risonen":["🧊","🎲"]
         },{
             "kotobara":["sewasnen"],
-            "mahaNa":["sewas","-nen"],
-            "fal":null,
             "risonen":["🧊","🎲","🤏"],
-            "sama":[],
-            "lik":[],
-            "aparLik":[],
-            "kundr":[],
-
-            "imi":null,
-
-            "opetara":[],
-
-            "anderKotobara":[]
+            "mahaNa":["sewas","-nen"]
         },{
             "kotobara":["sewasdai"],
-            "fal":null,
             "risonen":["🧊","🎲","🌌"],
-            "sama":[],
-            "lik":[],
-            "aparLik":[],
-            "kundr":[],
-
-            "imi":null,
-
-            "opetara":[],
-
-            "anderKotobara":[]
+            "mahaNa":["sewas","-dai"]
         },{
             "kotobara":["-nen"],
-            "fal":null,
-            "risonen":["🤏"],
-            "sama":[],
-            "lik":[],
-            "aparLik":[],
-            "kundr":[],
-
-            "imi":null,
-
-            "opetara":[],
-
-            "anderKotobara":[]
+            "risonen":["🤏"]
         },{
             "kotobara":["-dai"],
-            "fal":null,
-            "risonen":["🌌"],
-            "sama":[],
-            "lik":[],
-            "aparLik":[],
-            "kundr":[],
-
-            "imi":null,
-
-            "opetara":[],
-
-            "anderKotobara":[]
+            "risonen":["🌌"]
         },{
             "kotobara":["portokale","portokali","portukale","portukali","portocale","portocali","portucale","portucali"],
             "fal":"fraut",
-            "risonen":["🍊"],
-            "sama":[],
-            "lik":[],
-            "aparLik":[],
-            "kundr":[],
-
-            "imi":null,
-
-            "opetara":[],
-
-            "anderKotobara":[]
+            "risonen":["🍊"]
+        },{
+            "kotobara":["li"]
+        },{
+            "kotobara":["sidt","sit"]
+        },{
+            "kotobara":["jam","yam","iam"]
+        },{
+            "kotobara":["uwaki"]
+        },{
+            "kotobara":["os"]
+        },{
+            "kotobara":["opeta"]
+        },{
+            "kotobara":["warui","waruj","waryi","waryj"]
+        },{
+            "kotobara":["na"]
+        },{
+            "kotobara":["riso"]
+        },{
+            "kotobara":["afto"]
+        },{
+            "kotobara":["da"]
+        },{
+            "kotobara":["ring","rinj"]
+        },{
+            "kotobara":["na"]
+        },{
+            "kotobara":["viossa"]
+        },{
+            "kotobara":["glossa"]
+        },{
+            "kotobara":["du"]
+        },{
+            "kotobara":["vil"]
+        },{
+            "kotobara":["lera"]
+        },{
+            "kotobara":["mit"]
+        },{
+            "kotobara":["mono"]
+        },{
+            "kotobara":["tastsy","tassty"]
+        },{
+            "kotobara":["shkoi","sjkoi","skoj","skoi"]
+        },{
+            "kotobara":["made"]
+        },{
+            "kotobara":["kara"]
+        },{
+            "kotobara":["huomi"]
+        },{
+            "kotobara":["lehti"]
+        },{
+            "kotobara":["huomilehti"]
+        },{
+            "kotobara":["maha"]
+        },{
+            "kotobara":["mahena"]
+        },{
+            "kotobara":["-yena","-iena","-ena"]
+        },{
+            "kotobara":["je","ie","ye","es","i"]
+        },{
+            "kotobara":["ein"]
+        },{
+            "kotobara":["eins"]
+        },{
+            "kotobara":["kotoba"]
+        },{
+            "kotobara":["kotobara"]
+        },{
+            "kotobara":["akk","akku","akkurat","akrat","acrat"]
+        },{
+            "kotobara":["nai"]
+        },{
+            "kotobara":["fshto","fushto","fŝto"]
+        },{
+            "kotobara":["ka"]
+        },{
+            "kotobara":["danke"]
+        },{
+            "kotobara":["nil"]
+        },{
+            "kotobara":["wil"]
+        },{
+            "kotobara":["pashko","paško","pashkotoba"],
+            "mahaNa":["pashun","kotoba"]
+        },{
+            "kotobara":["un"]
+        },{
+            "kotobara":["sore"]
+        },{
+            "kotobara":["vi"]
+        },{
+            "kotobara":["dok"]
+        },{
+            "kotobara":["hej"]
+        },{
+            "kotobara":["pashun","pašun","pershun"]
+        },{
+            "kotobara":["-djin","-džin","-dzjin","-djinn"]
+        },{
+            "kotobara":["opetadjin"]
+        },{
+            "kotobara":["leradjin"]
+        },{
+            "kotobara":["tajkadjin"]
+        },{
+            "kotobara":["ojogidjin"]
+        },{
+            "kotobara":["-ossa"]
+        },{
+            "kotobara":["anglossa"]
+        },{
+            "kotobara":["nihonossa"]
+        },{
+            "kotobara":["espanjossa"]
+        },{
+            "kotobara":["kundr","kundir","kunder","cunder"]
+        },{
+            "kotobara":["sama","samaa","çama"]
+        },{
+            "kotobara":["lik","lyk","likke"]
+        },{
+            "kotobara":["apar","apaar"]
+        },{
+            "kotobara":["tsigau","tsigao","cigau","chigau"]
+        },{
+            "kotobara":["kirain"]
+        },{
+            "kotobara":["silba"]
+        },{
+            "kotobara":["-ko"]
+        },{
+            "kotobara":["fraas"]
+        },{
+            "kotobara":["punkt"]
+        },{
+            "kotobara":["joku"]
+        },{
+            "kotobara":["al"]
+        },{
+            "kotobara":["per"]
+        },{
+            "kotobara":["ringo"]
+        },{
+            "kotobara":["torta"]
+        },{
+            "kotobara":["cola"]
+        },{
+            "kotobara":["cafe"]
+        },{
+            "kotobara":["tuo"]
+        },{
+            "kotobara":["asoko"]
+        },{
+            "kotobara":["huin"]
+        },{
+            "kotobara":["bluma"]
+        },{
+            "kotobara":["pinue"]
+        },{
+            "kotobara":["fugel"]
+        },{
+            "kotobara":["maredur","mareduur","maraidur"]
+        },{
+            "kotobara":["namae","namai","namæ"]
+        },{
+            "kotobara":["fu","f'","f-"]
+        },{
+            "kotobara":["au"]
+        },{
+            "kotobara":["lezi"]
+        },{
+            "kotobara":["glug"]
+        },{
+            "kotobara":["nam"]
+        },{
+            "kotobara":["awen","auen"]
+        },{
+            "kotobara":["glau"]
+        },{
+            "kotobara":["trict"]
+        },{
+            "kotobara":["slucha"]
+        },{
+            "kotobara":["mis","mïs"]
+        },{
+            "kotobara":["oy"]
+        },{
+            "kotobara":["mama"]
+        },{
+            "kotobara":["pinuno"]
+        },{
+            "kotobara":["hanu"]
+        },{
+            "kotobara":["bite"]
+        },{
+            "kotobara":["nil wil"]
+        },{
+            "kotobara":["gomen"]
+        },{
+            "kotobara":["cer"]
+        },{
+            "kotobara":["anta"]
+        },{
+            "kotobara":["banan"]
+        },{
+            "kotobara":["suru"]
+        },{
+            "kotobara":["suruko"]
+        },{
+            "kotobara":["jalaka","ialaka","yalaka"]
+        },{
+            "kotobara":["kaku"]
+        },{
+            "kotobara":["siru"]
+        },{
+            "kotobara":["valtsa"]
+        },{
+            "kotobara":["ergo"]
+        },{
+            "kotobara":["gelt"]
+        },{
+            "kotobara":["mange"]
+        },{
+            "kotobara":["aschor"]
+        },{
+            "kotobara":["lasku"]
+        },{
+            "kotobara":["ein"]
+        },{
+            "kotobara":["ni"]
+        },{
+            "kotobara":["tre"]
+        },{
+            "kotobara":["kiere"]
+        },{
+            "kotobara":["go"]
+        },{
+            "kotobara":["eksi"]
+        },{
+            "kotobara":["nana"]
+        },{
+            "kotobara":["kase"]
+        },{
+            "kotobara":["non"]
+        },{
+            "kotobara":["den"]
+        },{
+            "kotobara":["tsisai"]
+        },{
+            "kotobara":["mit"]
+        },{
+            "kotobara":["se"]
+        },{
+            "kotobara":["hyr"]
+        },{
+            "kotobara":["kuchi"]
+        },{
+            "kotobara":["me"]
+        },{
+            "kotobara":["corva"]
+        },{
+            "kotobara":["hana"]
+        },{
+            "kotobara":["njyi"]
+        },{
+            "kotobara":["tropos"]
+        },{
+            "kotobara":["deki","dece","deci"]
+        },{
+            "kotobara":["ting"]
+        },{
+            "kotobara":["tingko"]
+        },{
+            "kotobara":["hierne","hjerne"]
+        },{
+            "kotobara":["tualet"]
+        },{
+            "kotobara":["gavat"]
+        },{
+            "kotobara":["katana"]
+        },{
+            "kotobara":["plas"]
+        },{
+            "kotobara":["namting"]
+        },{
+            "kotobara":["men"]
+        },{
+            "kotobara":["har"]
+        },{
+            "kotobara":["tyd","tid","tiid"]
+        },{
+            "kotobara":["ima","jma"]
+        },{
+            "kotobara":["dan"]
+        },{
+            "kotobara":["mirai","mjrai"]
+        },{
+            "kotobara":["fami"]
+        },{
+            "kotobara":["matetundjin"]
+        },{
+            "kotobara":["matetun"]
+        },{
+            "kotobara":["pojk"]
+        },{
+            "kotobara":["tutr"]
+        },{
+            "kotobara":["sawi"]
+        },{
+            "kotobara":["gammellapsi"]
+        },{
+            "kotobara":["sisco"]
+        },{
+            "kotobara":["bruur"]
+        },{
+            "kotobara":["nia"]
+        },{
+            "kotobara":["papa"]
+        },{
+            "kotobara":["mama"]
+        },{
+            "kotobara":["fi"]
+        },{
+            "kotobara":["kzin"]
+        },{
+            "kotobara":["gammelpapa"]
+        },{
+            "kotobara":["gammelmama"]
+        },{
+            "kotobara":["gammelryodjin"]
+        },{
+            "kotobara":["ryodjin"]
+        },{
+            "kotobara":["lapsi"]
+        },{
+            "kotobara":["mipi"]
+        },{
+            "kotobara":["stur","stuur"]
+        },{
+            "kotobara":["simpel"]
+        },{
+            "kotobara":["haste","haaste"]
+        },{
+            "kotobara":["vikoli"]
+        },{
+            "kotobara":["kotoli"]
+        },{
+            "kotobara":["libre"]
+        },{
+            "kotobara":["ergoplas"]
+        },{
+            "kotobara":["daag","dag"]
+        },{
+            "kotobara":["uk","uuk"]
+        },{
+            "kotobara":["muai","mwuai","mwai"]
+        },{
+            "kotobara":["tosui","tosuj"]
+        },{
+            "kotobara":["sho"]
+        },{
+            "kotobara":["funn","fun"]
+        },{
+            "kotobara":["dzikjann","dzikjan","dzikyan"]
+        },{
+            "kotobara":["prapataj","prapatai"]
+        },{
+            "kotobara":["akote"]
+        },{
+            "kotobara":["paara","para"]
+        },{
+            "kotobara":["praapa"]
+        },{
+            "kotobara":["tsatain"]
+        },{
+            "kotobara":["tun"]
+        },{
+            "kotobara":["vona"]
+        },{
+            "kotobara":["sjiny","sjini","szini"]
+        },{
+            "kotobara":["uten"]
+        },{
+            "kotobara":["utenvona"]
+        },{
+            "kotobara":["strela"]
+        },{
+            "kotobara":["nord"]
+        },{
+            "kotobara":["ost","øst"]
+        },{
+            "kotobara":["sud"]
+        },{
+            "kotobara":["west","uest"]
+        },{
+            "kotobara":["fura"]
+        },{
+            "kotobara":["hina"]
+        },{
+            "kotobara":["mygy"]
+        },{
+            "kotobara":["ljeva","larava"]
+        },{
+            "kotobara":["oba"]
+        },{
+            "kotobara":["unna"]
+        },{
+            "kotobara":["klar"]
+        },{
+            "kotobara":["mietta"]
+        },{
+            "kotobara":["k'"]
+        },{
+            "kotobara":["iske","ishke"]
+        },{
+            "kotobara":["nilting"]
+        },{
+            "kotobara":["sotting"]
+        },{
+            "kotobara":["magasin"]
+        },{
+            "kotobara":["grun"]
+        },{
+            "kotobara":["naze"]
+        },{
+            "kotobara":["rzinzai"]
+        },{
+            "kotobara":["tsui"]
+        },{
+            "kotobara":["plus"]
+        },{
+            "kotobara":["plus-"]
+        },{
+            "kotobara":["plusgammel"]
+        },{
+            "kotobara":["plusglau"]
+        },{
+            "kotobara":["plusmirai"]
+        },{
+            "kotobara":["gammel"]
+        },{
+            "kotobara":["minus"]
+        },{
+            "kotobara":["minus-"]
+        },{
+            "kotobara":["minustur","minustuur"]
+        },{
+            "kotobara":["minusvapa"]
+        },{
+            "kotobara":["minusbjurki"]
+        },{
+            "kotobara":["vapa"]
+        },{
+            "kotobara":["bjurki"]
+        },{
+            "kotobara":["kjomi"]
+        },{
+            "kotobara":["ine","inne","inge","inje","inye"]
+        },{
+            "kotobara":["ecso"]
+        },{
+            "kotobara":["sk-"]
+        },{
+            "kotobara":["skecso"]
+        },{
+            "kotobara":["tulla"]
+        },{
+            "kotobara":["sturdai","stuurdai"]
+        },{
+            "kotobara":["hjaku","hiaku"]
+        },{
+            "kotobara":["tuhat","tuhaat","tuhát"]
+        },{
+            "kotobara":["lacsaq"]
+        },{
+            "kotobara":["catie","catíe"]
+        },{
+            "kotobara":["milion","miljon","ipni"]
+        },{
+            "kotobara":["iptre"]
+        },{
+            "kotobara":["ipkiere"]
+        },{
+            "kotobara":["ipgo"]
+        },{
+            "kotobara":["kn-"]
+        },{
+            "kotobara":["knlaksu"]
+        },{
+            "kotobara":["hadji"]
+        },{
+            "kotobara":["owari"]
+        },{
+            "kotobara":["bli","bli-"]
+        },{
+            "kotobara":["po","po-"]
+        },{
+            "kotobara":["benj"]
+        },{
+            "kotobara":["jamete","yamete"]
+        },{
+            "kotobara":["naideki"]
+        },{
+            "kotobara":["heljo","helio"]
+        },{
+            "kotobara":["vulcanis"]
+        },{
+            "kotobara":["afroidis"]
+        },{
+            "kotobara":["airis"]
+        },{
+            "kotobara":["jainos","iainos"]
+        },{
+            "kotobara":["crenos"]
+        },{
+            "kotobara":["mirairis"]
+        },{
+            "kotobara":["posaidis"]
+        },{
+            "kotobara":["plasdai"]
+        },{
+            "kotobara":["avara"]
+        },{
+            "kotobara":["solh"]
+        },{
+            "kotobara":["samui"]
+        },{
+            "kotobara":["luna"]
+        },{
+            "kotobara":["veltnen"]
+        },{
+            "kotobara":["notameriklantdai"]
+        },{
+            "kotobara":["sutameriklantdai"]
+        },{
+            "kotobara":["juroplantdai","iuroplantdai"]
+        },{
+            "kotobara":["afriklantdai"]
+        },{
+            "kotobara":["ejzjalantdai","eizialantdai"]
+        },{
+            "kotobara":["australantdai"]
+        },{
+            "kotobara":["antarctiklantdai","samuidailantdai"]
+        },{
+            "kotobara":["kini"]
+        },{
+            "kotobara":["circas"]
+        },{
+            "kotobara":["kakuyena","kakuena"]
+        },{
+            "kotobara":["kiniena","kiniyena"]
+        },{
+            "kotobara":["auki"]
+        },{
+            "kotobara":["dvera"]
+        },{
+            "kotobara":["aukiena","aukiyena"]
+        },{
+            "kotobara":["crusca"]
+        },{
+            "kotobara":["lemo"]
+        },{
+            "kotobara":["bestfraut"]
+        },{
+            "kotobara":["uva","vinjafraut"]
+        },{
+            "kotobara":["cerfraut"]
+        },{
+            "kotobara":["ahavja"]
+        },{
+            "kotobara":["nihunfraut"]
+        },{
+            "kotobara":["persefraut"]
+        },{
+            "kotobara":["mago"]
+        },{
+            "kotobara":["ananas"]
+        },{
+            "kotobara":["niog"]
+        },{
+            "kotobara":["afefraut","fugelfraut"]
+        },{
+            "kotobara":["fraut"]
+        },{
+            "kotobara":["hanuki"],
+            "mahaNa":["hanu","-ki"]
+        },{
+            "kotobara":["-ki"]
+        },{
+            "kotobara":["dare"]
+        },{
+            "kotobara":["spor"]
+        },{
+            "kotobara":["svar"]
+        },{
+            "kotobara":["naivil"]
+        },{
+            "kotobara":["sot"]
+        },{
+            "kotobara":["sporko"]
+        },{
+            "kotobara":["doko"]
+        },{
+            "kotobara":["koske","cosce"]
+        },{
+            "kotobara":["perka"]
+        },{
+            "kotobara":["hur","huur"]
+        },{
+            "kotobara":["katai"]
+        },{
+            "kotobara":["atai"]
+        },{
+            "kotobara":["bruk"]
+        },{
+            "kotobara":["atechi","riobohna"]
+        },{
+            "kotobara":["protofugel"]
+        },{
+            "kotobara":["bihmidur"]
+        },{
+            "kotobara":["njudur","niudur"]
+        },{
+            "kotobara":["bagueh"]
+        },{
+            "kotobara":["dur","duur"]
+        },{
+            "kotobara":["mora"]
+        },{
+            "kotobara":["ivel"]
+        },{
+            "kotobara":["naht"]
         }
     ]
 }
