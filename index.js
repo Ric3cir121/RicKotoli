@@ -106,7 +106,7 @@ function updateSearch(){
         for(let result of kotobaraLibre){
             score = Infinity;
             for(let kotoba of result.kotobara)
-                score = Math.min(score, levenshteinDistance(input.toLowerCase(), kotoba.toLowerCase()) - (kotoba.length - input.length) * .6);
+                score = Math.min(score, levenshteinDistance(input.toLowerCase(), kotoba.toLowerCase()) - (kotoba.length - input.length) * .9);
             kotobaScore[result.kotobara[0]] = score;
         }
         kotobaraLibre.sort((a,b) => (kotobaScore[a.kotobara[0]] > kotobaScore[b.kotobara[0]]) -.5);
