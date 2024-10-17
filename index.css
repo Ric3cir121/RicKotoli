@@ -127,7 +127,7 @@ body {
     margin: 0in;
     padding: 0.075in;
     flex: 1 1 auto;
-    grid-template-columns: repeat(auto-fit, minmax(3.5in, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(2.75in, 1fr));
     display: grid;
 
     background-color: #0000;
