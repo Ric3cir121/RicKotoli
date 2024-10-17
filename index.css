@@ -136,8 +136,9 @@ body {
     margin: 0.075in;
     padding: 0.1in;
     border-radius: .12in;
-    display: inline;
-    height: 1in;
+    display: flex;
+    flex-direction: column;
+    height: 1.05in;
 
     box-shadow: 0in .01in .1in #00000020;
 }
@@ -145,6 +146,7 @@ body {
     display: flex;
     overflow: hidden;
     justify-content: space-between;
+    flex-shrink: 0;
     width: 100%;
 }
 .risonen {
@@ -160,9 +162,21 @@ body {
 }
 .kotobara {
     overflow: hidden;
+    margin-bottom: .05in;
     text-overflow: ellipsis;
     font-weight: bold;
     white-space: nowrap;
+    flex-shrink: 0;
     font-size: 80%;
     opacity: 60%;
+}
+.resultExtra {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    flex-grow: 1;
+
+    /* Not even god knows how to cut the text on a div with variable height */
+
+    font-size: 90%;
+    opacity: 80%;
 }

@@ -139,6 +139,17 @@ function updateSearch(){
         if(alKotobara.length >= 2)alKotobara = alKotobara.slice(0,-2);
         searchResult.innerHTML += '<div class="kotobara">' + alKotobara + '</div>';
 
+        let resultExtra = '';
+
+        if(kotobaraLibre[i].mahaNa)  resultExtra += '<b>Maha na:</b> ' + kotobaraLibre[i].mahaNa.join(' + ') + '<br>';
+    
+        if(kotobaraLibre[i].sama)    resultExtra += '<b>= Sama:</b> ' + kotobaraLibre[i].sama.join(', ') + '<br>';
+        if(kotobaraLibre[i].lik)     resultExtra += '<b>≈ Lik:</b> ' + kotobaraLibre[i].lik.join(', ') + '<br>';
+        if(kotobaraLibre[i].aparLik) resultExtra += '<b>Apar lik:</b> ' + kotobaraLibre[i].aparLik.join(', ') + '<br>';
+        if(kotobaraLibre[i].kundr)   resultExtra += '<b>Kundr:</b> ' + kotobaraLibre[i].kundr.join(', ') + '<br>';
+
+        searchResult.innerHTML += '<div class="resultExtra">' + resultExtra + '</div>';
+
         searchResultsContainer.appendChild(searchResult);
     }
 }
