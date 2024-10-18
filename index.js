@@ -439,7 +439,7 @@ async function updateKotoli(){
         if(kotoba.opetara)      optionalProgress++;
         if(kotoba.anderKotobara)mandatoryProgress++;
 
-        kotoliProgress += mandatoryProgress/2.*.5 + optionalProgress/6.*.5;
+        kotoliProgress += Math.min(mandatoryProgress/2.*.75 + optionalProgress/6.*.5,1.);
     }
     let kotoliPercentage = kotoliProgress / kotoli.kotoli.length;
     let progressBar = document.getElementById('progressBar');
