@@ -2,6 +2,7 @@ var kotoli = {
     kotoli: []
 };
 
+var kotoliProgress = undefined;
 var displayMode = undefined;
 var currentTheme = undefined;
 
@@ -131,12 +132,19 @@ function spawnElements(){
     searchBar.oninput = updateSearch;
     topBar.appendChild(searchBar);
 
-    document.body.querySelector('#mainContent').appendChild(topBar);
+    document.getElementById('mainContent').appendChild(topBar);
 
     let noCodeAlert = document.createElement('p');
     noCodeAlert.classList.add('center');
     noCodeAlert.innerHTML = 'Da se <a href="https://github.com/Ric3cir121/RicKotoli">Ric3cir121/RicKotoli</a> na Github, os <a href="kotoli.json">kotoli.json</a><br>';
     noCodeAlert.innerHTML += 'Li du se uso os opeta warui os uwaki, sidt ring @KuowoRic na Viossa Diskordserver';
+    document.getElementById('mainContent').appendChild(noCodeAlert);
+
+    let progressBar = document.createElement('p');
+    progressBar.id = 'progressBar';
+    progressBar.classList.add('center');
+    progressBar.innerHTML = '';
+    document.getElementById('mainContent').appendChild(progressBar);
 
     let searchResultsContainer = document.createElement('div');
     searchResultsContainer.id = 'searchResultsContainer';
@@ -415,9 +423,27 @@ function autoSetTheme(){
 }
 async function updateKotoli(){
     kotoli = await (await fetch('kotoli.json')).json();
+    kotoliProgress = 0;
     for(let i=0; i<kotoli.kotoli.length; i++){
-        kotoli.kotoli[i].id = i;
+        let kotoba = kotoli.kotoli[i];
+        kotoba.id = i;
+
+        let mandatoryProgress = 0;
+        let optionalProgress = 0;
+        if(kotoba.risonen)      optionalProgress++;
+        if(kotoba.imi)          mandatoryProgress++;
+        if(kotoba.sama)         optionalProgress++;
+        if(kotoba.lik)          optionalProgress++;
+        if(kotoba.aparLik)      optionalProgress++;
+        if(kotoba.kundr)        optionalProgress++;
+        if(kotoba.opetara)      optionalProgress++;
+        if(kotoba.anderKotobara)mandatoryProgress++;
+
+        kotoliProgress += mandatoryProgress/2.*.5 + optionalProgress/6.*.5;
     }
+    let kotoliPercentage = kotoliProgress / kotoli.kotoli.length;
+    let progressBar = document.getElementById('progressBar');
+    progressBar.innerHTML = Math.round(kotoliPercentage*10000.)/100. + '% (' + Math.round(kotoliProgress*100.)/100. + '/' + kotoli.kotoli.length + ' kotobara)';
     updateSearch();
 }
 
