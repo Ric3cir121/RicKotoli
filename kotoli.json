@@ -736,7 +736,7 @@
             "kotobara":["niog"]
         },{
             "kotobara":["afefraut","fugelfraut"],
-            "imi":"kiwi ie midori au ___ fraut",
+            "imi":"kiwi ie midori au kafe fraut",
             "risonen":["🥝"],
             "anderKotobara":["fraut"]
         },{
@@ -1297,6 +1297,8 @@
         },{
             "kotobara":["-s"],
             "anderKotobara":["-a","-ara","ip-","kn-","ein","ni","tre","kiere","go","eksi","nana","kase","non","den","hjaku","tuhat","lacsaq","catie","milion","iptre","ipkiere","ipgo","lasku"]
+        },{
+            "kotobara":["kafe"]
         }
     ]
 }
