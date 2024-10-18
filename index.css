@@ -190,3 +190,7 @@ body {
     font-size: 90%;
     opacity: 80%;
 }
+
+.center {
+    text-align: center;
+}
