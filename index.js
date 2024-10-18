@@ -22,6 +22,24 @@ function levenshteinDistance(a, b){
     return board[aLen-1 + (bLen-1)*aLen];
 }
 
+function findKotoba(kotoli, kotoba){
+    fal = undefined;
+    if(kotoba.split(' ').length == 2){
+        fal = kotoba.split(' ').slice(-1)[0].slice(1,-1);
+        kotoba = kotoba.split(' ')[0];
+    }
+    for(let i=0; i<kotoli.kotoli.length; i++){
+        if(kotoli.kotoli[i].kotobara.includes(kotoba)){
+            if(kotoli.kotoli[i].fal){
+                if(kotoli.kotoli[i].fal == fal) return i;
+            } else {
+                if(!fal) return i;
+            }
+        }
+    }
+    return -1;
+}
+
 function sortKotoli(copyText){
     /*
         Only used internally, not in the program.
@@ -30,11 +48,59 @@ function sortKotoli(copyText){
      */
     kotoli.kotoli.sort((a,b) => (a.kotobara[0].toLowerCase() > b.kotobara[0].toLowerCase()) -.5);
     for(let kotoba of kotoli.kotoli){
-        if(kotoba.sama)kotoba.sama.sort();
-        if(kotoba.lik)kotoba.lik.sort();
-        if(kotoba.aparLik)kotoba.aparLik.sort();
-        if(kotoba.kundr)kotoba.kundr.sort();
-        if(kotoba.anderKotobara)kotoba.anderKotobara.sort();
+        let fullKotoba = kotoba.kotobara[0];
+        if(kotoba.fal) fullKotoba += ' (' + kotoba.fal + ')';
+
+        for(key of ['sama','lik','aparLik','kundr','anderKotobara']){
+            if(kotoba[key]){
+                let kotobara = [];
+                for(item of kotoba[key]){
+                    let search = findKotoba(kotoli, item);
+                    if(search != -1){
+                        let searchKotoba = kotoli.kotoli[search].kotobara[0]
+                        if(kotoli.kotoli[search].fal) searchKotoba += ' (' + kotoli.kotoli[search].fal + ')';
+
+                        if(!kotoli.kotoli[search][key])
+                            kotoli.kotoli[search][key] = [];
+                        if(!kotoli.kotoli[search][key].includes(fullKotoba)){
+                            console.log('Kotoba "' + fullKotoba + '" has a "' + key + '" that wasn\'t referenced in the word "' + item + '"')
+                            kotoli.kotoli[search][key].push(fullKotoba)
+                        }
+                        if(searchKotoba != item){
+                            console.log('Kotoba "' + fullKotoba + '" has a "' + key + '" that wasn\'t written correctly (previous: "' + item + '", corrected: "' + searchKotoba + '")')
+                        }
+                        if(!kotobara.includes(searchKotoba))
+                            kotobara.push(searchKotoba)
+                    } else {
+                        console.log('Kotoba "' + fullKotoba + '" has a "' + key + '" that wasn\'t found in the dictionary: ' + item)
+                    }
+                }
+                kotoba[key] = kotobara;
+                if(kotoba[key].length == 0){
+                    delete kotoba[key];
+                } else
+                    kotoba[key].sort();
+            }
+            if(kotoba.mahaNa){
+                let mahaNa = [];
+                for(item of kotoba.mahaNa){
+                    let search = findKotoba(kotoli, item);
+                    if(search != -1){
+                        let searchKotoba = kotoli.kotoli[search].kotobara[0]
+                        if(kotoli.kotoli[search].fal) searchKotoba += ' (' + kotoli.kotoli[search].fal + ')';
+    
+                        if(searchKotoba != item){
+                            console.log('Kotoba "' + fullKotoba + '" has a "' + key + '" that wasn\'t written correctly (previous: "' + item + '", corrected: "' + searchKotoba + '")')
+                        }
+                        mahaNa.push(searchKotoba)
+                    } else {
+                        console.log('Kotoba "' + fullKotoba + '" has a "mahaNa" that wasn\'t found in the dictionary: ' + item)
+                    }
+                }
+                kotoba.mahaNa = mahaNa;
+                if(kotoba.mahaNa.length == 0) delete kotoba.mahaNa;
+            }
+        }
         delete kotoba.id;
     }
     let result = JSON.stringify(kotoli, null, 4);
