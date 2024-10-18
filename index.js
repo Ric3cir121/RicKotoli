@@ -206,13 +206,13 @@ function updateSearch(){
         for(let result of kotobaraLibre){
             score = Infinity;
             for(let kotoba of result.kotobara)
-                score = Math.min(score, levenshteinDistance(input.toLowerCase(), kotoba.toLowerCase()) - (kotoba.length - input.length) * .9);
+                score = Math.min(score, levenshteinDistance(input.toLowerCase(), kotoba.toLowerCase()) - (kotoba.length - input.length) * .7);
             kotobaScore[result.kotobara[0]] = score;
         }
         kotobaraLibre.sort((a,b) => (kotobaScore[a.kotobara[0]] > kotobaScore[b.kotobara[0]]) -.5);
         let badScore = 0;
         for(badScore=0; badScore<kotobaraLibre.length; badScore++)
-            if(kotobaScore[kotobaraLibre[badScore].kotobara[0]] > 3)break;
+            if(kotobaScore[kotobaraLibre[badScore].kotobara[0]] > 6)break;
         kotobaraLibre = kotobaraLibre.slice(0,badScore);
     } else {
         kotobaraLibre.sort((a,b) => (a.kotobara[0].toLowerCase() > b.kotobara[0].toLowerCase()) -.5);
