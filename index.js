@@ -39,7 +39,8 @@ function spawnElements(){
 
     let noCodeAlert = document.createElement('p');
     noCodeAlert.appendChild(document.createElement('center'));
-    noCodeAlert.querySelector('center').innerHTML += 'Da se <a href="https://github.com/Ric3cir121/RicKotoli">Ric3cir121/RicKotoli</a> na Github, os <a href="kotoli.json">kotoli.json</a>';
+    noCodeAlert.querySelector('center').innerHTML += 'Da se <a href="https://github.com/Ric3cir121/RicKotoli">Ric3cir121/RicKotoli</a> na Github, os <a href="kotoli.json">kotoli.json</a><br>';
+    noCodeAlert.querySelector('center').innerHTML += 'Li du se uso os opeta warui os uwaki, sidt ring @KuowoRic na Viossa Diskordserver';
     document.body.querySelector('#mainContent').appendChild(noCodeAlert);
 
     let searchResultsContainer = document.createElement('div');
