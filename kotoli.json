@@ -29,17 +29,17 @@
             "imi": "Afto kotoba ie per al pashun fal",
             "lik": ["pashun"],
             "opetara": ["Opetadjin 🧑‍🏫\nLeradjin 🧑‍🎓\nTajkadjin 🧙\nOjogidjin 🏊"],
-            "anderKotobara": ["ryodjin","haekdjin","leradjin","beandjin","daremdjin","ojogidjin","opetadjin","tajkadjin","matetundjin","gammelryodjin"]
+            "anderKotobara": ["beandjin", "daremdjin", "gammelryodjin", "haekdjin", "leradjin", "matetundjin", "ojogidjin", "opetadjin", "ryodjin", "tajkadjin"]
         },{
             "kotobara": ["-ki"],
             "lik": ["deki"],
-            "opetara": ["A: Du hanuki?\n=\nA: Du deki hanu?","A: Al pashun ka kakuki na viossa.\n=\nA: Al pashun ka deki kaku na viossa."],
+            "opetara": ["A: Du hanuki?\n=\nA: Du deki hanu?", "A: Al pashun ka kakuki na viossa.\n=\nA: Al pashun ka deki kaku na viossa."],
             "anderKotobara": ["hanuki"]
         },{
             "kotobara": ["-ko"],
             "lik": ["kotoba"],
-            "opetara": ["\"ka\" au \"perka\" au \"hur\" au \"katai\" ie al sporko.","\"Opetadjin\" au \"leradjin\" au \"tajkadjin\" ie al \"pashko\"."],
-            "anderKotobara": ["tingko","pashko","ranjako","sporko","suruko"]
+            "opetara": ["\"ka\" au \"perka\" au \"hur\" au \"katai\" ie al sporko.", "\"Opetadjin\" au \"leradjin\" au \"tajkadjin\" ie al \"pashko\"."],
+            "anderKotobara": ["pashko", "ranjako", "sporko", "suruko", "tingko"]
         },{
             "kotobara": ["-nen"],
             "risonen": ["🤏"],
@@ -51,7 +51,7 @@
             "kotobara": ["-ossa"],
             "risonen": ["📖", "📚", "🌐"],
             "lik": ["glossa"],
-            "anderKotobara": ["viossa","anglossa","suugossa","nihonossa","butwanossa","espanjossa","surigaossa"]
+            "anderKotobara": ["anglossa", "butwanossa", "espanjossa", "nihonossa", "surigaossa", "suugossa", "viossa"]
         },{
             "kotobara": ["-s"],
             "anderKotobara": ["-a", "-ara", "catie", "den", "ein", "eksi", "go", "hjaku", "ip-", "ipgo", "ipkiere", "iptre", "kase", "kiere", "kn-", "lacsaq", "lasku", "milion", "nana", "ni", "non", "tre", "tuhat"]
@@ -96,7 +96,8 @@
         },{
             "kotobara": ["ander"]
         },{
-            "kotobara": ["anglossa"]
+            "kotobara": ["anglossa"],
+            "anderKotobara": ["-ossa"]
         },{
             "kotobara": ["anta"]
         },{
@@ -147,9 +148,10 @@
         },{
             "kotobara": ["bean"]
         },{
-            "kotobara": ["beandjina"]
+            "kotobara": ["beandjin"],
+            "anderKotobara": ["-djin"]
         },{
-            "kotobara": ["beandjin"]
+            "kotobara": ["beandjina"]
         },{
             "kotobara": ["benj"]
         },{
@@ -202,7 +204,8 @@
         },{
             "kotobara": ["bruur"]
         },{
-            "kotobara": ["butwanossa"]
+            "kotobara": ["butwanossa"],
+            "anderKotobara": ["-ossa"]
         },{
             "kotobara": ["bystra"]
         },{
@@ -245,13 +248,15 @@
         },{
             "kotobara": ["darem"]
         },{
-            "kotobara": ["daremdjin"]
+            "kotobara": ["daremdjin"],
+            "anderKotobara": ["-djin"]
         },{
             "kotobara": ["davai"]
         },{
             "kotobara": ["de"]
         },{
-            "kotobara": ["deki", "dece", "deci"]
+            "kotobara": ["deki", "dece", "deci"],
+            "lik": ["-ki"]
         },{
             "kotobara": ["den"],
             "anderKotobara": ["-a", "-ara", "-s", "catie", "ein", "eksi", "go", "hjaku", "ip-", "ipgo", "ipkiere", "iptre", "kase", "kiere", "kn-", "lacsaq", "lasku", "milion", "nana", "ni", "non", "tre", "tuhat"]
@@ -317,7 +322,8 @@
         },{
             "kotobara": ["espanj-"]
         },{
-            "kotobara": ["espanjossa"]
+            "kotobara": ["espanjossa"],
+            "anderKotobara": ["-ossa"]
         },{
             "kotobara": ["fami"]
         },{
@@ -366,7 +372,8 @@
         },{
             "kotobara": ["gammelpapa"]
         },{
-            "kotobara": ["gammelryodjin"]
+            "kotobara": ["gammelryodjin"],
+            "anderKotobara": ["-djin"]
         },{
             "kotobara": ["gavat"]
         },{
@@ -382,7 +389,8 @@
             "kotobara": ["glaubi"]
         },{
             "kotobara": ["glossa"],
-            "anderKotobara": ["viossa"]
+            "anderKotobara": ["viossa"],
+            "lik": ["-ossa"]
         },{
             "kotobara": ["glug"],
             "anderKotobara": ["hyr"]
@@ -406,7 +414,8 @@
             "kotobara": ["hadji"],
             "kundr": ["owari"]
         },{
-            "kotobara": ["haekdjin"]
+            "kotobara": ["haekdjin"],
+            "anderKotobara": ["-djin"]
         },{
             "kotobara": ["haesa"]
         },{
@@ -419,7 +428,8 @@
             "kotobara": ["hanu"]
         },{
             "kotobara": ["hanuki"],
-            "mahaNa": ["hanu", "-ki"]
+            "mahaNa": ["hanu", "-ki"],
+            "anderKotobara": ["-ki"]
         },{
             "kotobara": ["hapigo"]
         },{
@@ -614,7 +624,8 @@
             "kotobara": ["koto"]
         },{
             "kotobara": ["kotoba"],
-            "anderKotobara": ["vikoli"]
+            "anderKotobara": ["vikoli"],
+            "lik": ["-ko"]
         },{
             "kotobara": ["kotobara"]
         },{
@@ -666,7 +677,8 @@
         },{
             "kotobara": ["lera"]
         },{
-            "kotobara": ["leradjin"]
+            "kotobara": ["leradjin"],
+            "anderKotobara": ["-djin"]
         },{
             "kotobara": ["lerarum"],
             "risonen": ["🧑‍🏫", "🏫"],
@@ -739,7 +751,8 @@
         },{
             "kotobara": ["matetun"]
         },{
-            "kotobara": ["matetundjin"]
+            "kotobara": ["matetundjin"],
+            "anderKotobara": ["-djin"]
         },{
             "kotobara": ["me"]
         },{
@@ -860,7 +873,8 @@
         },{
             "kotobara": ["nihon-"]
         },{
-            "kotobara": ["nihonossa"]
+            "kotobara": ["nihonossa"],
+            "anderKotobara": ["-ossa"]
         },{
             "kotobara": ["nihunfraut"]
         },{
@@ -904,7 +918,8 @@
         },{
             "kotobara": ["ohare"]
         },{
-            "kotobara": ["ojogidjin"]
+            "kotobara": ["ojogidjin"],
+            "anderKotobara": ["-djin"]
         },{
             "kotobara": ["omarnamgin"]
         },{
@@ -912,7 +927,8 @@
         },{
             "kotobara": ["opeta"]
         },{
-            "kotobara": ["opetadjin"]
+            "kotobara": ["opetadjin"],
+            "anderKotobara": ["-djin"]
         },{
             "kotobara": ["os"]
         },{
@@ -953,7 +969,7 @@
         },{
             "kotobara": ["pashko", "paško", "pashkotoba"],
             "mahaNa": ["pashun", "kotoba"],
-            "anderKotobara": ["pashun"]
+            "anderKotobara": ["-ko", "pashun"]
         },{
             "kotobara": ["pashun", "pašun", "pershun", "pash", "pas", "paš"],
             "risonen": ["🧍‍♀️", "🧍", "🧍‍♂️"],
@@ -1044,7 +1060,8 @@
         },{
             "kotobara": ["ranja"]
         },{
-            "kotobara": ["ranjako"]
+            "kotobara": ["ranjako"],
+            "anderKotobara": ["-ko"]
         },{
             "kotobara": ["raz"]
         },{
@@ -1073,7 +1090,7 @@
             "kotobara": ["ruti"]
         },{
             "kotobara": ["ryodjin"],
-            "anderKotobara": ["mama"]
+            "anderKotobara": ["-djin", "mama"]
         },{
             "kotobara": ["ryr"]
         },{
@@ -1176,7 +1193,8 @@
         },{
             "kotobara": ["spor"]
         },{
-            "kotobara": ["sporko"]
+            "kotobara": ["sporko"],
+            "anderKotobara": ["-ko"]
         },{
             "kotobara": ["stift"]
         },{
@@ -1200,21 +1218,25 @@
         },{
             "kotobara": ["surbisaya"]
         },{
-            "kotobara": ["surigaossa"]
+            "kotobara": ["surigaossa"],
+            "anderKotobara": ["-ossa"]
         },{
             "kotobara": ["suru"]
         },{
-            "kotobara": ["suruko"]
+            "kotobara": ["suruko"],
+            "anderKotobara": ["-ko"]
         },{
             "kotobara": ["suruyena", "surujna"]
         },{
             "kotobara": ["sutameriklantdai"]
         },{
-            "kotobara": ["suugossa"]
+            "kotobara": ["suugossa"],
+            "anderKotobara": ["-ossa"]
         },{
             "kotobara": ["svar"]
         },{
-            "kotobara": ["tajkadjin"]
+            "kotobara": ["tajkadjin"],
+            "anderKotobara": ["-djin"]
         },{
             "kotobara": ["tak"]
         },{
@@ -1242,7 +1264,8 @@
         },{
             "kotobara": ["ting"]
         },{
-            "kotobara": ["tingko"]
+            "kotobara": ["tingko"],
+            "anderKotobara": ["-ko"]
         },{
             "kotobara": ["to"]
         },{
@@ -1373,7 +1396,7 @@
             "kotobara": ["viossa"],
             "risonen": ["🌐", "🗣️", "📝"],
             "imi": "Viossa ie glossa ka al deki lera au kaku au hanu.",
-            "anderKotobara": ["glossa", "vikoli"]
+            "anderKotobara": ["-ossa", "glossa", "vikoli"]
         },{
             "kotobara": ["virta"]
         },{
