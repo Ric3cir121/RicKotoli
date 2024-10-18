@@ -401,7 +401,7 @@ function addSmoothTheme(){
 }
 function autoSetView(){
     let inchWidth = window.innerWidth / document.querySelector('#inchMeter').offsetWidth;
-    if (inchWidth < 11.15){
+    if (inchWidth < 9.65){
         setViewMode('mobile');
     } else {
         setViewMode('desktop');
