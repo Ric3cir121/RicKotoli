@@ -559,11 +559,14 @@
         },{
             "kotobara": ["koto"]
         },{
-            "kotobara": ["kotoba"]
+            "kotobara": ["kotoba"],
+            "anderKotobara": ["vikoli"]
         },{
             "kotobara": ["kotobara"]
         },{
-            "kotobara": ["kotoli"]
+            "kotobara": ["kotoli"],
+            "aparLik": ["vikoli"],
+            "anderKotobara": ["vikoli"]
         },{
             "kotobara": ["kto"]
         },{
@@ -621,7 +624,8 @@
         },{
             "kotobara": ["li"]
         },{
-            "kotobara": ["libre"]
+            "kotobara": ["libre"],
+            "anderKotobara": ["vikoli"]
         },{
             "kotobara": ["lik", "lyk", "likke"],
             "risonen": ["≈"],
@@ -857,7 +861,7 @@
         },{
             "kotobara": ["owari"],
             "risonen": ["🏁"],
-            "lik": ["jamete", "po-"],
+            "lik": ["jamete", "po"],
             "kundr": ["hadji"],
             "opetara": ["1: un nai nam \n2: un hadji nam\n3: un nam\n4: un owari nam 🏁\n5: un nai nam "]
         },{
@@ -925,7 +929,7 @@
             "kotobara": ["pluj"]
         },{
             "kotobara": ["plus", "plus-"],
-            "kundr": ["plus"]
+            "kundr": ["minus"]
         },{
             "kotobara": ["plusgammel"]
         },{
@@ -947,7 +951,8 @@
         },{
             "kotobara": ["portokale", "portokali", "portukale", "portukali", "portocale", "portocali", "portucale", "portucali"],
             "fal": "fraut",
-            "risonen": ["🍊"]
+            "risonen": ["🍊"],
+            "anderKotobara": ["fraut"]
         },{
             "kotobara": ["posaidis"]
         },{
@@ -1257,7 +1262,13 @@
         },{
             "kotobara": ["viha"]
         },{
-            "kotobara": ["vikoli"]
+            "kotobara": ["vikoli"],
+            "risonen": ["📖", "📚", "🌐"],
+            "mahaNa": ["viossa", "kotoba", "libre"],
+            "imi": "Vikoli ie plas mahena mit mange lehti, koske vi al deki lera viossa",
+            "aparLik": ["kotoli"],
+            "opetara": ["Al afto ie vikoli, du deki lera mange na afto plas, au deki sukha al kotoba ka vasu"],
+            "anderKotobara": ["kotoba", "kotoli", "libre", "viossa"]
         },{
             "kotobara": ["vil"]
         },{
@@ -1268,7 +1279,8 @@
             "opetara": ["Jam mange vint huomi kara"],
             "anderKotobara": ["luft"]
         },{
-            "kotobara": ["viossa"]
+            "kotobara": ["viossa"],
+            "anderKotobara": ["vikoli"]
         },{
             "kotobara": ["virta"]
         },{
