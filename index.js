@@ -100,6 +100,9 @@ function sanitize(text){
 }
 function updateSearch(){
     let input = document.querySelector('.searchBar').value ?? "";
+    for(const replace of [["а","a"],["б","b"],["в","v"],["г","g"],["д","d"],["е","e"],["ё","jo"],["ж","zh"],["з","z"],["и","i"],["й","j"],["к","k"],["л","l"],["м","m"],["н","n"],
+        ["о","o"],["п","p"],["р","r"],["с","s"],["т","t"],["у","u"],["ф","f"],["х","h"],["ц","ts"],["ч","ch"],["ш","sh"],["щ",""],["ы","uj"],["э","e"],["ю","ju"],["я","ja"]])
+        input = input.replaceAll(replace[0],replace[1]);
     kotobaraLibre = kotoli.kotoli.slice()
     if(input){
         let kotobaScore = {}
