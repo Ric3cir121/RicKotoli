@@ -1,1304 +1,1304 @@
 {
-    "kotoli":[
+    "kotoli": [
         {
-            "kotobara":["jaa","ja","yā","ya","jâ","iá","ia"],
-            "risonen":["👋"],
-            "kundr":["jaa"],
-            "opetara":["A: Jaa! Ka slutcha?\nB: Un bra, au du?\nA: Un bra awen!"]
+            "kotobara": ["-a"],
+            "anderKotobara": ["-ara", "-s", "catie", "den", "ein", "eksi", "go", "hjaku", "ip-", "ipgo", "ipkiere", "iptre", "kase", "kiere", "kn-", "lacsaq", "lasku", "milion", "nana", "ni", "non", "tre", "tuhat"]
         },{
-            "kotobara":["ru"],
-            "risonen":["🔴","🟥"]
+            "kotobara": ["-ara"],
+            "anderKotobara": ["-a", "-s", "catie", "den", "ein", "eksi", "go", "hjaku", "ip-", "ipgo", "ipkiere", "iptre", "kase", "kiere", "kn-", "lacsaq", "lasku", "milion", "nana", "ni", "non", "tre", "tuhat"]
         },{
-            "kotobara":["portokale","portokali","portukale","portukali","portocale","portocali","portucale","portucali"],
-            "fal":"varge",
-            "risonen":["🟠","🟧"]
+            "kotobara": ["-dai"],
+            "risonen": ["🌌"]
         },{
-            "kotobara":["kiro","kiiro"],
-            "risonen":["🟡","🟨"]
+            "kotobara": ["-djin", "-džin", "-dzjin", "-djinn"],
+            "lik": ["pashun"]
         },{
-            "kotobara":["midori"],
-            "risonen":["🟢","🟩"]
+            "kotobara": ["-ki"]
         },{
-            "kotobara":["siñi","sini"],
-            "risonen":["🩵","🌐","🇺🇳","🇸🇴","🇫🇲"]
+            "kotobara": ["-ko"]
         },{
-            "kotobara":["blau"],
-            "risonen":["🔵","🟦"]
+            "kotobara": ["-nen"],
+            "risonen": ["🤏"]
         },{
-            "kotobara":["mura","murasaki"],
-            "risonen":["🟣","🟪"]
+            "kotobara": ["-ossa"]
         },{
-            "kotobara":["rosa","roza"],
-            "risonen":["🩷","🌷","🌸","🦄","🐽","🐷","🏩","🎀"]
+            "kotobara": ["-s"],
+            "anderKotobara": ["-a", "-ara", "catie", "den", "ein", "eksi", "go", "hjaku", "ip-", "ipgo", "ipkiere", "iptre", "kase", "kiere", "kn-", "lacsaq", "lasku", "milion", "nana", "ni", "non", "tre", "tuhat"]
         },{
-            "kotobara":["shiro","shiiro"],
-            "risonen":["⚪️","⬜️"]
+            "kotobara": ["-tsa"]
         },{
-            "kotobara":["gris"],
-            "risonen":["🩶","📎","🪦","☑️","📢"]
+            "kotobara": ["-yena", "-iena", "-ena"]
         },{
-            "kotobara":["kuro"],
-            "risonen":["⚫️","⬛️"]
+            "kotobara": ["100"]
         },{
-            "kotobara":["varge","varje","farge","farje"],
-            "risonen":["🎨","🔴","🟠","🟡","🟢","🔵","🟣","⚪️","⚫️"]
+            "kotobara": ["a"]
         },{
-            "kotobara":["lehti"],
-            "risonen":["🍃"]
+            "kotobara": ["afefraut", "fugelfraut"],
+            "imi": "kiwi ie midori au kafe fraut",
+            "risonen": ["🥝"],
+            "anderKotobara": ["fraut"]
         },{
-            "kotobara":["baum"],
-            "risonen":["🌳","🌲","🌴"]
+            "kotobara": ["afriklantdai"]
         },{
-            "kotobara":["velt"],
-            "risonen":["🌎","🗺️","🌐"]
+            "kotobara": ["afroidis"]
         },{
-            "kotobara":["gaia","gaja"],
-            "risonen":["🌎","🌍","🌏"]
+            "kotobara": ["afto", "atto"]
         },{
-            "kotobara":["lant"]
+            "kotobara": ["ahavja"]
         },{
-            "kotobara":["lantdai"],
-            "mahaNa":["lant","-dai"]
+            "kotobara": ["airis"]
         },{
-            "kotobara":["ter"]
+            "kotobara": ["aistia"]
         },{
-            "kotobara":["mare"]
+            "kotobara": ["aja"]
         },{
-            "kotobara":["upasz"]
+            "kotobara": ["akk", "akku", "akkurat", "akrat", "acrat"]
         },{
-            "kotobara":["marenen"]
+            "kotobara": ["akote"]
         },{
-            "kotobara":["virta"]
+            "kotobara": ["al"]
         },{
-            "kotobara":["kot"],
-            "risonen":["🐱"]
+            "kotobara": ["aldok"]
         },{
-            "kotobara":["kotnen"],
-            "risonen":["🐱","🤏"]
+            "kotobara": ["ananas"]
         },{
-            "kotobara":["sewas"],
-            "risonen":["🧊","🎲"]
+            "kotobara": ["ander"]
         },{
-            "kotobara":["sewasnen"],
-            "risonen":["🧊","🎲","🤏"],
-            "mahaNa":["sewas","-nen"]
+            "kotobara": ["anglossa"]
         },{
-            "kotobara":["sewasdai"],
-            "risonen":["🧊","🎲","🌌"],
-            "mahaNa":["sewas","-dai"]
+            "kotobara": ["anta"]
         },{
-            "kotobara":["-nen"],
-            "risonen":["🤏"]
+            "kotobara": ["antarctiklantdai", "samuidailantdai"]
         },{
-            "kotobara":["-dai"],
-            "risonen":["🌌"]
+            "kotobara": ["apar", "apaar"]
         },{
-            "kotobara":["portokale","portokali","portukale","portukali","portocale","portocali","portucale","portucali"],
-            "fal":"fraut",
-            "risonen":["🍊"]
+            "kotobara": ["apu"]
         },{
-            "kotobara":["li"]
+            "kotobara": ["aschor"]
         },{
-            "kotobara":["sidt","sit"]
+            "kotobara": ["asoko"]
         },{
-            "kotobara":["jam","yam","iam"]
+            "kotobara": ["atai"]
         },{
-            "kotobara":["uwaki"]
+            "kotobara": ["atechi", "riobohna"]
         },{
-            "kotobara":["os"]
+            "kotobara": ["au"]
         },{
-            "kotobara":["opeta"]
+            "kotobara": ["auau"]
         },{
-            "kotobara":["warui","waruj","waryi","waryj"]
+            "kotobara": ["auauau"]
         },{
-            "kotobara":["na"]
+            "kotobara": ["auki"]
         },{
-            "kotobara":["riso"]
+            "kotobara": ["aukiena", "aukiyena"]
         },{
-            "kotobara":["afto","atto"]
+            "kotobara": ["australantdai"]
         },{
-            "kotobara":["da"]
+            "kotobara": ["auto"]
         },{
-            "kotobara":["ring","rinj"]
+            "kotobara": ["avara"]
         },{
-            "kotobara":["na"]
+            "kotobara": ["awen", "auen"]
         },{
-            "kotobara":["viossa"]
+            "kotobara": ["azyci"]
         },{
-            "kotobara":["glossa"]
+            "kotobara": ["baasintuadaagca"]
         },{
-            "kotobara":["du"]
+            "kotobara": ["bagueh"]
         },{
-            "kotobara":["vil"]
+            "kotobara": ["bamba"]
         },{
-            "kotobara":["lera"]
+            "kotobara": ["banan"]
         },{
-            "kotobara":["mit"]
+            "kotobara": ["baum"],
+            "risonen": ["🌳", "🌲", "🌴"]
         },{
-            "kotobara":["mono"]
+            "kotobara": ["bean"]
         },{
-            "kotobara":["tastsy","tassty"]
+            "kotobara": ["beandjina"]
         },{
-            "kotobara":["shkoi","sjkoi","skoj","skoi"]
+            "kotobara": ["benj"]
         },{
-            "kotobara":["made"]
+            "kotobara": ["berk"]
         },{
-            "kotobara":["kara"]
+            "kotobara": ["bestfraut"]
         },{
-            "kotobara":["huomi"]
+            "kotobara": ["bihmidur"]
         },{
-            "kotobara":["lehti"]
+            "kotobara": ["bistra"]
         },{
-            "kotobara":["huomilehti"]
+            "kotobara": ["bite"]
         },{
-            "kotobara":["maha","mak"]
+            "kotobara": ["bjelu"]
         },{
-            "kotobara":["mahena"]
+            "kotobara": ["bjurki"]
         },{
-            "kotobara":["-yena","-iena","-ena"]
+            "kotobara": ["bjurkiplas"]
         },{
-            "kotobara":["je","ie","ye","es","i"]
+            "kotobara": ["blau"],
+            "risonen": ["🔵", "🟦"]
         },{
-            "kotobara":["eins"]
+            "kotobara": ["bli", "bli-"]
         },{
-            "kotobara":["kotoba"]
+            "kotobara": ["blin"]
         },{
-            "kotobara":["kotobara"]
+            "kotobara": ["blindan"]
         },{
-            "kotobara":["akk","akku","akkurat","akrat","acrat"]
+            "kotobara": ["bluma"]
         },{
-            "kotobara":["nai"]
+            "kotobara": ["bolka"]
         },{
-            "kotobara":["fshto","fushto","fŝto"]
+            "kotobara": ["boozy"]
         },{
-            "kotobara":["ka"]
+            "kotobara": ["boror"]
         },{
-            "kotobara":["danke"]
+            "kotobara": ["brasintwadatsa"]
         },{
-            "kotobara":["nil"]
+            "kotobara": ["bratsa", "vratsa"]
         },{
-            "kotobara":["wil"]
+            "kotobara": ["breska"]
         },{
-            "kotobara":["pashko","paško","pashkotoba"],
-            "mahaNa":["pashun","kotoba"],
-            "anderKotobara":["pashun"]
+            "kotobara": ["breszka"]
         },{
-            "kotobara":["un"]
+            "kotobara": ["bruk"]
         },{
-            "kotobara":["sore"]
+            "kotobara": ["bruur"]
         },{
-            "kotobara":["vi"]
+            "kotobara": ["butwanossa"]
         },{
-            "kotobara":["dok"]
+            "kotobara": ["bystra"]
         },{
-            "kotobara":["hej"]
+            "kotobara": ["cafe"]
         },{
-            "kotobara":["pashun","pašun","pershun","pash","pas","paš"],
-            "risonen":["🧍‍♀️","🧍","🧍‍♂️"],
-            "lik":["-djin"],
-            "opetara":["Vi pashun, un pashun, du pashun.", "Mange pashun deki nam, se, ialaka, auauau"],
-            "anderKotobara":["pashko"]
+            "kotobara": ["catie", "catíe"],
+            "anderKotobara": ["-a", "-ara", "-s", "den", "ein", "eksi", "go", "hjaku", "ip-", "ipgo", "ipkiere", "iptre", "kase", "kiere", "kn-", "lacsaq", "lasku", "milion", "nana", "ni", "non", "tre", "tuhat"]
         },{
-            "kotobara":["-djin","-džin","-dzjin","-djinn"],
-            "lik":["pashun"]
+            "kotobara": ["cer"]
         },{
-            "kotobara":["opetadjin"]
+            "kotobara": ["cerfraut"]
         },{
-            "kotobara":["leradjin"]
+            "kotobara": ["chad"]
         },{
-            "kotobara":["tajkadjin"]
+            "kotobara": ["circas"]
         },{
-            "kotobara":["ojogidjin"]
+            "kotobara": ["cocro"]
         },{
-            "kotobara":["-ossa"]
+            "kotobara": ["cola"]
         },{
-            "kotobara":["anglossa"]
+            "kotobara": ["corva"]
         },{
-            "kotobara":["nihonossa"]
+            "kotobara": ["crenos"]
         },{
-            "kotobara":["espanjossa"]
+            "kotobara": ["cris"]
         },{
-            "kotobara":["kundr","kundir","kunder","cunder"]
+            "kotobara": ["crusca"]
         },{
-            "kotobara":["sama","samaa","çama"]
+            "kotobara": ["cunin"]
         },{
-            "kotobara":["lik","lyk","likke"],
-            "risonen":["≈"],
-            "opetara":["⚾️ sama ⚾️\n⚾️ lik 🥎\n🟥 lik 🔴\n🚗 lik 🚙\n⚾️ tsigau 🌐","1 sama 1\n1 lik 0.95\n1 tsigau 500"]
+            "kotobara": ["da"]
         },{
-            "kotobara":["apar","apaar"]
+            "kotobara": ["daag", "dag"],
+            "kundr": ["naht"],
+            "anderKotobara": ["naht"]
         },{
-            "kotobara":["tsigau","tsigao","cigau","chigau"]
+            "kotobara": ["dan"]
         },{
-            "kotobara":["kirain"]
+            "kotobara": ["danke"]
         },{
-            "kotobara":["silba"]
+            "kotobara": ["dare"]
         },{
-            "kotobara":["-ko"]
+            "kotobara": ["darem"]
         },{
-            "kotobara":["fraas"]
+            "kotobara": ["daremdjin"]
         },{
-            "kotobara":["punkt"]
+            "kotobara": ["davai"]
         },{
-            "kotobara":["joku"]
+            "kotobara": ["de"]
         },{
-            "kotobara":["al"]
+            "kotobara": ["deki", "dece", "deci"]
         },{
-            "kotobara":["per"]
+            "kotobara": ["den"],
+            "anderKotobara": ["-a", "-ara", "-s", "catie", "ein", "eksi", "go", "hjaku", "ip-", "ipgo", "ipkiere", "iptre", "kase", "kiere", "kn-", "lacsaq", "lasku", "milion", "nana", "ni", "non", "tre", "tuhat"]
         },{
-            "kotobara":["ringo"]
+            "kotobara": ["denwa"]
         },{
-            "kotobara":["torta"]
+            "kotobara": ["der"]
         },{
-            "kotobara":["cola"]
+            "kotobara": ["diskord"]
         },{
-            "kotobara":["cafe"]
+            "kotobara": ["djarper", "diarper"]
         },{
-            "kotobara":["tuo"]
+            "kotobara": ["doich-"]
         },{
-            "kotobara":["asoko"]
+            "kotobara": ["dok"]
         },{
-            "kotobara":["huin"]
+            "kotobara": ["doko"]
         },{
-            "kotobara":["bluma"]
+            "kotobara": ["dronet"]
         },{
-            "kotobara":["pinue"]
+            "kotobara": ["du"]
         },{
-            "kotobara":["fugel"]
+            "kotobara": ["dua"]
         },{
-            "kotobara":["maredur","mareduur","maraidur"]
+            "kotobara": ["dur", "duur"]
         },{
-            "kotobara":["namae","namai","namæ"]
+            "kotobara": ["dush"]
         },{
-            "kotobara":["fu","f'","f-"]
+            "kotobara": ["dvera"]
         },{
-            "kotobara":["au"]
+            "kotobara": ["dzikjann", "dzikjan", "dzikyan"]
         },{
-            "kotobara":["lezi"]
+            "kotobara": ["ecso"]
         },{
-            "kotobara":["glug"]
+            "kotobara": ["efles"]
         },{
-            "kotobara":["nam"]
+            "kotobara": ["ein"],
+            "risonen": ["1️⃣"],
+            "imi": "Afto kotoba per lasku 1",
+            "anderKotobara": ["-a", "-ara", "-s", "catie", "den", "eksi", "go", "hjaku", "ip-", "ipgo", "ipkiere", "iptre", "kase", "kiere", "kn-", "lacsaq", "lasku", "milion", "nana", "ni", "non", "tre", "tuhat"]
         },{
-            "kotobara":["awen","auen"]
+            "kotobara": ["eins"]
         },{
-            "kotobara":["glau"]
+            "kotobara": ["ejzjalantdai", "eizialantdai"]
         },{
-            "kotobara":["trict"]
+            "kotobara": ["eksi"],
+            "anderKotobara": ["-a", "-ara", "-s", "catie", "den", "ein", "go", "hjaku", "ip-", "ipgo", "ipkiere", "iptre", "kase", "kiere", "kn-", "lacsaq", "lasku", "milion", "nana", "ni", "non", "tre", "tuhat"]
         },{
-            "kotobara":["slucha"]
+            "kotobara": ["ekudag"]
         },{
-            "kotobara":["mis","mïs","mish","mush"]
+            "kotobara": ["ende"]
         },{
-            "kotobara":["oy","oj","oi"]
+            "kotobara": ["enterrena"]
         },{
-            "kotobara":["pinuno"]
+            "kotobara": ["ergo"]
         },{
-            "kotobara":["hanu"]
+            "kotobara": ["ergoplas"]
         },{
-            "kotobara":["bite"]
+            "kotobara": ["espanj-"]
         },{
-            "kotobara":["nil wil"]
+            "kotobara": ["espanjossa"]
         },{
-            "kotobara":["gomen"]
+            "kotobara": ["fami"]
         },{
-            "kotobara":["cer"]
+            "kotobara": ["fan"]
         },{
-            "kotobara":["anta"]
+            "kotobara": ["farza"]
         },{
-            "kotobara":["banan"]
+            "kotobara": ["fearie"]
         },{
-            "kotobara":["suru"]
+            "kotobara": ["festako"]
         },{
-            "kotobara":["suruko"]
+            "kotobara": ["fi"]
         },{
-            "kotobara":["jalaka","ialaka","yalaka"]
+            "kotobara": ["film"]
         },{
-            "kotobara":["kaku"]
+            "kotobara": ["flacha", "flakka"]
         },{
-            "kotobara":["siru"]
+            "kotobara": ["fraas"]
         },{
-            "kotobara":["valtsa"]
+            "kotobara": ["fraut"],
+            "anderKotobara": ["afefraut", "portokale (fraut)"]
         },{
-            "kotobara":["ergo"]
+            "kotobara": ["froreenj"]
         },{
-            "kotobara":["gelt"]
+            "kotobara": ["fshto", "fushto", "fŝto"]
         },{
-            "kotobara":["mange"]
+            "kotobara": ["fu", "f'", "f-"]
         },{
-            "kotobara":["aschor"]
+            "kotobara": ["fuga"]
         },{
-            "kotobara":["lasku"],
-            "anderKotobara":["-a","-ara","-s","ip-","kn-","ein","ni","tre","kiere","go","eksi","nana","kase","non","den","hjaku","tuhat","lacsaq","catie","milion","iptre","ipkiere","ipgo"]
+            "kotobara": ["fugel"]
         },{
-            "kotobara":["ein"],
-            "risonen":["1️⃣"],
-            "imi":"Afto kotoba per lasku 1",
-            "anderKotobara":["-a","-ara","-s","ip-","kn-","ni","tre","kiere","go","eksi","nana","kase","non","den","hjaku","tuhat","lacsaq","catie","milion","iptre","ipkiere","ipgo","lasku"]
+            "kotobara": ["funn", "fun"]
         },{
-            "kotobara":["ni"],
-            "anderKotobara":["-a","-ara","-s","ip-","kn-","ein","tre","kiere","go","eksi","nana","kase","non","den","hjaku","tuhat","lacsaq","catie","milion","iptre","ipkiere","ipgo","lasku"]
+            "kotobara": ["fura"]
         },{
-            "kotobara":["tre"],
-            "anderKotobara":["-a","-ara","-s","ip-","kn-","ein","ni","kiere","go","eksi","nana","kase","non","den","hjaku","tuhat","lacsaq","catie","milion","iptre","ipkiere","ipgo","lasku"]
+            "kotobara": ["gaia", "gaja"],
+            "risonen": ["🌎", "🌍", "🌏"]
         },{
-            "kotobara":["kiere"],
-            "anderKotobara":["-a","-ara","-s","ip-","kn-","ein","ni","tre","go","eksi","nana","kase","non","den","hjaku","tuhat","lacsaq","catie","milion","iptre","ipkiere","ipgo","lasku"]
+            "kotobara": ["gammel"]
         },{
-            "kotobara":["go"],
-            "anderKotobara":["-a","-ara","-s","ip-","kn-","ein","ni","tre","kiere","eksi","nana","kase","non","den","hjaku","tuhat","lacsaq","catie","milion","iptre","ipkiere","ipgo","lasku"]
+            "kotobara": ["gammellapsi"]
         },{
-            "kotobara":["eksi"],
-            "anderKotobara":["-a","-ara","-s","ip-","kn-","ein","ni","tre","kiere","go","nana","kase","non","den","hjaku","tuhat","lacsaq","catie","milion","iptre","ipkiere","ipgo","lasku"]
+            "kotobara": ["gammelmama"]
         },{
-            "kotobara":["nana"],
-            "anderKotobara":["-a","-ara","-s","ip-","kn-","ein","ni","tre","kiere","go","eksi","kase","non","den","hjaku","tuhat","lacsaq","catie","milion","iptre","ipkiere","ipgo","lasku"]
+            "kotobara": ["gammelpapa"]
         },{
-            "kotobara":["kase"],
-            "anderKotobara":["-a","-ara","-s","ip-","kn-","ein","ni","tre","kiere","go","eksi","nana","non","den","hjaku","tuhat","lacsaq","catie","milion","iptre","ipkiere","ipgo","lasku"]
+            "kotobara": ["gammelryodjin"]
         },{
-            "kotobara":["non"],
-            "anderKotobara":["-a","-ara","-s","ip-","kn-","ein","ni","tre","kiere","go","eksi","nana","kase","den","hjaku","tuhat","lacsaq","catie","milion","iptre","ipkiere","ipgo","lasku"]
+            "kotobara": ["gavat"]
         },{
-            "kotobara":["den"],
-            "anderKotobara":["-a","-ara","-s","ip-","kn-","ein","ni","tre","kiere","go","eksi","nana","kase","non","hjaku","tuhat","lacsaq","catie","milion","iptre","ipkiere","ipgo","lasku"]
+            "kotobara": ["gelt"]
         },{
-            "kotobara":["tsisai","czisai","cisai","cisaj"]
+            "kotobara": ["gen"]
         },{
-            "kotobara":["mit"]
+            "kotobara": ["glas"]
         },{
-            "kotobara":["se"]
+            "kotobara": ["glau"]
         },{
-            "kotobara":["hyr"]
+            "kotobara": ["glaubi"]
         },{
-            "kotobara":["kuchi"]
+            "kotobara": ["glossa"]
         },{
-            "kotobara":["me"]
+            "kotobara": ["glug"]
         },{
-            "kotobara":["corva"]
+            "kotobara": ["go"],
+            "anderKotobara": ["-a", "-ara", "-s", "catie", "den", "ein", "eksi", "hjaku", "ip-", "ipgo", "ipkiere", "iptre", "kase", "kiere", "kn-", "lacsaq", "lasku", "milion", "nana", "ni", "non", "tre", "tuhat"]
         },{
-            "kotobara":["hana"]
+            "kotobara": ["godja"]
         },{
-            "kotobara":["njyi"]
+            "kotobara": ["gomen"]
         },{
-            "kotobara":["tropos"]
+            "kotobara": ["gris"],
+            "risonen": ["🩶", "📎", "🪦", "☑️", "📢"]
         },{
-            "kotobara":["deki","dece","deci"]
+            "kotobara": ["grun"]
         },{
-            "kotobara":["ting"]
+            "kotobara": ["gus"]
         },{
-            "kotobara":["tingko"]
+            "kotobara": ["gvir"]
         },{
-            "kotobara":["hierne","hjerne"]
+            "kotobara": ["hadji"],
+            "kundr": ["owari"]
         },{
-            "kotobara":["tualet"]
+            "kotobara": ["haekdjin"]
         },{
-            "kotobara":["gavat"]
+            "kotobara": ["haesa"]
         },{
-            "kotobara":["katana"]
+            "kotobara": ["hana"]
         },{
-            "kotobara":["plas"]
+            "kotobara": ["hanj"]
         },{
-            "kotobara":["namting"]
+            "kotobara": ["hant"]
         },{
-            "kotobara":["men"]
+            "kotobara": ["hanu"]
         },{
-            "kotobara":["har"]
+            "kotobara": ["hanuki"],
+            "mahaNa": ["hanu", "-ki"]
         },{
-            "kotobara":["tyd","tid","tiid"]
+            "kotobara": ["hapigo"]
         },{
-            "kotobara":["ima","jma"]
+            "kotobara": ["har"]
         },{
-            "kotobara":["dan"]
+            "kotobara": ["haste", "haaste"]
         },{
-            "kotobara":["mirai","mjrai"]
+            "kotobara": ["haste"]
         },{
-            "kotobara":["fami"]
+            "kotobara": ["hej"]
         },{
-            "kotobara":["matetundjin"]
+            "kotobara": ["hel"]
         },{
-            "kotobara":["matetun"]
+            "kotobara": ["helenakaku"]
         },{
-            "kotobara":["pojk"],
-            "anderKotobara":["tutr"]
+            "kotobara": ["heljo", "helio"]
         },{
-            "kotobara":["tutr"],
-            "risonen":["👧","♀️"],
-            "imi":"Tutr ie lapsi kun",
-            "anderKotobara":["pojk","kun","lapsi"]
+            "kotobara": ["henci"]
         },{
-            "kotobara":["sawi"]
+            "kotobara": ["her"]
         },{
-            "kotobara":["gammellapsi"]
+            "kotobara": ["hierne", "hjerne"]
         },{
-            "kotobara":["sisco"]
+            "kotobara": ["hiidas"]
         },{
-            "kotobara":["bruur"]
+            "kotobara": ["hina"]
         },{
-            "kotobara":["nia"]
+            "kotobara": ["hiras"]
         },{
-            "kotobara":["papa"],
-            "anderKotobara":["mama"]
+            "kotobara": ["hiven"]
         },{
-            "kotobara":["mama"],
-            "risonen":["👩","♀️"],
-            "imi":"Mama ie ryodjin kun",
-            "anderKotobara":["papa","kun","ryodjin"]
+            "kotobara": ["hjaku", "hiaku"],
+            "anderKotobara": ["-a", "-ara", "-s", "catie", "den", "ein", "eksi", "go", "ip-", "ipgo", "ipkiere", "iptre", "kase", "kiere", "kn-", "lacsaq", "lasku", "milion", "nana", "ni", "non", "tre", "tuhat"]
         },{
-            "kotobara":["fi"]
+            "kotobara": ["hjøt", "sjøt"]
         },{
-            "kotobara":["kzin"]
+            "kotobara": ["hlutsza"]
         },{
-            "kotobara":["gammelpapa"]
+            "kotobara": ["hobit"]
         },{
-            "kotobara":["gammelmama"]
+            "kotobara": ["hofli"]
         },{
-            "kotobara":["gammelryodjin"]
+            "kotobara": ["hono"]
         },{
-            "kotobara":["ryodjin"],
-            "anderKotobara":["mama"]
+            "kotobara": ["hor"]
         },{
-            "kotobara":["lapsi"],
-            "anderKotobara":["tutr"]
+            "kotobara": ["huin"]
         },{
-            "kotobara":["mipi"]
+            "kotobara": ["huomi"]
         },{
-            "kotobara":["stor","stuur","stur"]
+            "kotobara": ["huomilehti"]
         },{
-            "kotobara":["simpel"]
+            "kotobara": ["hur", "huur"]
         },{
-            "kotobara":["haste","haaste"]
+            "kotobara": ["hyr"]
         },{
-            "kotobara":["vikoli"]
+            "kotobara": ["hyske"]
         },{
-            "kotobara":["kotoli"]
+            "kotobara": ["icen"]
         },{
-            "kotobara":["libre"]
+            "kotobara": ["ima", "jma"]
         },{
-            "kotobara":["ergoplas"]
+            "kotobara": ["imang"]
         },{
-            "kotobara":["daag","dag"],
-            "kundr":["naht"],
-            "anderKotobara":["naht"]
+            "kotobara": ["imi"]
         },{
-            "kotobara":["uk","uuk"]
+            "kotobara": ["immadag"]
         },{
-            "kotobara":["muai","mwuai","mwai"]
+            "kotobara": ["ine", "inne", "inge", "inje", "inye"]
         },{
-            "kotobara":["tosui","tosuj"]
+            "kotobara": ["ip-"],
+            "anderKotobara": ["-a", "-ara", "-s", "catie", "den", "ein", "eksi", "go", "hjaku", "ipgo", "ipkiere", "iptre", "kase", "kiere", "kn-", "lacsaq", "lasku", "milion", "nana", "ni", "non", "tre", "tuhat"]
         },{
-            "kotobara":["sho"]
+            "kotobara": ["ipgo"],
+            "anderKotobara": ["-a", "-ara", "-s", "catie", "den", "ein", "eksi", "go", "hjaku", "ip-", "ipkiere", "iptre", "kase", "kiere", "kn-", "lacsaq", "lasku", "milion", "nana", "ni", "non", "tre", "tuhat"]
         },{
-            "kotobara":["funn","fun"]
+            "kotobara": ["ipkiere"],
+            "anderKotobara": ["-a", "-ara", "-s", "catie", "den", "ein", "eksi", "go", "hjaku", "ip-", "ipgo", "iptre", "kase", "kiere", "kn-", "lacsaq", "lasku", "milion", "nana", "ni", "non", "tre", "tuhat"]
         },{
-            "kotobara":["dzikjann","dzikjan","dzikyan"]
+            "kotobara": ["iptre"],
+            "anderKotobara": ["-a", "-ara", "-s", "catie", "den", "ein", "eksi", "go", "hjaku", "ip-", "ipgo", "ipkiere", "kase", "kiere", "kn-", "lacsaq", "lasku", "milion", "nana", "ni", "non", "tre", "tuhat"]
         },{
-            "kotobara":["prapataj","prapatai"]
+            "kotobara": ["ishi"]
         },{
-            "kotobara":["akote"]
+            "kotobara": ["iske", "ishke"]
         },{
-            "kotobara":["paara","para"]
+            "kotobara": ["ivel"],
+            "anderKotobara": ["naht"]
         },{
-            "kotobara":["praapa"]
+            "kotobara": ["j'"]
         },{
-            "kotobara":["tsatain"]
+            "kotobara": ["jaa", "ja", "yā", "ya", "jâ", "iá", "ia"],
+            "risonen": ["👋"],
+            "kundr": ["jaa"],
+            "opetara": ["A: Jaa! Ka slutcha?\nB: Un bra, au du?\nA: Un bra awen!"]
         },{
-            "kotobara":["tun"]
+            "kotobara": ["jainos", "iainos"]
         },{
-            "kotobara":["vona"]
+            "kotobara": ["jalaka", "ialaka", "yalaka"]
         },{
-            "kotobara":["sjiny","sjini","szini"]
+            "kotobara": ["jam", "yam", "iam"]
         },{
-            "kotobara":["uten"],
-            "lik":["minus"]
+            "kotobara": ["jamete", "yamete"],
+            "lik": ["owari"]
         },{
-            "kotobara":["utenvona"]
+            "kotobara": ["jarara"]
         },{
-            "kotobara":["strela"]
+            "kotobara": ["je", "ie", "ye", "es", "i"]
         },{
-            "kotobara":["nord"]
+            "kotobara": ["joki"]
         },{
-            "kotobara":["ost","øst"]
+            "kotobara": ["joku"]
         },{
-            "kotobara":["sud"]
+            "kotobara": ["juroplantdai", "iuroplantdai"]
         },{
-            "kotobara":["west","uest"]
+            "kotobara": ["ka"]
         },{
-            "kotobara":["fura"]
+            "kotobara": ["kafe"]
         },{
-            "kotobara":["hina"]
+            "kotobara": ["kaku"]
         },{
-            "kotobara":["mygy"]
+            "kotobara": ["kakuyena", "kakuena"]
         },{
-            "kotobara":["ljeva","larava"]
+            "kotobara": ["kara"]
         },{
-            "kotobara":["oba"]
+            "kotobara": ["karroqhn"]
         },{
-            "kotobara":["unna"]
+            "kotobara": ["kase"],
+            "anderKotobara": ["-a", "-ara", "-s", "catie", "den", "ein", "eksi", "go", "hjaku", "ip-", "ipgo", "ipkiere", "iptre", "kiere", "kn-", "lacsaq", "lasku", "milion", "nana", "ni", "non", "tre", "tuhat"]
         },{
-            "kotobara":["klar"]
+            "kotobara": ["katai"]
         },{
-            "kotobara":["mietta"]
+            "kotobara": ["katana"]
         },{
-            "kotobara":["ke","k'"]
+            "kotobara": ["kaupa"],
+            "anderKotobara": ["magasin"]
         },{
-            "kotobara":["iske","ishke"]
+            "kotobara": ["kawari"]
         },{
-            "kotobara":["nilting"]
+            "kotobara": ["ke", "k'"]
         },{
-            "kotobara":["sotting"]
+            "kotobara": ["kiere"],
+            "anderKotobara": ["-a", "-ara", "-s", "catie", "den", "ein", "eksi", "go", "hjaku", "ip-", "ipgo", "ipkiere", "iptre", "kase", "kn-", "lacsaq", "lasku", "milion", "nana", "ni", "non", "tre", "tuhat"]
         },{
-            "kotobara":["magasin", "magazin"],
-            "risonen":["🏪","🏬","🛒"],
-            "imi":"Magasin ie plas koske vi deki kaupa mange ting",
-            "anderKotobara":["kaupa"]
+            "kotobara": ["kini"]
         },{
-            "kotobara":["grun"]
+            "kotobara": ["kiniena", "kiniyena"]
         },{
-            "kotobara":["naze"]
+            "kotobara": ["kirain"]
         },{
-            "kotobara":["rzinzai"]
+            "kotobara": ["kiro", "kiiro"],
+            "risonen": ["🟡", "🟨"]
         },{
-            "kotobara":["tsui"]
+            "kotobara": ["kitsne"]
         },{
-            "kotobara":["plus","plus-"],
-            "kundr":["plus"]
+            "kotobara": ["kjannos"]
         },{
-            "kotobara":["plusgammel"]
+            "kotobara": ["kjela"]
         },{
-            "kotobara":["plusglau"]
+            "kotobara": ["kjomi"]
         },{
-            "kotobara":["plusmirai"]
+            "kotobara": ["klar"]
         },{
-            "kotobara":["gammel"]
+            "kotobara": ["kn-"],
+            "anderKotobara": ["-a", "-ara", "-s", "catie", "den", "ein", "eksi", "go", "hjaku", "ip-", "ipgo", "ipkiere", "iptre", "kase", "kiere", "lacsaq", "lasku", "milion", "nana", "ni", "non", "tre", "tuhat"]
         },{
-            "kotobara":["minus","minus-"],
-            "risonen":["➖","<"],
-            "lik":["uten"],
-            "kundr":["plus"],
-            "opetara":["14 minus na 150\no minustor na O"],
-            "anderKotobara":["minustor","minusvapa","minusbjurki"]
+            "kotobara": ["knlaksu"]
         },{
-            "kotobara":["minustor","minustuur","minustur"],
-            "anderKotobara":["minus"]
+            "kotobara": ["kokoro"]
         },{
-            "kotobara":["minusvapa"],
-            "anderKotobara":["minus"]
+            "kotobara": ["kolarum"]
         },{
-            "kotobara":["minusbjurki"],
-            "anderKotobara":["minus"]
+            "kotobara": ["kompju"]
         },{
-            "kotobara":["vapa"]
+            "kotobara": ["koske", "cosce"]
         },{
-            "kotobara":["bjurki"]
+            "kotobara": ["kot"],
+            "risonen": ["🐱"]
         },{
-            "kotobara":["kjomi"]
+            "kotobara": ["kotnen"],
+            "risonen": ["🐱", "🤏"]
         },{
-            "kotobara":["ine","inne","inge","inje","inye"]
+            "kotobara": ["koto"]
         },{
-            "kotobara":["ecso"]
+            "kotobara": ["kotoba"]
         },{
-            "kotobara":["sk-"]
+            "kotobara": ["kotobara"]
         },{
-            "kotobara":["skecso"]
+            "kotobara": ["kotoli"]
         },{
-            "kotobara":["tulla"]
+            "kotobara": ["kto"]
         },{
-            "kotobara":["sturdai","stuurdai"]
+            "kotobara": ["kuchi"]
         },{
-            "kotobara":["hjaku","hiaku"],
-            "anderKotobara":["-a","-ara","-s","ip-","kn-","ein","ni","tre","kiere","go","eksi","nana","kase","non","den","tuhat","lacsaq","catie","milion","iptre","ipkiere","ipgo","lasku"]
+            "kotobara": ["kun"],
+            "anderKotobara": ["mama", "tutr"]
         },{
-            "kotobara":["tuhat","tuhaat","tuhát"],
-            "anderKotobara":["-a","-ara","-s","ip-","kn-","ein","ni","tre","kiere","go","eksi","nana","kase","non","den","hjaku","lacsaq","catie","milion","iptre","ipkiere","ipgo","lasku"]
+            "kotobara": ["kundr", "kundir", "kunder", "cunder"]
         },{
-            "kotobara":["lacsaq"],
-            "anderKotobara":["-a","-ara","-s","ip-","kn-","ein","ni","tre","kiere","go","eksi","nana","kase","non","den","hjaku","tuhat","catie","milion","iptre","ipkiere","ipgo","lasku"]
+            "kotobara": ["kuro"],
+            "risonen": ["⚫️", "⬛️"]
         },{
-            "kotobara":["catie","catíe"],
-            "anderKotobara":["-a","-ara","-s","ip-","kn-","ein","ni","tre","kiere","go","eksi","nana","kase","non","den","hjaku","tuhat","lacsaq","milion","iptre","ipkiere","ipgo","lasku"]
+            "kotobara": ["kury"]
         },{
-            "kotobara":["milion","miljon","ipni"],
-            "anderKotobara":["-a","-ara","-s","ip-","kn-","ein","ni","tre","kiere","go","eksi","nana","kase","non","den","hjaku","tuhat","lacsaq","catie","iptre","ipkiere","ipgo","lasku"]
+            "kotobara": ["kushipa"]
         },{
-            "kotobara":["iptre"],
-            "anderKotobara":["-a","-ara","-s","ip-","kn-","ein","ni","tre","kiere","go","eksi","nana","kase","non","den","hjaku","tuhat","lacsaq","catie","milion","ipkiere","ipgo","lasku"]
+            "kotobara": ["kyajdz"]
         },{
-            "kotobara":["ipkiere"],
-            "anderKotobara":["-a","-ara","-s","ip-","kn-","ein","ni","tre","kiere","go","eksi","nana","kase","non","den","hjaku","tuhat","lacsaq","catie","milion","iptre","ipgo","lasku"]
+            "kotobara": ["kzin"]
         },{
-            "kotobara":["ipgo"],
-            "anderKotobara":["-a","-ara","-s","ip-","kn-","ein","ni","tre","kiere","go","eksi","nana","kase","non","den","hjaku","tuhat","lacsaq","catie","milion","iptre","ipkiere","lasku"]
+            "kotobara": ["lacsaq"],
+            "anderKotobara": ["-a", "-ara", "-s", "catie", "den", "ein", "eksi", "go", "hjaku", "ip-", "ipgo", "ipkiere", "iptre", "kase", "kiere", "kn-", "lasku", "milion", "nana", "ni", "non", "tre", "tuhat"]
         },{
-            "kotobara":["kn-"],
-            "anderKotobara":["-a","-ara","-s","ip-","ein","ni","tre","kiere","go","eksi","nana","kase","non","den","hjaku","tuhat","lacsaq","catie","milion","iptre","ipkiere","ipgo","lasku"]
+            "kotobara": ["lant"]
         },{
-            "kotobara":["knlaksu"]
+            "kotobara": ["lantdai"],
+            "mahaNa": ["lant", "-dai"]
         },{
-            "kotobara":["hadji"],
-            "kundr":["owari"]
+            "kotobara": ["lapsi"],
+            "anderKotobara": ["tutr"]
         },{
-            "kotobara":["owari"],
-            "risonen":["🏁"],
-            "lik":["po-","jamete"],
-            "kundr":["hadji"],
-            "opetara":["1: un nai nam \n2: un hadji nam\n3: un nam\n4: un owari nam 🏁\n5: un nai nam "]
+            "kotobara": ["lasku"],
+            "anderKotobara": ["-a", "-ara", "-s", "catie", "den", "ein", "eksi", "go", "hjaku", "ip-", "ipgo", "ipkiere", "iptre", "kase", "kiere", "kn-", "lacsaq", "milion", "nana", "ni", "non", "tre", "tuhat"]
         },{
-            "kotobara":["bli","bli-"]
+            "kotobara": ["latsty"]
         },{
-            "kotobara":["po","po-"],
-            "lik":["owari"]
+            "kotobara": ["lehti"],
+            "risonen": ["🍃"]
         },{
-            "kotobara":["benj"]
+            "kotobara": ["lehti"]
         },{
-            "kotobara":["jamete","yamete"],
-            "lik":["owari"]
+            "kotobara": ["lemo"]
         },{
-            "kotobara":["naideki"]
+            "kotobara": ["lera"]
         },{
-            "kotobara":["heljo","helio"]
+            "kotobara": ["leradjin"]
         },{
-            "kotobara":["vulcanis"]
+            "kotobara": ["lerarum"],
+            "risonen": ["🧑‍🏫", "🏫"],
+            "mahaNa": ["lera", "rum"],
+            "ima": "Lerarum ie rum per lera.\nDu deki se afto rum na shkolara.\nAfto rum joki har opetadjin, per leradjin, ka lera mange tingara."
         },{
-            "kotobara":["afroidis"]
+            "kotobara": ["lezi"]
         },{
-            "kotobara":["airis"]
+            "kotobara": ["li"]
         },{
-            "kotobara":["jainos","iainos"]
+            "kotobara": ["libre"]
         },{
-            "kotobara":["crenos"]
+            "kotobara": ["lik", "lyk", "likke"],
+            "risonen": ["≈"],
+            "opetara": ["⚾️ sama ⚾️\n⚾️ lik 🥎\n🟥 lik 🔴\n🚗 lik 🚙\n⚾️ tsigau 🌐", "1 sama 1\n1 lik 0.95\n1 tsigau 500"]
         },{
-            "kotobara":["mirairis"]
+            "kotobara": ["ljeta"]
         },{
-            "kotobara":["posaidis"]
+            "kotobara": ["ljeva", "larava"]
         },{
-            "kotobara":["plasdai"]
+            "kotobara": ["luft"],
+            "aparLik": ["vint"],
+            "anderKotobara": ["vint"]
         },{
-            "kotobara":["avara"]
+            "kotobara": ["lule"]
         },{
-            "kotobara":["solh"]
+            "kotobara": ["luna"],
+            "anderKotobara": ["naht"]
         },{
-            "kotobara":["samui"]
+            "kotobara": ["luvan"]
         },{
-            "kotobara":["luna"],
-            "anderKotobara":["naht"]
+            "kotobara": ["made"]
         },{
-            "kotobara":["veltnen"]
+            "kotobara": ["mado"]
         },{
-            "kotobara":["notameriklantdai"]
+            "kotobara": ["magasin", "magazin"],
+            "risonen": ["🏪", "🏬", "🛒"],
+            "imi": "Magasin ie plas koske vi deki kaupa mange ting",
+            "anderKotobara": ["kaupa"]
         },{
-            "kotobara":["sutameriklantdai"]
+            "kotobara": ["mago"]
         },{
-            "kotobara":["juroplantdai","iuroplantdai"]
+            "kotobara": ["maha", "mak"]
         },{
-            "kotobara":["afriklantdai"]
+            "kotobara": ["mahena"]
         },{
-            "kotobara":["ejzjalantdai","eizialantdai"]
+            "kotobara": ["makklar"],
+            "mahaNa": ["maha", "klar"]
         },{
-            "kotobara":["australantdai"]
+            "kotobara": ["maladeth"]
         },{
-            "kotobara":["antarctiklantdai","samuidailantdai"]
+            "kotobara": ["mama"],
+            "risonen": ["👩", "♀️"],
+            "imi": "Mama ie ryodjin kun",
+            "anderKotobara": ["kun", "papa", "ryodjin"]
         },{
-            "kotobara":["kini"]
+            "kotobara": ["mange"]
         },{
-            "kotobara":["circas"]
+            "kotobara": ["mare"]
         },{
-            "kotobara":["kakuyena","kakuena"]
+            "kotobara": ["maredur", "mareduur", "maraidur"]
         },{
-            "kotobara":["kiniena","kiniyena"]
+            "kotobara": ["marenen"]
         },{
-            "kotobara":["auki"]
+            "kotobara": ["marojzschine"]
         },{
-            "kotobara":["dvera"]
+            "kotobara": ["matetun"]
         },{
-            "kotobara":["aukiena","aukiyena"]
+            "kotobara": ["matetundjin"]
         },{
-            "kotobara":["crusca"]
+            "kotobara": ["me"]
         },{
-            "kotobara":["lemo"]
+            "kotobara": ["mekji"]
         },{
-            "kotobara":["bestfraut"]
+            "kotobara": ["mellan"]
         },{
-            "kotobara":["uva","vinjafraut"]
+            "kotobara": ["men"]
         },{
-            "kotobara":["cerfraut"]
+            "kotobara": ["mena"]
         },{
-            "kotobara":["ahavja"]
+            "kotobara": ["midori"],
+            "risonen": ["🟢", "🟩"]
         },{
-            "kotobara":["nihunfraut"]
+            "kotobara": ["mietta"]
         },{
-            "kotobara":["persefraut"]
+            "kotobara": ["milenjal"]
         },{
-            "kotobara":["mago"]
+            "kotobara": ["milion", "miljon", "ipni"],
+            "anderKotobara": ["-a", "-ara", "-s", "catie", "den", "ein", "eksi", "go", "hjaku", "ip-", "ipgo", "ipkiere", "iptre", "kase", "kiere", "kn-", "lacsaq", "lasku", "nana", "ni", "non", "tre", "tuhat"]
         },{
-            "kotobara":["ananas"]
+            "kotobara": ["minus", "minus-"],
+            "risonen": ["➖", "<"],
+            "lik": ["uten"],
+            "kundr": ["plus"],
+            "opetara": ["14 minus na 150\no minustor na O"],
+            "anderKotobara": ["minusbjurki", "minustor", "minusvapa"]
         },{
-            "kotobara":["niog"]
+            "kotobara": ["minusbjurki"],
+            "anderKotobara": ["minus"]
         },{
-            "kotobara":["afefraut","fugelfraut"],
-            "imi":"kiwi ie midori au kafe fraut",
-            "risonen":["🥝"],
-            "anderKotobara":["fraut"]
+            "kotobara": ["minustor", "minustuur", "minustur"],
+            "anderKotobara": ["minus"]
         },{
-            "kotobara":["fraut"],
-            "anderKotobara":["portokale (fraut)","afefraut"]
+            "kotobara": ["minusvapa"],
+            "anderKotobara": ["minus"]
         },{
-            "kotobara":["hanuki"],
-            "mahaNa":["hanu","-ki"]
+            "kotobara": ["mipi"]
         },{
-            "kotobara":["-ki"]
+            "kotobara": ["mirai", "mjrai"]
         },{
-            "kotobara":["dare"]
+            "kotobara": ["mirairis"]
         },{
-            "kotobara":["spor"]
+            "kotobara": ["mis", "mïs", "mish", "mush"]
         },{
-            "kotobara":["svar"]
+            "kotobara": ["mit"]
         },{
-            "kotobara":["naivil"]
+            "kotobara": ["mit"]
         },{
-            "kotobara":["sot"]
+            "kotobara": ["mjes"]
         },{
-            "kotobara":["sporko"]
+            "kotobara": ["mono"]
         },{
-            "kotobara":["doko"]
+            "kotobara": ["mora"],
+            "anderKotobara": ["naht"]
         },{
-            "kotobara":["koske","cosce"]
+            "kotobara": ["mosoi"]
         },{
-            "kotobara":["perka"]
+            "kotobara": ["muai", "mwuai", "mwai"]
         },{
-            "kotobara":["hur","huur"]
+            "kotobara": ["mul"]
         },{
-            "kotobara":["katai"]
+            "kotobara": ["mulbaksu"]
         },{
-            "kotobara":["atai"]
+            "kotobara": ["mura", "murasaki"],
+            "risonen": ["🟣", "🟪"]
         },{
-            "kotobara":["bruk"]
+            "kotobara": ["mus"]
         },{
-            "kotobara":["atechi","riobohna"]
+            "kotobara": ["mygy"]
         },{
-            "kotobara":["protofugel"]
+            "kotobara": ["na"]
         },{
-            "kotobara":["bihmidur"]
+            "kotobara": ["na"]
         },{
-            "kotobara":["njudur","niudur"]
+            "kotobara": ["naht"],
+            "risonen": ["🌃", "🌌", "🌙", "🌠"],
+            "imi": "Naht tel daag, ivel bli naht bli mora",
+            "kundr": ["daag"],
+            "opetara": ["Mange vi kola na naht.", "Vi deki se luna na naht!"],
+            "anderKotobara": ["daag", "ivel", "luna", "mora"]
         },{
-            "kotobara":["bagueh"]
+            "kotobara": ["nai"]
         },{
-            "kotobara":["dur","duur"]
+            "kotobara": ["naideki"]
         },{
-            "kotobara":["mora"],
-            "anderKotobara":["naht"]
+            "kotobara": ["naivil"]
         },{
-            "kotobara":["ivel"],
-            "anderKotobara":["naht"]
+            "kotobara": ["naku"]
         },{
-            "kotobara":["naht"],
-            "risonen":["🌃","🌌","🌙","🌠"],
-            "imi":"Naht tel daag, ivel bli naht bli mora",
-            "kundr":["daag"],
-            "opetara":["Mange vi kola na naht.","Vi deki se luna na naht!"],
-            "anderKotobara":["mora","daag","ivel","luna"]
+            "kotobara": ["nam"]
         },{
-            "kotobara":["Ric"]
+            "kotobara": ["namae", "namai", "namæ"]
         },{
-            "kotobara":["auau"]
+            "kotobara": ["namting"]
         },{
-            "kotobara":["auauau"]
+            "kotobara": ["nana"],
+            "anderKotobara": ["-a", "-ara", "-s", "catie", "den", "ein", "eksi", "go", "hjaku", "ip-", "ipgo", "ipkiere", "iptre", "kase", "kiere", "kn-", "lacsaq", "lasku", "milion", "ni", "non", "tre", "tuhat"]
         },{
-            "kotobara":["prosta"]
+            "kotobara": ["nasi"]
         },{
-            "kotobara":["kto"]
+            "kotobara": ["naze"]
         },{
-            "kotobara":["bean"]
+            "kotobara": ["neo"]
         },{
-            "kotobara":["beandjina"]
+            "kotobara": ["ni"],
+            "anderKotobara": ["-a", "-ara", "-s", "catie", "den", "ein", "eksi", "go", "hjaku", "ip-", "ipgo", "ipkiere", "iptre", "kase", "kiere", "kn-", "lacsaq", "lasku", "milion", "nana", "non", "tre", "tuhat"]
         },{
-            "kotobara":["pitka"]
+            "kotobara": ["nia"]
         },{
-            "kotobara":["sa"]
+            "kotobara": ["niden"]
         },{
-            "kotobara":["j'"]
+            "kotobara": ["nihon-"]
         },{
-            "kotobara":["aldok"]
+            "kotobara": ["nihonossa"]
         },{
-            "kotobara":["slucea"]
+            "kotobara": ["nihunfraut"]
         },{
-            "kotobara":["omarnamgin"]
+            "kotobara": ["nikohuomi"]
         },{
-            "kotobara":["ohare"]
+            "kotobara": ["nikrajs"]
         },{
-            "kotobara":["sosich"]
+            "kotobara": ["nil"]
         },{
-            "kotobara":["koto"]
+            "kotobara": ["nil wil"]
         },{
-            "kotobara":["ph'"]
+            "kotobara": ["nilting"]
         },{
-            "kotobara":["immadag"]
+            "kotobara": ["niog"]
         },{
-            "kotobara":["brasintwadatsa"]
+            "kotobara": ["nipan"]
         },{
-            "kotobara":["snano"]
+            "kotobara": ["nirot"]
         },{
-            "kotobara":["mena"]
+            "kotobara": ["njan"]
         },{
-            "kotobara":["trelo"]
+            "kotobara": ["njudur", "niudur"]
         },{
-            "kotobara":["blindan"]
+            "kotobara": ["njyi"]
         },{
-            "kotobara":["baasintuadaagca"]
+            "kotobara": ["noito", "nojto"],
+            "risonen": ["🪢", "🧶", "🧵", "🪡"],
+            "opetara": ["Koske dua spil mit apar fal noito."]
         },{
-            "kotobara":["100"]
+            "kotobara": ["non"],
+            "anderKotobara": ["-a", "-ara", "-s", "catie", "den", "ein", "eksi", "go", "hjaku", "ip-", "ipgo", "ipkiere", "iptre", "kase", "kiere", "kn-", "lacsaq", "lasku", "milion", "nana", "ni", "tre", "tuhat"]
         },{
-            "kotobara":["haekdjin"]
+            "kotobara": ["nord"]
         },{
-            "kotobara":["bratsa","vratsa"]
+            "kotobara": ["notameriklantdai"]
         },{
-            "kotobara":["panukudag"]
+            "kotobara": ["oba"]
         },{
-            "kotobara":["panekudjin"]
+            "kotobara": ["ogoi"]
         },{
-            "kotobara":["ekudag"]
+            "kotobara": ["ohare"]
         },{
-            "kotobara":["paneku"]
+            "kotobara": ["ojogidjin"]
         },{
-            "kotobara":["maladeth"]
+            "kotobara": ["omarnamgin"]
         },{
-            "kotobara":["a"]
+            "kotobara": ["onna"]
         },{
-            "kotobara":["surbisaya"]
+            "kotobara": ["opeta"]
         },{
-            "kotobara":["surigaossa"]
+            "kotobara": ["opetadjin"]
         },{
-            "kotobara":["butwanossa"]
+            "kotobara": ["os"]
         },{
-            "kotobara":["suugossa"]
+            "kotobara": ["ost", "øst"]
         },{
-            "kotobara":["naku"]
+            "kotobara": ["otsza"]
         },{
-            "kotobara":["boror"]
+            "kotobara": ["ovashi"]
         },{
-            "kotobara":["rum"]
+            "kotobara": ["owari"],
+            "risonen": ["🏁"],
+            "lik": ["jamete", "po-"],
+            "kundr": ["hadji"],
+            "opetara": ["1: un nai nam \n2: un hadji nam\n3: un nam\n4: un owari nam 🏁\n5: un nai nam "]
         },{
-            "kotobara":["teredoi"]
+            "kotobara": ["oy", "oj", "oi"]
         },{
-            "kotobara":["njan"]
+            "kotobara": ["paara", "para"]
         },{
-            "kotobara":["sukana"]
+            "kotobara": ["paksu"]
         },{
-            "kotobara":["pan"]
+            "kotobara": ["pan"]
         },{
-            "kotobara":["nipan"]
+            "kotobara": ["pan"]
         },{
-            "kotobara":["pomidor"]
+            "kotobara": ["pandos"]
         },{
-            "kotobara":["breszka"]
+            "kotobara": ["paneku"]
         },{
-            "kotobara":["skviik"]
+            "kotobara": ["panekudjin"]
         },{
-            "kotobara":["kitsne"]
+            "kotobara": ["panukudag"]
         },{
-            "kotobara":["jarara"]
+            "kotobara": ["papa"],
+            "anderKotobara": ["mama"]
         },{
-            "kotobara":["pjera"]
+            "kotobara": ["paperi"]
         },{
-            "kotobara":["tsubasu"]
+            "kotobara": ["pashko", "paško", "pashkotoba"],
+            "mahaNa": ["pashun", "kotoba"],
+            "anderKotobara": ["pashun"]
         },{
-            "kotobara":["hjøt","sjøt"]
+            "kotobara": ["pashun", "pašun", "pershun", "pash", "pas", "paš"],
+            "risonen": ["🧍‍♀️", "🧍", "🧍‍♂️"],
+            "lik": ["-djin"],
+            "opetara": ["Vi pashun, un pashun, du pashun.", "Mange pashun deki nam, se, ialaka, auauau"],
+            "anderKotobara": ["pashko"]
         },{
-            "kotobara":["lule"]
+            "kotobara": ["per"]
         },{
-            "kotobara":["ruti"]
+            "kotobara": ["perka"]
         },{
-            "kotobara":["rupneting"]
+            "kotobara": ["persefraut"]
         },{
-            "kotobara":["ranja"]
+            "kotobara": ["ph'"]
         },{
-            "kotobara":["nikohuomi"]
+            "kotobara": ["piel"]
         },{
-            "kotobara":["hobit"]
+            "kotobara": ["piman"]
         },{
-            "kotobara":["mosoi"]
+            "kotobara": ["pinue"]
         },{
-            "kotobara":["paksu"]
+            "kotobara": ["pinuno"]
         },{
-            "kotobara":["bystra"]
+            "kotobara": ["pisma"]
         },{
-            "kotobara":["hiidas"]
+            "kotobara": ["pitka"]
         },{
-            "kotobara":["mado"]
+            "kotobara": ["pitsa", "pizza"]
         },{
-            "kotobara":["lerarum"],
-            "risonen":["🧑‍🏫","🏫"],
-            "mahaNa":["lera","rum"],
-            "ima":"Lerarum ie rum per lera.\nDu deki se afto rum na shkolara.\nAfto rum joki har opetadjin, per leradjin, ka lera mange tingara."
+            "kotobara": ["pjera"]
         },{
-            "kotobara":["pravda"]
+            "kotobara": ["plas"]
         },{
-            "kotobara":["prav"]
+            "kotobara": ["plasdai"]
         },{
-            "kotobara":["to"]
+            "kotobara": ["pluj"]
         },{
-            "kotobara":["otsza"]
+            "kotobara": ["plus", "plus-"],
+            "kundr": ["plus"]
         },{
-            "kotobara":["-a"],
-            "anderKotobara":["-ara","-s","ip-","kn-","ein","ni","tre","kiere","go","eksi","nana","kase","non","den","hjaku","tuhat","lacsaq","catie","milion","iptre","ipkiere","ipgo","lasku"]
+            "kotobara": ["plusgammel"]
         },{
-            "kotobara":["-ara"],
-            "anderKotobara":["-a","-s","ip-","kn-","ein","ni","tre","kiere","go","eksi","nana","kase","non","den","hjaku","tuhat","lacsaq","catie","milion","iptre","ipkiere","ipgo","lasku"]
+            "kotobara": ["plusglau"]
         },{
-            "kotobara":["-tsa"]
+            "kotobara": ["plusmirai"]
         },{
-            "kotobara":["doich-"]
+            "kotobara": ["po", "po-"],
+            "lik": ["owari"]
         },{
-            "kotobara":["espanj-"]
+            "kotobara": ["pojk"],
+            "anderKotobara": ["tutr"]
         },{
-            "kotobara":["ip-"],
-            "anderKotobara":["-a","-ara","-s","kn-","ein","ni","tre","kiere","go","eksi","nana","kase","non","den","hjaku","tuhat","lacsaq","catie","milion","iptre","ipkiere","ipgo","lasku"]
+            "kotobara": ["pomidor"]
         },{
-            "kotobara":["nihon-"]
+            "kotobara": ["portokale", "portokali", "portukale", "portukali", "portocale", "portocali", "portucale", "portucali"],
+            "fal": "varge",
+            "risonen": ["🟠", "🟧"]
         },{
-            "kotobara":["ze","ze-"]
+            "kotobara": ["portokale", "portokali", "portukale", "portukali", "portocale", "portocali", "portucale", "portucali"],
+            "fal": "fraut",
+            "risonen": ["🍊"]
         },{
-            "kotobara":["aistia"]
+            "kotobara": ["posaidis"]
         },{
-            "kotobara":["aja"]
+            "kotobara": ["praapa"]
         },{
-            "kotobara":["ander"]
+            "kotobara": ["pranvera"]
         },{
-            "kotobara":["apu"]
+            "kotobara": ["prapataj", "prapatai"]
         },{
-            "kotobara":["auto"]
+            "kotobara": ["prav"]
         },{
-            "kotobara":["azyci"]
+            "kotobara": ["pravda"]
         },{
-            "kotobara":["bamba"]
+            "kotobara": ["prosta"]
         },{
-            "kotobara":["berk"]
+            "kotobara": ["protofugel"]
         },{
-            "kotobara":["bistra"]
+            "kotobara": ["punkt"]
         },{
-            "kotobara":["bjelu"]
+            "kotobara": ["ranja"]
         },{
-            "kotobara":["bjurkiplas"]
+            "kotobara": ["ranjako"]
         },{
-            "kotobara":["blin"]
+            "kotobara": ["raz"]
         },{
-            "kotobara":["bolka"]
+            "kotobara": ["ri"]
         },{
-            "kotobara":["boozy"]
+            "kotobara": ["Ric"]
         },{
-            "kotobara":["breska"]
+            "kotobara": ["ring", "rinj"]
         },{
-            "kotobara":["cocro"]
+            "kotobara": ["ringo"]
         },{
-            "kotobara":["cris"]
+            "kotobara": ["riso"]
         },{
-            "kotobara":["cunin"]
+            "kotobara": ["rjoho"]
         },{
-            "kotobara":["darem"]
+            "kotobara": ["rosa", "roza"],
+            "risonen": ["🩷", "🌷", "🌸", "🦄", "🐽", "🐷", "🏩", "🎀"]
         },{
-            "kotobara":["daremdjin"]
+            "kotobara": ["ru"],
+            "risonen": ["🔴", "🟥"]
         },{
-            "kotobara":["davai"]
+            "kotobara": ["rum"]
         },{
-            "kotobara":["de"]
+            "kotobara": ["rupneting"]
         },{
-            "kotobara":["denwa"]
+            "kotobara": ["ruti"]
         },{
-            "kotobara":["der"]
+            "kotobara": ["ryodjin"],
+            "anderKotobara": ["mama"]
         },{
-            "kotobara":["djarper","diarper"]
+            "kotobara": ["ryr"]
         },{
-            "kotobara":["diskord"]
+            "kotobara": ["rzinzai"]
         },{
-            "kotobara":["dronet"]
+            "kotobara": ["sa"]
         },{
-            "kotobara":["dua"]
+            "kotobara": ["sakana"]
         },{
-            "kotobara":["dush"]
+            "kotobara": ["sakawi"]
         },{
-            "kotobara":["efles"]
+            "kotobara": ["sama", "samaa", "çama"]
         },{
-            "kotobara":["ende"]
+            "kotobara": ["samui"]
         },{
-            "kotobara":["enterrena"]
+            "kotobara": ["sawi"]
         },{
-            "kotobara":["farza"]
+            "kotobara": ["sdanie"]
         },{
-            "kotobara":["fearie"]
+            "kotobara": ["se"]
         },{
-            "kotobara":["festako"]
+            "kotobara": ["sentaku"]
         },{
-            "kotobara":["film"]
+            "kotobara": ["sewas"],
+            "risonen": ["🧊", "🎲"]
         },{
-            "kotobara":["flacha","flakka"]
+            "kotobara": ["sewasdai"],
+            "risonen": ["🧊", "🎲", "🌌"],
+            "mahaNa": ["sewas", "-dai"]
         },{
-            "kotobara":["froreenj"]
+            "kotobara": ["sewasnen"],
+            "risonen": ["🧊", "🎲", "🤏"],
+            "mahaNa": ["sewas", "-nen"]
         },{
-            "kotobara":["fuga"]
+            "kotobara": ["shiro", "shiiro"],
+            "risonen": ["⚪️", "⬜️"]
         },{
-            "kotobara":["gen"]
+            "kotobara": ["shirutro"]
         },{
-            "kotobara":["glas"]
+            "kotobara": ["shkoi", "sjkoi", "skoj", "skoi"]
         },{
-            "kotobara":["glaubi"]
+            "kotobara": ["shkola", "skola"]
         },{
-            "kotobara":["godja"]
+            "kotobara": ["sho"]
         },{
-            "kotobara":["gus"]
+            "kotobara": ["sidt", "sit"]
         },{
-            "kotobara":["gvir"]
+            "kotobara": ["siha"]
         },{
-            "kotobara":["haesa"]
+            "kotobara": ["silba"]
         },{
-            "kotobara":["hanj"]
+            "kotobara": ["simpel"]
         },{
-            "kotobara":["hant"]
+            "kotobara": ["siru"]
         },{
-            "kotobara":["hapigo"]
+            "kotobara": ["sisco"]
         },{
-            "kotobara":["hel"]
+            "kotobara": ["siñi", "sini"],
+            "risonen": ["🩵", "🌐", "🇺🇳", "🇸🇴", "🇫🇲"]
         },{
-            "kotobara":["helenakaku"]
+            "kotobara": ["sjikno"]
         },{
-            "kotobara":["henci"]
+            "kotobara": ["sjiny", "sjini", "szini"]
         },{
-            "kotobara":["her"]
+            "kotobara": ["sk-"]
         },{
-            "kotobara":["hiras"]
+            "kotobara": ["skecso"]
         },{
-            "kotobara":["hiven"]
+            "kotobara": ["skeer", "sceer"]
         },{
-            "kotobara":["hlutsza"]
+            "kotobara": ["skekso", "scecso"]
         },{
-            "kotobara":["hofli"]
+            "kotobara": ["skviik"]
         },{
-            "kotobara":["hono"]
+            "kotobara": ["skwalo"]
         },{
-            "kotobara":["hor"]
+            "kotobara": ["slucea"]
         },{
-            "kotobara":["hyske"]
+            "kotobara": ["slucha"]
         },{
-            "kotobara":["icen"]
+            "kotobara": ["smak"]
         },{
-            "kotobara":["imang"]
+            "kotobara": ["snano"]
         },{
-            "kotobara":["imi"]
+            "kotobara": ["solh"]
         },{
-            "kotobara":["ishi"]
+            "kotobara": ["sore"]
         },{
-            "kotobara":["joki"]
+            "kotobara": ["sosich"]
         },{
-            "kotobara":["karroqhn"]
+            "kotobara": ["sot"]
         },{
-            "kotobara":["kawari"]
+            "kotobara": ["sotting"]
         },{
-            "kotobara":["kjannos"]
+            "kotobara": ["spara"]
         },{
-            "kotobara":["kjela"]
+            "kotobara": ["spil"]
         },{
-            "kotobara":["kokoro"]
+            "kotobara": ["spor"]
         },{
-            "kotobara":["kolarum"]
+            "kotobara": ["sporko"]
         },{
-            "kotobara":["kompju"]
+            "kotobara": ["stift"]
         },{
-            "kotobara":["kun"],
-            "anderKotobara":["tutr","mama"]
+            "kotobara": ["stor", "stuur", "stur"]
         },{
-            "kotobara":["kury"]
+            "kotobara": ["strela"]
         },{
-            "kotobara":["kushipa"]
+            "kotobara": ["sturdai", "stuurdai"]
         },{
-            "kotobara":["kyajdz"]
+            "kotobara": ["sud"]
         },{
-            "kotobara":["latsty"]
+            "kotobara": ["sukana"]
         },{
-            "kotobara":["ljeta"]
+            "kotobara": ["sukha"]
         },{
-            "kotobara":["luft"],
-            "aparLik":["vint"],
-            "anderKotobara":["vint"]
+            "kotobara": ["suksu"]
         },{
-            "kotobara":["luvan"]
+            "kotobara": ["surbisaya"]
         },{
-            "kotobara":["marojzschine"]
+            "kotobara": ["surigaossa"]
         },{
-            "kotobara":["mekji"]
+            "kotobara": ["suru"]
         },{
-            "kotobara":["mellan"]
+            "kotobara": ["suruko"]
         },{
-            "kotobara":["neo"]
+            "kotobara": ["suruyena", "surujna"]
         },{
-            "kotobara":["milenjal"]
+            "kotobara": ["sutameriklantdai"]
         },{
-            "kotobara":["mjes"]
+            "kotobara": ["suugossa"]
         },{
-            "kotobara":["mul"]
+            "kotobara": ["svar"]
         },{
-            "kotobara":["mulbaksu"]
+            "kotobara": ["tajkadjin"]
         },{
-            "kotobara":["mus"]
+            "kotobara": ["tak"]
         },{
-            "kotobara":["nasi"]
+            "kotobara": ["talvi"]
         },{
-            "kotobara":["niden"]
+            "kotobara": ["tastsy", "tassty"]
         },{
-            "kotobara":["nikrajs"]
+            "kotobara": ["te"]
         },{
-            "kotobara":["nirot"]
+            "kotobara": ["tel"]
         },{
-            "kotobara":["noito","nojto"],
-            "risonen":["🪢","🧶","🧵","🪡"],
-            "opetara":["Koske dua spil mit apar fal noito."]
+            "kotobara": ["ter"]
         },{
-            "kotobara":["ogoi"]
+            "kotobara": ["terbi"]
         },{
-            "kotobara":["onna"]
+            "kotobara": ["teredoi"]
         },{
-            "kotobara":["ovashi"]
+            "kotobara": ["tetoeba"]
         },{
-            "kotobara":["pan"]
+            "kotobara": ["timba"]
         },{
-            "kotobara":["pandos"]
+            "kotobara": ["ting"]
         },{
-            "kotobara":["paperi"]
+            "kotobara": ["tingko"]
         },{
-            "kotobara":["piel"]
+            "kotobara": ["to"]
         },{
-            "kotobara":["piman"]
+            "kotobara": ["torta"]
         },{
-            "kotobara":["pisma"]
+            "kotobara": ["toshitel"]
         },{
-            "kotobara":["pitsa","pizza"]
+            "kotobara": ["tosui", "tosuj"]
         },{
-            "kotobara":["pluj"]
+            "kotobara": ["tre"],
+            "anderKotobara": ["-a", "-ara", "-s", "catie", "den", "ein", "eksi", "go", "hjaku", "ip-", "ipgo", "ipkiere", "iptre", "kase", "kiere", "kn-", "lacsaq", "lasku", "milion", "nana", "ni", "non", "tuhat"]
         },{
-            "kotobara":["pranvera"]
+            "kotobara": ["trelo"]
         },{
-            "kotobara":["ranjako"]
+            "kotobara": ["treng"]
         },{
-            "kotobara":["raz"]
+            "kotobara": ["trict"]
         },{
-            "kotobara":["ri"]
+            "kotobara": ["tropos"]
         },{
-            "kotobara":["rjoho"]
+            "kotobara": ["tsatain"]
         },{
-            "kotobara":["ryr"]
+            "kotobara": ["tsigau", "tsigao", "cigau", "chigau"]
         },{
-            "kotobara":["sakana"]
+            "kotobara": ["tsisai", "czisai", "cisai", "cisaj"]
         },{
-            "kotobara":["sakawi"]
+            "kotobara": ["tsubasu"]
         },{
-            "kotobara":["skekso","scecso"]
+            "kotobara": ["tsui"]
         },{
-            "kotobara":["skeer","sceer"]
+            "kotobara": ["tualet"]
         },{
-            "kotobara":["sdanie"]
+            "kotobara": ["tuhat", "tuhaat", "tuhát"],
+            "anderKotobara": ["-a", "-ara", "-s", "catie", "den", "ein", "eksi", "go", "hjaku", "ip-", "ipgo", "ipkiere", "iptre", "kase", "kiere", "kn-", "lacsaq", "lasku", "milion", "nana", "ni", "non", "tre"]
         },{
-            "kotobara":["sentaku"]
+            "kotobara": ["tulla"]
         },{
-            "kotobara":["shirutro"]
+            "kotobara": ["tun"]
         },{
-            "kotobara":["siha"]
+            "kotobara": ["tuo"]
         },{
-            "kotobara":["sjikno"]
+            "kotobara": ["tutr"],
+            "risonen": ["👧", "♀️"],
+            "imi": "Tutr ie lapsi kun",
+            "anderKotobara": ["kun", "lapsi", "pojk"]
         },{
-            "kotobara":["shkola","skola"]
+            "kotobara": ["tyd", "tid", "tiid"]
         },{
-            "kotobara":["skwalo"]
+            "kotobara": ["ufne"]
         },{
-            "kotobara":["smak"]
+            "kotobara": ["uk", "uuk"]
         },{
-            "kotobara":["spara"]
+            "kotobara": ["un"]
         },{
-            "kotobara":["spil"]
+            "kotobara": ["unna"]
         },{
-            "kotobara":["stift"]
+            "kotobara": ["uno"]
         },{
-            "kotobara":["sukha"]
+            "kotobara": ["upasnen"]
         },{
-            "kotobara":["suksu"]
+            "kotobara": ["upasz"]
         },{
-            "kotobara":["suruyena","surujna"]
+            "kotobara": ["uslova"]
         },{
-            "kotobara":["tak"]
+            "kotobara": ["uso"]
         },{
-            "kotobara":["talvi"]
+            "kotobara": ["uten"],
+            "lik": ["minus"]
         },{
-            "kotobara":["tetoeba"]
+            "kotobara": ["utenvona"]
         },{
-            "kotobara":["te"]
+            "kotobara": ["uva", "vinjafraut"]
         },{
-            "kotobara":["tel"]
+            "kotobara": ["uwaki"]
         },{
-            "kotobara":["terbi"]
+            "kotobara": ["valtsa"]
         },{
-            "kotobara":["timba"]
+            "kotobara": ["vapa"]
         },{
-            "kotobara":["toshitel"]
+            "kotobara": ["varge", "varje", "farge", "farje"],
+            "risonen": ["🎨", "🔴", "🟠", "🟡", "🟢", "🔵", "🟣", "⚪️", "⚫️"]
         },{
-            "kotobara":["treng"]
+            "kotobara": ["vasu"]
         },{
-            "kotobara":["ufne"]
+            "kotobara": ["vauva"]
         },{
-            "kotobara":["uno"]
+            "kotobara": ["velt"],
+            "risonen": ["🌎", "🗺️", "🌐"]
         },{
-            "kotobara":["upasnen"]
+            "kotobara": ["veltnen"]
         },{
-            "kotobara":["uslova"]
+            "kotobara": ["vera"]
         },{
-            "kotobara":["uso"]
+            "kotobara": ["vet"]
         },{
-            "kotobara":["vasu"]
+            "kotobara": ["vi"]
         },{
-            "kotobara":["vauva"]
+            "kotobara": ["viha"]
         },{
-            "kotobara":["vera"]
+            "kotobara": ["vikoli"]
         },{
-            "kotobara":["vet"]
+            "kotobara": ["vil"]
         },{
-            "kotobara":["viha"]
+            "kotobara": ["vint"],
+            "risonen": ["🌬️", "💨", "🍃"],
+            "imi": "Jam vint koske luft jalaka",
+            "aparLik": ["luft"],
+            "opetara": ["Jam mange vint huomi kara"],
+            "anderKotobara": ["luft"]
         },{
-            "kotobara":["vint"],
-            "risonen":["🌬️","💨","🍃"],
-            "imi":"Jam vint koske luft jalaka",
-            "aparLik":["luft"],
-            "opetara":["Jam mange vint huomi kara"],
-            "anderKotobara":["luft"]
+            "kotobara": ["viossa"]
         },{
-            "kotobara":["vrach"]
+            "kotobara": ["virta"]
         },{
-            "kotobara":["wa"]
+            "kotobara": ["vona"]
         },{
-            "kotobara":["we"]
+            "kotobara": ["vrach"]
         },{
-            "kotobara":["zedvera"]
+            "kotobara": ["vulcanis"]
         },{
-            "kotobara":["zehant"]
+            "kotobara": ["wa"]
         },{
-            "kotobara":["zeme"]
+            "kotobara": ["warui", "waruj", "waryi", "waryj"]
         },{
-            "kotobara":["zespil"]
+            "kotobara": ["we"]
         },{
-            "kotobara":["zeus"]
+            "kotobara": ["west", "uest"]
         },{
-            "kotobara":["makklar"],
-            "mahaNa":["maha","klar"]
+            "kotobara": ["wil"]
         },{
-            "kotobara":["fan"]
+            "kotobara": ["ze", "ze-"]
         },{
-            "kotobara":["haste"]
+            "kotobara": ["zedvera"]
         },{
-            "kotobara":["chad"]
+            "kotobara": ["zehant"]
         },{
-            "kotobara":["kaupa"],
-            "anderKotobara":["magasin"]
+            "kotobara": ["zeme"]
         },{
-            "kotobara":["-s"],
-            "anderKotobara":["-a","-ara","ip-","kn-","ein","ni","tre","kiere","go","eksi","nana","kase","non","den","hjaku","tuhat","lacsaq","catie","milion","iptre","ipkiere","ipgo","lasku"]
+            "kotobara": ["zespil"]
         },{
-            "kotobara":["kafe"]
+            "kotobara": ["zeus"]
         }
     ]
 }
