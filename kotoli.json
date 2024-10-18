@@ -2,25 +2,56 @@
     "kotoli": [
         {
             "kotobara": ["-a"],
-            "anderKotobara": ["-ara", "-s", "catie", "den", "ein", "eksi", "go", "hjaku", "ip-", "ipgo", "ipkiere", "iptre", "kase", "kiere", "kn-", "lacsaq", "lasku", "milion", "nana", "ni", "non", "tre", "tuhat"]
+            "risonen": ["2️⃣"],
+            "imi": "-a imi ka har ni na afto.",
+            "opetara": ["🐕: Un har ein huin\n🐕🐕: Un har ni huina\n🐕🐕🐕🐕: Un har kiere huinara", "🐈: Un har ein kot\n🐈🐈: Un har ni kota\n🐈🐈🐈🐈🐈: Un har go kotara"],
+            "lik": ["ni"],
+            "aparLik": ["-ara"],
+            "anderKotobara": ["-s", "catie", "den", "ein", "eksi", "go", "hjaku", "ip-", "ipgo", "ipkiere", "iptre", "kase", "kiere", "kn-", "lacsaq", "lasku", "milion", "nana", "non", "tre", "tuhat"]
         },{
             "kotobara": ["-ara"],
-            "anderKotobara": ["-a", "-s", "catie", "den", "ein", "eksi", "go", "hjaku", "ip-", "ipgo", "ipkiere", "iptre", "kase", "kiere", "kn-", "lacsaq", "lasku", "milion", "nana", "ni", "non", "tre", "tuhat"]
+            "risonen": ["🔢"],
+            "imi": "-ara imi ka har plusni na afto.",
+            "opetara": ["🐕: Un har ein huin\n🐕🐕: Un har ni huina\n🐕🐕🐕🐕: Un har kiere huinara", "🐈: Un har ein kot\n🐈🐈: Un har ni kota\n🐈🐈🐈🐈🐈: Un har go kotara"],
+            "lik": ["mange"],
+            "anderKotobara": ["-s", "catie", "den", "ein", "eksi", "go", "hjaku", "ip-", "ipgo", "ipkiere", "iptre", "kase", "kiere", "kn-", "lacsaq", "lasku", "milion", "nana", "ni", "non", "tre", "tuhat"],
+            "aparLik": ["-a"]
         },{
             "kotobara": ["-dai"],
-            "risonen": ["🌌"]
+            "risonen": ["🌌"],
+            "imi": "-dai imi ka ting ie stuur.",
+            "lik": ["stor", "stordai"],
+            "kundr": ["-nen"],
+            "opetara": ["Un huomi har lant, Sore huomi har lantdai."]
         },{
             "kotobara": ["-djin", "-džin", "-dzjin", "-djinn"],
-            "lik": ["pashun"]
+            "risonen": ["🧍‍♀️", "🧍", "🧍‍♂️"],
+            "imi": "Afto kotoba ie per al pashun fal",
+            "lik": ["pashun"],
+            "opetara": ["Opetadjin 🧑‍🏫\nLeradjin 🧑‍🎓\nTajkadjin 🧙\nOjogidjin 🏊"],
+            "anderKotobara": ["ryodjin","haekdjin","leradjin","beandjin","daremdjin","ojogidjin","opetadjin","tajkadjin","matetundjin","gammelryodjin"]
         },{
-            "kotobara": ["-ki"]
+            "kotobara": ["-ki"],
+            "lik": ["deki"],
+            "opetara": ["A: Du hanuki?\n=\nA: Du deki hanu?","A: Al pashun ka kakuki na viossa.\n=\nA: Al pashun ka deki kaku na viossa."],
+            "anderKotobara": ["hanuki"]
         },{
-            "kotobara": ["-ko"]
+            "kotobara": ["-ko"],
+            "lik": ["kotoba"],
+            "opetara": ["\"ka\" au \"perka\" au \"hur\" au \"katai\" ie al sporko.","\"Opetadjin\" au \"leradjin\" au \"tajkadjin\" ie al \"pashko\"."],
+            "anderKotobara": ["tingko","pashko","ranjako","sporko","suruko"]
         },{
             "kotobara": ["-nen"],
-            "risonen": ["🤏"]
+            "risonen": ["🤏"],
+            "imi": "-dai imi ka ting ie tsisai.",
+            "lik": ["tsisai"],
+            "opetara": ["Sewasnen minustuur na sewasdai"],
+            "kundr": ["-dai"]
         },{
-            "kotobara": ["-ossa"]
+            "kotobara": ["-ossa"],
+            "risonen": ["📖", "📚", "🌐"],
+            "lik": ["glossa"],
+            "anderKotobara": ["viossa","anglossa","suugossa","nihonossa","butwanossa","espanjossa","surigaossa"]
         },{
             "kotobara": ["-s"],
             "anderKotobara": ["-a", "-ara", "catie", "den", "ein", "eksi", "go", "hjaku", "ip-", "ipgo", "ipkiere", "iptre", "kase", "kiere", "kn-", "lacsaq", "lasku", "milion", "nana", "ni", "non", "tre", "tuhat"]
@@ -56,7 +87,8 @@
         },{
             "kotobara": ["akote"]
         },{
-            "kotobara": ["al"]
+            "kotobara": ["al"],
+            "aparLik": ["mange"]
         },{
             "kotobara": ["aldok"]
         },{
@@ -117,6 +149,8 @@
         },{
             "kotobara": ["beandjina"]
         },{
+            "kotobara": ["beandjin"]
+        },{
             "kotobara": ["benj"]
         },{
             "kotobara": ["berk"]
@@ -148,9 +182,13 @@
         },{
             "kotobara": ["bolka"]
         },{
-            "kotobara": ["boozy"]
+            "kotobara": ["boozy"],
+            "anderKotobara": ["kokoro"]
         },{
             "kotobara": ["boror"]
+        },{
+            "kotobara": ["bra", "braa", "vra", "vraa"],
+            "anderKotobara": ["efles"]
         },{
             "kotobara": ["brasintwadatsa"]
         },{
@@ -181,11 +219,10 @@
         },{
             "kotobara": ["circas"]
         },{
-            "kotobara": ["cocro"]
-        },{
             "kotobara": ["cola"]
         },{
-            "kotobara": ["corva"]
+            "kotobara": ["corva"],
+            "anderKotobara": ["hyr"]
         },{
             "kotobara": ["crenos"]
         },{
@@ -198,8 +235,7 @@
             "kotobara": ["da"]
         },{
             "kotobara": ["daag", "dag"],
-            "kundr": ["naht"],
-            "anderKotobara": ["naht"]
+            "kundr": ["naht"]
         },{
             "kotobara": ["dan"]
         },{
@@ -238,7 +274,8 @@
         },{
             "kotobara": ["du"]
         },{
-            "kotobara": ["dua"]
+            "kotobara": ["dua"],
+            "anderKotobara": ["kokoro"]
         },{
             "kotobara": ["dur", "duur"]
         },{
@@ -250,7 +287,11 @@
         },{
             "kotobara": ["ecso"]
         },{
-            "kotobara": ["efles"]
+            "kotobara": ["efles"],
+            "risonen": ["👃", "👍"],
+            "imi": "Efles imi alting ka braa na njoi.",
+            "kundr": ["froreenj"],
+            "anderKotobara": ["bra", "nioi"]
         },{
             "kotobara": ["ein"],
             "risonen": ["1️⃣"],
@@ -299,7 +340,8 @@
             "kotobara": ["fraut"],
             "anderKotobara": ["afefraut", "portokale (fraut)"]
         },{
-            "kotobara": ["froreenj"]
+            "kotobara": ["froreenj"],
+            "kundr": ["efles"]
         },{
             "kotobara": ["fshto", "fushto", "fŝto"]
         },{
@@ -334,13 +376,16 @@
         },{
             "kotobara": ["glas"]
         },{
-            "kotobara": ["glau"]
+            "kotobara": ["glau"],
+            "anderKotobara": ["kokoro"]
         },{
             "kotobara": ["glaubi"]
         },{
-            "kotobara": ["glossa"]
+            "kotobara": ["glossa"],
+            "anderKotobara": ["viossa"]
         },{
-            "kotobara": ["glug"]
+            "kotobara": ["glug"],
+            "anderKotobara": ["hyr"]
         },{
             "kotobara": ["go"],
             "anderKotobara": ["-a", "-ara", "-s", "catie", "den", "ein", "eksi", "hjaku", "ip-", "ipgo", "ipkiere", "iptre", "kase", "kiere", "kn-", "lacsaq", "lasku", "milion", "nana", "ni", "non", "tre", "tuhat"]
@@ -386,7 +431,8 @@
         },{
             "kotobara": ["hej"]
         },{
-            "kotobara": ["hel"]
+            "kotobara": ["hel"],
+            "kundr": ["tel"]
         },{
             "kotobara": ["helenakaku"]
         },{
@@ -429,9 +475,14 @@
         },{
             "kotobara": ["hur", "huur"]
         },{
-            "kotobara": ["hyr"]
+            "kotobara": ["hyr", "hir", "hoer", "höör"],
+            "risonen": ["🔊", "👂"],
+            "imi": "Hyr imi ka zan shkoi inne corva.",
+            "opetara": ["Un hyr na muzik 🎵."],
+            "anderKotobara": ["corva", "glug", "nam", "nioi", "se"]
         },{
-            "kotobara": ["hyske"]
+            "kotobara": ["hyske"],
+            "kundr": ["vasu"]
         },{
             "kotobara": ["icen"]
         },{
@@ -543,7 +594,10 @@
         },{
             "kotobara": ["knlaksu"]
         },{
-            "kotobara": ["kokoro"]
+            "kotobara": ["kokoro", "kokro", "cocro"],
+            "risonen": ["😄", "😭", "😡", "🤤", "🤢"],
+            "opetara": ["Al afto kotoba ie kokoro: glau😄, trict😭, dua🥰, viha😡"],
+            "anderKotobara": ["boozy", "dua", "glau", "trict", "viha"]
         },{
             "kotobara": ["kolarum"]
         },{
@@ -565,8 +619,7 @@
             "kotobara": ["kotobara"]
         },{
             "kotobara": ["kotoli"],
-            "aparLik": ["vikoli"],
-            "anderKotobara": ["vikoli"]
+            "aparLik": ["vikoli"]
         },{
             "kotobara": ["kto"]
         },{
@@ -636,8 +689,7 @@
             "kotobara": ["ljeva", "larava"]
         },{
             "kotobara": ["luft"],
-            "aparLik": ["vint"],
-            "anderKotobara": ["vint"]
+            "aparLik": ["vint"]
         },{
             "kotobara": ["lule"]
         },{
@@ -671,7 +723,11 @@
             "imi": "Mama ie ryodjin kun",
             "anderKotobara": ["kun", "papa", "ryodjin"]
         },{
-            "kotobara": ["mange"]
+            "kotobara": ["mange"],
+            "imi": "Mange ie stuur atai",
+            "aparLik": ["al"],
+            "opetara": ["Ein: 1\nApar: 2, 3, 4, ...\nMange: 100, 2000, 30000, ...", "Ein: 🍎\nApar: 🍎🍎🍎\nMange: 🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎...", "Mange ie lik stuur apar", "Un har mange mange gelt, un deki kaupa al!"],
+            "lik": ["-ara"]
         },{
             "kotobara": ["mare"]
         },{
@@ -698,7 +754,8 @@
             "kotobara": ["midori"],
             "risonen": ["🟢", "🟩"]
         },{
-            "kotobara": ["mietta"]
+            "kotobara": ["mietta"],
+            "lik": ["uslova"]
         },{
             "kotobara": ["milenjal"]
         },{
@@ -729,7 +786,8 @@
         },{
             "kotobara": ["mis", "mïs", "mish", "mush"]
         },{
-            "kotobara": ["mit"]
+            "kotobara": ["mit"],
+            "lik": ["plus"]
         },{
             "kotobara": ["mit"]
         },{
@@ -753,6 +811,8 @@
         },{
             "kotobara": ["mus"]
         },{
+            "kotobara": ["muzik", "mwizik"]
+        },{
             "kotobara": ["mygy"]
         },{
             "kotobara": ["na"]
@@ -764,7 +824,7 @@
             "imi": "Naht tel daag, ivel bli naht bli mora",
             "kundr": ["daag"],
             "opetara": ["Mange vi kola na naht.", "Vi deki se luna na naht!"],
-            "anderKotobara": ["daag", "ivel", "luna", "mora"]
+            "anderKotobara": ["ivel", "luna", "mora"]
         },{
             "kotobara": ["nai"]
         },{
@@ -774,7 +834,8 @@
         },{
             "kotobara": ["naku"]
         },{
-            "kotobara": ["nam"]
+            "kotobara": ["nam"],
+            "anderKotobara": ["hyr"]
         },{
             "kotobara": ["namae", "namai", "namæ"]
         },{
@@ -790,7 +851,8 @@
             "kotobara": ["neo"]
         },{
             "kotobara": ["ni"],
-            "anderKotobara": ["-a", "-ara", "-s", "catie", "den", "ein", "eksi", "go", "hjaku", "ip-", "ipgo", "ipkiere", "iptre", "kase", "kiere", "kn-", "lacsaq", "lasku", "milion", "nana", "non", "tre", "tuhat"]
+            "anderKotobara": ["-ara", "-s", "catie", "den", "ein", "eksi", "go", "hjaku", "ip-", "ipgo", "ipkiere", "iptre", "kase", "kiere", "kn-", "lacsaq", "lasku", "milion", "nana", "non", "tre", "tuhat"],
+            "lik": ["-a"]
         },{
             "kotobara": ["nia"]
         },{
@@ -814,6 +876,9 @@
         },{
             "kotobara": ["niog"]
         },{
+            "kotobara": ["nioi", "njoi", "njui", "njyi", "nhoi", "niui"],
+            "anderKotobara": ["efles", "hyr"]
+        },{
             "kotobara": ["nipan"]
         },{
             "kotobara": ["nirot"]
@@ -821,8 +886,6 @@
             "kotobara": ["njan"]
         },{
             "kotobara": ["njudur", "niudur"]
-        },{
-            "kotobara": ["njyi"]
         },{
             "kotobara": ["noito", "nojto"],
             "risonen": ["🪢", "🧶", "🧵", "🪡"],
@@ -929,13 +992,20 @@
             "kotobara": ["pluj"]
         },{
             "kotobara": ["plus", "plus-"],
-            "kundr": ["minus"]
+            "risonen": ["➕", ">"],
+            "lik": ["mit"],
+            "kundr": ["minus"],
+            "opetara": ["200 plus na 14\nO plustor na o"],
+            "anderKotobara": ["plusgammel", "plusglau", "plusmirai"]
         },{
-            "kotobara": ["plusgammel"]
+            "kotobara": ["plusgammel"],
+            "anderKotobara": ["plus"]
         },{
-            "kotobara": ["plusglau"]
+            "kotobara": ["plusglau"],
+            "anderKotobara": ["plus"]
         },{
-            "kotobara": ["plusmirai"]
+            "kotobara": ["plusmirai"],
+            "anderKotobara": ["plus"]
         },{
             "kotobara": ["po", "po-"],
             "lik": ["owari"]
@@ -1015,7 +1085,8 @@
         },{
             "kotobara": ["sakawi"]
         },{
-            "kotobara": ["sama", "samaa", "çama"]
+            "kotobara": ["sama", "samaa", "çama"],
+            "anderKotobara": ["uslova"]
         },{
             "kotobara": ["samui"]
         },{
@@ -1023,7 +1094,8 @@
         },{
             "kotobara": ["sdanie"]
         },{
-            "kotobara": ["se"]
+            "kotobara": ["se"],
+            "anderKotobara": ["hyr"]
         },{
             "kotobara": ["sentaku"]
         },{
@@ -1108,11 +1180,15 @@
         },{
             "kotobara": ["stift"]
         },{
-            "kotobara": ["stor", "stuur", "stur"]
+            "kotobara": ["stor", "stuur", "stur"],
+            "lik": ["-dai", "stordai"]
+        },{
+            "kotobara": ["stordai", "stuurdai", "sturdai"],
+            "mahaNa": ["stor", "-dai"],
+            "imi": "Stuurdai imi mange stuur ting.",
+            "lik": ["-dai", "stor"]
         },{
             "kotobara": ["strela"]
-        },{
-            "kotobara": ["sturdai", "stuurdai"]
         },{
             "kotobara": ["sud"]
         },{
@@ -1148,7 +1224,11 @@
         },{
             "kotobara": ["te"]
         },{
-            "kotobara": ["tel"]
+            "kotobara": ["tel"],
+            "risonen": ["🧩", "🍰"],
+            "imi": "Tel ie tsisai ting na stuur ting.",
+            "kundr": ["hel"],
+            "opetara": ["🍰 tel 🎂.\n2 tel 1234.\nMidori tel 🌈."]
         },{
             "kotobara": ["ter"]
         },{
@@ -1179,7 +1259,8 @@
         },{
             "kotobara": ["treng"]
         },{
-            "kotobara": ["trict"]
+            "kotobara": ["trict"],
+            "anderKotobara": ["kokoro"]
         },{
             "kotobara": ["tropos"]
         },{
@@ -1187,7 +1268,8 @@
         },{
             "kotobara": ["tsigau", "tsigao", "cigau", "chigau"]
         },{
-            "kotobara": ["tsisai", "czisai", "cisai", "cisaj"]
+            "kotobara": ["tsisai", "czisai", "cisai", "cisaj"],
+            "lik": ["-nen"]
         },{
             "kotobara": ["tsubasu"]
         },{
@@ -1225,7 +1307,12 @@
         },{
             "kotobara": ["upasz"]
         },{
-            "kotobara": ["uslova"]
+            "kotobara": ["uslova"],
+            "risonen": ["💭", "🟰", "🤝"],
+            "imi": "Uslova imi ka hej mietta na sama ting",
+            "lik": ["mietta"],
+            "opetara": ["A: Un mietta ka afto sewas ie mura\nB: Un mietta ka afto sewas ie mura awen\nA au B uslova ka sewas ie mura"],
+            "anderKotobara": ["sama"]
         },{
             "kotobara": ["uso"]
         },{
@@ -1245,7 +1332,11 @@
             "kotobara": ["varge", "varje", "farge", "farje"],
             "risonen": ["🎨", "🔴", "🟠", "🟡", "🟢", "🔵", "🟣", "⚪️", "⚫️"]
         },{
-            "kotobara": ["vasu"]
+            "kotobara": ["vasu"],
+            "risonen": ["🧠", "❌", "📤"],
+            "imi": "Vasu imi ka pashun siru ting dan, men nai siru ting ima",
+            "kundr": ["hyske"],
+            "opetara": ["A: Un siru kotoba per 🍎 dan, men nai siru ima\n\nA dan: Kotoba per 🍎 ie ringo\nA ima: Un nai siru kotoba per 🍎"]
         },{
             "kotobara": ["vauva"]
         },{
@@ -1260,15 +1351,16 @@
         },{
             "kotobara": ["vi"]
         },{
-            "kotobara": ["viha"]
+            "kotobara": ["viha"],
+            "anderKotobara": ["kokoro"]
         },{
             "kotobara": ["vikoli"],
             "risonen": ["📖", "📚", "🌐"],
             "mahaNa": ["viossa", "kotoba", "libre"],
             "imi": "Vikoli ie plas mahena mit mange lehti, koske vi al deki lera viossa",
             "aparLik": ["kotoli"],
-            "opetara": ["Al afto ie vikoli, du deki lera mange na afto plas, au deki sukha al kotoba ka vasu"],
-            "anderKotobara": ["kotoba", "kotoli", "libre", "viossa"]
+            "opetara": ["Al afto ie vikoli, du deki lera mange na afto plas, au deki sukha al kotoba ka vasu os nai siru"],
+            "anderKotobara": ["kotoba", "libre", "viossa"]
         },{
             "kotobara": ["vil"]
         },{
@@ -1276,11 +1368,12 @@
             "risonen": ["🌬️", "💨", "🍃"],
             "imi": "Jam vint koske luft jalaka",
             "aparLik": ["luft"],
-            "opetara": ["Jam mange vint huomi kara"],
-            "anderKotobara": ["luft"]
+            "opetara": ["Jam mange vint huomi kara"]
         },{
             "kotobara": ["viossa"],
-            "anderKotobara": ["vikoli"]
+            "risonen": ["🌐", "🗣️", "📝"],
+            "imi": "Viossa ie glossa ka al deki lera au kaku au hanu.",
+            "anderKotobara": ["glossa", "vikoli"]
         },{
             "kotobara": ["virta"]
         },{
