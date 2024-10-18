@@ -248,12 +248,18 @@ function updateSearch(){
 
         let resultExtra = '';
 
-        if(kotobaraLibre[i].mahaNa)  resultExtra += '<b>Maha na:</b> ' + kotobaraLibre[i].mahaNa.join(' + ') + '<br>';
+        if(kotobaraLibre[i].mahaNa)       resultExtra += '<b>Maha na:</b> ' + kotobaraLibre[i].mahaNa.join(' + ') + '<br>';
     
-        if(kotobaraLibre[i].sama)    resultExtra += '<b>= Sama:</b> ' + kotobaraLibre[i].sama.join(', ') + '<br>';
-        if(kotobaraLibre[i].lik)     resultExtra += '<b>≈ Lik:</b> ' + kotobaraLibre[i].lik.join(', ') + '<br>';
-        if(kotobaraLibre[i].aparLik) resultExtra += '<b>Apar lik:</b> ' + kotobaraLibre[i].aparLik.join(', ') + '<br>';
-        if(kotobaraLibre[i].kundr)   resultExtra += '<b>Kundr:</b> ' + kotobaraLibre[i].kundr.join(', ') + '<br>';
+        if(kotobaraLibre[i].sama)         resultExtra += '<b>= Sama:</b> ' + kotobaraLibre[i].sama.join(', ') + '<br>';
+        if(kotobaraLibre[i].lik)          resultExtra += '<b>≈ Lik:</b> ' + kotobaraLibre[i].lik.join(', ') + '<br>';
+        if(kotobaraLibre[i].aparLik)      resultExtra += '<b>Apar lik:</b> ' + kotobaraLibre[i].aparLik.join(', ') + '<br>';
+        if(kotobaraLibre[i].kundr)        resultExtra += '<b>Kundr:</b> ' + kotobaraLibre[i].kundr.join(', ') + '<br>';
+        if(kotobaraLibre[i].anderKotobara)resultExtra += '<b>Ander kotobara:</b> ' + kotobaraLibre[i].anderKotobara.join(', ') + '<br>';
+
+        let imiAuOpetara = '';
+        if(kotobaraLibre[i].imi)    imiAuOpetara += 'Har imi';
+        if(kotobaraLibre[i].opetara)imiAuOpetara += (imiAuOpetara?' au ':'Har ') + kotobaraLibre[i].opetara.length + ' opeta' + (kotobaraLibre[i].opetara.length>2?'ra':'');
+        if(imiAuOpetara)resultExtra += '<b>' + imiAuOpetara + '</b><br>';
 
         searchResult.innerHTML += '<div class="resultExtra">' + resultExtra + '</div>';
 
