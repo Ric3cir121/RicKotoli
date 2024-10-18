@@ -22,6 +22,36 @@ function levenshteinDistance(a, b){
     return board[aLen-1 + (bLen-1)*aLen];
 }
 
+function sortKotoli(copyText){
+    /*
+        Only used internally, not in the program.
+        It takes the kotoli.json file and sorts it.
+        It sorts the words in the main list, and in the subgroups ("sama":[], "lik":[], "anderKotobara":[], auauau)
+     */
+    kotoli.kotoli.sort((a,b) => (a.kotobara[0].toLowerCase() > b.kotobara[0].toLowerCase()) -.5);
+    for(let kotoba of kotoli.kotoli){
+        if(kotoba.sama)kotoba.sama.sort();
+        if(kotoba.lik)kotoba.lik.sort();
+        if(kotoba.aparLik)kotoba.aparLik.sort();
+        if(kotoba.kundr)kotoba.kundr.sort();
+        if(kotoba.anderKotobara)kotoba.anderKotobara.sort();
+        delete kotoba.id;
+    }
+    let result = JSON.stringify(kotoli, null, 4);
+
+    // forbidden cheese
+    result = result.replaceAll('},\n        {','},{');
+    result = result.replaceAll('[\n                "','["');
+    result = result.replaceAll('",\n                "','", "');
+    result = result.replaceAll('"\n            ]','"]');
+
+    updateKotoli();
+    if(copyText){
+        navigator.clipboard.writeText(result)
+    }
+    return result;
+}
+
 function spawnElements(){
     if ('serviceWorker' in navigator){
         navigator.serviceWorker.register('serviceWorker.js');
