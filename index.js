@@ -64,7 +64,7 @@ function openKotoba(kotobaId){
     for(let kotobara of kotoba.kotobara.slice(1)) alKotobara += kotobara + ', ';
     if(alKotobara.length >= 2)alKotobara = alKotobara.slice(0,-2);
 
-    result.innerHTML  = '<div class="resultTop"> <div class="resultTopLeft"> <div class="button closeKotobaButton" onclick="closeKotoba();"><image src="icons/close.svg" class="buttonImage"></div>'
+    result.innerHTML  = '<div class="resultTop"> <div class="resultTopLeft"> <button class="button closeKotobaButton" onclick="closeKotoba();"><image src="icons/close.svg" class="buttonImage"></button>'
                       + '<div class="resultTitle">' + kotoba.kotobara[0] + '</div> </div> <div class="resultRisonen">' + alRisonen + '</div> </div>';
     result.innerHTML += '<div class="resultKotobara">' + alKotobara + '</div>';
 
@@ -123,7 +123,7 @@ function updateSearch(){
     let searchResultsContainer = document.querySelector('#searchResultsContainer');
     searchResultsContainer.innerHTML = '';
     for(let i=0; i<kotobaraLibre.length; i++){
-        let searchResult = document.createElement('div');
+        let searchResult = document.createElement('button');
         searchResult.classList.add("searchResult");
         searchResult.onclick = ()=>{openKotoba(kotobaraLibre[i].id);};
         let kotoba = sanitize(kotobaraLibre[i].kotobara[0]);
@@ -240,6 +240,7 @@ function setTheme(theme){
 
         .searchResult{
             background-color: #1b1b1b;
+            color: #ffffff;
             box-shadow: 0in .01in .1in #00000020;
         }`;
 
@@ -289,6 +290,7 @@ function setTheme(theme){
 
         .searchResult{
             background-color: #f0f0f0;
+            color: #101010;
             box-shadow: 0in .01in .1in #00000010;
         }`;
 
