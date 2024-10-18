@@ -183,6 +183,7 @@ body {
 .resultExtra {
     overflow: hidden;
     text-overflow: ellipsis;
+    white-space: nowrap;
     flex-grow: 1;
 
     /* Not even god knows how to cut the text on a div with variable height */
